@@ -9,14 +9,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1010.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1020.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1943.4618940007904</Global_base_pos_x>
-         <Global_base_pos_y>1808.5522087614129</Global_base_pos_y>
+         <Global_base_pos_x>104.32156873208417</Global_base_pos_x>
+         <Global_base_pos_y>237.24362816248615</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -45,11 +45,11 @@
          <Link2_rev_Duration_Slow>0.034596</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -93,14 +93,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1030.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1060.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62500.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>109589.04109589041</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1964.450057128381</Global_base_pos_x>
-         <Global_base_pos_y>1725.5183187592497</Global_base_pos_y>
+         <Global_base_pos_x>83.0787911980127</Global_base_pos_x>
+         <Global_base_pos_y>321.36534651630257</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -129,11 +129,11 @@
          <Link2_rev_Duration_Slow>0.019813</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -177,14 +177,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1050.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1100.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62500.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1881.7495306967737</Global_base_pos_x>
-         <Global_base_pos_y>1748.4763184851674</Global_base_pos_y>
+         <Global_base_pos_x>165.51586348247224</Global_base_pos_x>
+         <Global_base_pos_y>297.77336845975395</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -213,11 +213,11 @@
          <Link2_rev_Duration_Slow>0.024576</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -261,14 +261,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1070.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108843.53741496598</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1904.0962939036888</Global_base_pos_x>
-         <Global_base_pos_y>1665.5910674305248</Global_base_pos_y>
+         <Global_base_pos_x>144.27917484822822</Global_base_pos_x>
+         <Global_base_pos_y>380.4229869677525</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -297,11 +297,11 @@
          <Link2_rev_Duration_Slow>0.019388</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -345,14 +345,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1090.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1180.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>104575.1633986928</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1820.1990309715263</Global_base_pos_x>
-         <Global_base_pos_y>1688.5660597111323</Global_base_pos_y>
+         <Global_base_pos_x>227.34667813289207</Global_base_pos_x>
+         <Global_base_pos_y>357.30750464465234</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -381,11 +381,11 @@
          <Link2_rev_Duration_Slow>0.023342</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -429,14 +429,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1110.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1220.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63241.106719367584</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>109589.04109589041</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1839.7147820999164</Global_base_pos_x>
-         <Global_base_pos_y>1603.6832859314964</Global_base_pos_y>
+         <Global_base_pos_x>207.83025467250718</Global_base_pos_x>
+         <Global_base_pos_y>442.1433054336552</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -465,11 +465,11 @@
          <Link2_rev_Duration_Slow>0.022608</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -513,14 +513,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1130.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1260.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1755.4719737378966</Global_base_pos_x>
-         <Global_base_pos_y>1626.7025915268937</Global_base_pos_y>
+         <Global_base_pos_x>290.219028169713</Global_base_pos_x>
+         <Global_base_pos_y>420.0820941441857</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -549,11 +549,11 @@
          <Link2_rev_Duration_Slow>0.02875</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -597,14 +597,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1150.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1300.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64777.327935222675</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1778.8446575708322</Global_base_pos_x>
-         <Global_base_pos_y>1540.9710912587952</Global_base_pos_y>
+         <Global_base_pos_x>267.46762160855775</Global_base_pos_x>
+         <Global_base_pos_y>504.01629166806345</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -633,11 +633,11 @@
          <Link2_rev_Duration_Slow>0.01695</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -681,14 +681,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1170.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1340.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62745.098039215685</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105960.26490066225</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1694.5387584104037</Global_base_pos_x>
-         <Global_base_pos_y>1565.7424248695374</Global_base_pos_y>
+         <Global_base_pos_x>352.0230730995963</Global_base_pos_x>
+         <Global_base_pos_y>481.34633673141326</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -717,11 +717,11 @@
          <Link2_rev_Duration_Slow>0.034499</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -765,14 +765,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1190.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1380.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63241.106719367584</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108843.53741496598</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1716.7681833401969</Global_base_pos_x>
-         <Global_base_pos_y>1483.5519798273747</Global_base_pos_y>
+         <Global_base_pos_x>331.22228337807087</Global_base_pos_x>
+         <Global_base_pos_y>562.8562726067197</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -801,11 +801,11 @@
          <Link2_rev_Duration_Slow>0.020876</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -849,14 +849,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1210.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1420.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105960.26490066225</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1633.3164296920438</Global_base_pos_x>
-         <Global_base_pos_y>1504.9184404260554</Global_base_pos_y>
+         <Global_base_pos_x>412.75691523626807</Global_base_pos_x>
+         <Global_base_pos_y>541.9856294084866</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -885,11 +885,11 @@
          <Link2_rev_Duration_Slow>0.039829</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -933,14 +933,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1230.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1460.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62256.8093385214</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1656.341907678501</Global_base_pos_x>
-         <Global_base_pos_y>1423.5037820323319</Global_base_pos_y>
+         <Global_base_pos_x>393.4983203823716</Global_base_pos_x>
+         <Global_base_pos_y>622.955001924403</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -969,11 +969,11 @@
          <Link2_rev_Duration_Slow>0.021124</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1017,14 +1017,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1250.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1500.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63745.01992031872</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1571.06896462292</Global_base_pos_x>
-         <Global_base_pos_y>1446.8824148804608</Global_base_pos_y>
+         <Global_base_pos_x>477.28955410415665</Global_base_pos_x>
+         <Global_base_pos_y>599.7076265053821</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1053,11 +1053,11 @@
          <Link2_rev_Duration_Slow>0.027567</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1101,14 +1101,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1270.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1540.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62745.098039215685</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1593.6762366630592</Global_base_pos_x>
-         <Global_base_pos_y>1362.498674868241</Global_base_pos_y>
+         <Global_base_pos_x>454.98503746309314</Global_base_pos_x>
+         <Global_base_pos_y>683.9027093562661</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1137,11 +1137,11 @@
          <Link2_rev_Duration_Slow>0.022939</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1185,14 +1185,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1290.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1580.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1505.5365645944687</Global_base_pos_x>
-         <Global_base_pos_y>1384.7340618485175</Global_base_pos_y>
+         <Global_base_pos_x>541.0456601646281</Global_base_pos_x>
+         <Global_base_pos_y>663.3975334623611</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1221,11 +1221,11 @@
          <Link2_rev_Duration_Slow>0.024602</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1269,14 +1269,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1310.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1620.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62745.098039215685</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1530.2522001133777</Global_base_pos_x>
-         <Global_base_pos_y>1299.59286866622</Global_base_pos_y>
+         <Global_base_pos_x>516.7655542417291</Global_base_pos_x>
+         <Global_base_pos_y>746.9559307182542</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1305,11 +1305,11 @@
          <Link2_rev_Duration_Slow>0.02957</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1353,14 +1353,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1330.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1660.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1445.9086440767553</Global_base_pos_x>
-         <Global_base_pos_y>1323.3646562703968</Global_base_pos_y>
+         <Global_base_pos_x>600.0458337848154</Global_base_pos_x>
+         <Global_base_pos_y>723.7892952284952</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1389,11 +1389,11 @@
          <Link2_rev_Duration_Slow>0.036723</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1437,14 +1437,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1350.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1700.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62745.098039215685</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1468.008023912156</Global_base_pos_x>
-         <Global_base_pos_y>1241.5349690875826</Global_base_pos_y>
+         <Global_base_pos_x>578.7032029899866</Global_base_pos_x>
+         <Global_base_pos_y>804.95229182534</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1473,11 +1473,11 @@
          <Link2_rev_Duration_Slow>0.020915</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1521,14 +1521,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1370.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1740.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1384.5056661975423</Global_base_pos_x>
-         <Global_base_pos_y>1263.7341645761555</Global_base_pos_y>
+         <Global_base_pos_x>662.1525932377983</Global_base_pos_x>
+         <Global_base_pos_y>783.5441994140915</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1557,11 +1557,11 @@
          <Link2_rev_Duration_Slow>0.039247</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1605,14 +1605,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1390.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1780.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63745.01992031872</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1408.3702066780397</Global_base_pos_x>
-         <Global_base_pos_y>1178.6308298160066</Global_base_pos_y>
+         <Global_base_pos_x>637.6468435555734</Global_base_pos_x>
+         <Global_base_pos_y>866.9586538631509</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1641,11 +1641,11 @@
          <Link2_rev_Duration_Slow>0.035</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1689,14 +1689,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1410.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1820.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64000.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105960.26490066225</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1321.9985567662015</Global_base_pos_x>
-         <Global_base_pos_y>1201.9983580415487</Global_base_pos_y>
+         <Global_base_pos_x>724.1111395861739</Global_base_pos_x>
+         <Global_base_pos_y>844.8484811632887</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1725,11 +1725,11 @@
          <Link2_rev_Duration_Slow>0.047707</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1773,14 +1773,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1430.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1860.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62256.8093385214</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1347.4125466320727</Global_base_pos_x>
-         <Global_base_pos_y>1120.0345354182095</Global_base_pos_y>
+         <Global_base_pos_x>700.9649577918619</Global_base_pos_x>
+         <Global_base_pos_y>924.7081189224372</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1809,11 +1809,11 @@
          <Link2_rev_Duration_Slow>0.021527</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1857,14 +1857,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1450.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1900.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64516.12903225806</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>104575.1633986928</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1261.0483853924084</Global_base_pos_x>
-         <Global_base_pos_y>1142.891855429955</Global_base_pos_y>
+         <Global_base_pos_x>785.6991916635718</Global_base_pos_x>
+         <Global_base_pos_y>903.1158642708444</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1893,11 +1893,11 @@
          <Link2_rev_Duration_Slow>0.022522</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1941,14 +1941,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1470.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1940.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105960.26490066225</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1284.3673181488557</Global_base_pos_x>
-         <Global_base_pos_y>1057.6383375233015</Global_base_pos_y>
+         <Global_base_pos_x>762.2234064918315</Global_base_pos_x>
+         <Global_base_pos_y>987.8052640655296</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1977,11 +1977,11 @@
          <Link2_rev_Duration_Slow>0.031798</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2025,14 +2025,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1490.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1980.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64777.327935222675</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105960.26490066225</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1199.6709791398969</Global_base_pos_x>
-         <Global_base_pos_y>1083.113529581515</Global_base_pos_y>
+         <Global_base_pos_x>846.8228199656149</Global_base_pos_x>
+         <Global_base_pos_y>964.1915256012663</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2061,11 +2061,11 @@
          <Link2_rev_Duration_Slow>0.022941</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2109,14 +2109,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1550.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2100.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108108.1081081081</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1224.050597149414</Global_base_pos_x>
-         <Global_base_pos_y>998.4500219064297</Global_base_pos_y>
+         <Global_base_pos_x>823.4656470973566</Global_base_pos_x>
+         <Global_base_pos_y>1046.164221024958</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2145,11 +2145,11 @@
          <Link2_rev_Duration_Slow>0.046004</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2193,14 +2193,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1010.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1020.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64257.0281124498</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>103896.1038961039</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1139.0191397229125</Global_base_pos_x>
-         <Global_base_pos_y>1021.5271189253971</Global_base_pos_y>
+         <Global_base_pos_x>907.7938145920671</Global_base_pos_x>
+         <Global_base_pos_y>1024.6615731985962</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2229,11 +2229,11 @@
          <Link2_rev_Duration_Slow>0.030629</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2277,14 +2277,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1030.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1060.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62500.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1158.3496829233363</Global_base_pos_x>
-         <Global_base_pos_y>936.1510776968657</Global_base_pos_y>
+         <Global_base_pos_x>887.5934602857878</Global_base_pos_x>
+         <Global_base_pos_y>1110.1577483971625</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2313,11 +2313,11 @@
          <Link2_rev_Duration_Slow>0.027563</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2361,14 +2361,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1050.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1100.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64000.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105960.26490066225</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1077.9675805784473</Global_base_pos_x>
-         <Global_base_pos_y>962.5270766866392</Global_base_pos_y>
+         <Global_base_pos_x>969.7153165754985</Global_base_pos_x>
+         <Global_base_pos_y>1083.6895479914456</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2397,11 +2397,11 @@
          <Link2_rev_Duration_Slow>0.033506</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2445,14 +2445,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1070.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64257.0281124498</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1096.228334798967</Global_base_pos_x>
-         <Global_base_pos_y>875.5995544271788</Global_base_pos_y>
+         <Global_base_pos_x>948.6507021767832</Global_base_pos_x>
+         <Global_base_pos_y>1171.3320950760178</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2481,11 +2481,11 @@
          <Link2_rev_Duration_Slow>0.023499</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2529,14 +2529,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1090.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1180.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64516.12903225806</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1013.8275043070762</Global_base_pos_x>
-         <Global_base_pos_y>903.1816788543199</Global_base_pos_y>
+         <Global_base_pos_x>1033.5345766124847</Global_base_pos_x>
+         <Global_base_pos_y>1143.3263270273223</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2565,11 +2565,11 @@
          <Link2_rev_Duration_Slow>0.025962</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2613,14 +2613,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1110.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1220.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1038.0406196491958</Global_base_pos_x>
-         <Global_base_pos_y>816.5535121660336</Global_base_pos_y>
+         <Global_base_pos_x>1008.3131420898173</Global_base_pos_x>
+         <Global_base_pos_y>1228.310658495213</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2649,11 +2649,11 @@
          <Link2_rev_Duration_Slow>0.025248</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2697,14 +2697,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1130.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1260.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64257.0281124498</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>953.4916807366759</Global_base_pos_x>
-         <Global_base_pos_y>842.0103280624787</Global_base_pos_y>
+         <Global_base_pos_x>1094.0056032611608</Global_base_pos_x>
+         <Global_base_pos_y>1204.460685084722</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2733,11 +2733,11 @@
          <Link2_rev_Duration_Slow>0.023292</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2781,14 +2781,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1150.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1300.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63745.01992031872</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>973.6011119001947</Global_base_pos_x>
-         <Global_base_pos_y>756.4045561274266</Global_base_pos_y>
+         <Global_base_pos_x>1073.1251125094527</Global_base_pos_x>
+         <Global_base_pos_y>1290.208438736857</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2817,11 +2817,11 @@
          <Link2_rev_Duration_Slow>0.021527</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2865,14 +2865,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1170.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1340.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64000.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>893.4786502060672</Global_base_pos_x>
-         <Global_base_pos_y>780.4718898075848</Global_base_pos_y>
+         <Global_base_pos_x>1153.8268611817684</Global_base_pos_x>
+         <Global_base_pos_y>1265.1631455395284</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2901,11 +2901,11 @@
          <Link2_rev_Duration_Slow>0.029374</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2949,14 +2949,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1190.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1380.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108108.1081081081</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>911.635164443439</Global_base_pos_x>
-         <Global_base_pos_y>693.5983349001197</Global_base_pos_y>
+         <Global_base_pos_x>1134.213004136869</Global_base_pos_x>
+         <Global_base_pos_y>1352.051406601533</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2985,11 +2985,11 @@
          <Link2_rev_Duration_Slow>0.025393</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3033,14 +3033,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1210.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1420.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64257.0281124498</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>104575.1633986928</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>830.2660721208416</Global_base_pos_x>
-         <Global_base_pos_y>722.5109439273592</Global_base_pos_y>
+         <Global_base_pos_x>1218.8012710925473</Global_base_pos_x>
+         <Global_base_pos_y>1323.6171353114494</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3069,11 +3069,11 @@
          <Link2_rev_Duration_Slow>0.029132</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3117,14 +3117,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1230.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1460.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63241.106719367584</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>109589.04109589041</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>850.7032878118175</Global_base_pos_x>
-         <Global_base_pos_y>635.275354292202</Global_base_pos_y>
+         <Global_base_pos_x>1195.964844839578</Global_base_pos_x>
+         <Global_base_pos_y>1411.2152415543014</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3153,11 +3153,11 @@
          <Link2_rev_Duration_Slow>0.02768</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3201,14 +3201,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1250.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1500.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64000.0</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>769.7284516606395</Global_base_pos_x>
-         <Global_base_pos_y>660.5867279877393</Global_base_pos_y>
+         <Global_base_pos_x>1280.9041508404623</Global_base_pos_x>
+         <Global_base_pos_y>1383.1603790999857</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3237,11 +3237,11 @@
          <Link2_rev_Duration_Slow>0.028125</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3285,14 +3285,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1270.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1540.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63745.01992031872</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>788.5667093429126</Global_base_pos_x>
-         <Global_base_pos_y>575.0311185126302</Global_base_pos_y>
+         <Global_base_pos_x>1258.8227156559137</Global_base_pos_x>
+         <Global_base_pos_y>1470.899031568088</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3321,11 +3321,11 @@
          <Link2_rev_Duration_Slow>0.016458</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3369,14 +3369,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1290.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1580.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64516.12903225806</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>105263.15789473684</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>706.7928739015913</Global_base_pos_x>
-         <Global_base_pos_y>599.4085932069286</Global_base_pos_y>
+         <Global_base_pos_x>1342.0120302653604</Global_base_pos_x>
+         <Global_base_pos_y>1444.4879062384032</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3405,11 +3405,11 @@
          <Link2_rev_Duration_Slow>0.025967</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3453,14 +3453,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1310.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1620.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63241.106719367584</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>111111.11111111111</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>724.5875389243442</Global_base_pos_x>
-         <Global_base_pos_y>513.6252086018012</Global_base_pos_y>
+         <Global_base_pos_x>1321.5453476050222</Global_base_pos_x>
+         <Global_base_pos_y>1533.4582917567664</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3489,11 +3489,11 @@
          <Link2_rev_Duration_Slow>0.029289</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3537,14 +3537,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1330.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1660.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64777.327935222675</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>104575.1633986928</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>643.6134833042495</Global_base_pos_x>
-         <Global_base_pos_y>537.6170339175909</Global_base_pos_y>
+         <Global_base_pos_x>1402.4669935686104</Global_base_pos_x>
+         <Global_base_pos_y>1508.4331745397792</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3573,11 +3573,11 @@
          <Link2_rev_Duration_Slow>0.027385</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3621,14 +3621,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1350.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1700.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>662.334271125049</Global_base_pos_x>
-         <Global_base_pos_y>454.5041081922915</Global_base_pos_y>
+         <Global_base_pos_x>1384.1752099201947</Global_base_pos_x>
+         <Global_base_pos_y>1593.3035754396935</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3657,11 +3657,11 @@
          <Link2_rev_Duration_Slow>0.029672</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3705,14 +3705,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1370.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1740.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>64257.0281124498</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>583.8067946652158</Global_base_pos_x>
-         <Global_base_pos_y>479.4626884416915</Global_base_pos_y>
+         <Global_base_pos_x>1463.3650314600613</Global_base_pos_x>
+         <Global_base_pos_y>1567.2994591092247</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3741,11 +3741,11 @@
          <Link2_rev_Duration_Slow>0.034724</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3789,14 +3789,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1390.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1780.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63241.106719367584</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>109589.04109589041</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>601.5742739791016</Global_base_pos_x>
-         <Global_base_pos_y>392.16189800404044</Global_base_pos_y>
+         <Global_base_pos_x>1444.4241021214852</Global_base_pos_x>
+         <Global_base_pos_y>1654.13979461597</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3825,11 +3825,11 @@
          <Link2_rev_Duration_Slow>0.029717</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3873,14 +3873,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1410.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1820.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>109589.04109589041</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>519.2112780934741</Global_base_pos_x>
-         <Global_base_pos_y>419.4908714941591</Global_base_pos_y>
+         <Global_base_pos_x>1528.7610208094038</Global_base_pos_x>
+         <Global_base_pos_y>1627.1326894364704</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3909,11 +3909,11 @@
          <Link2_rev_Duration_Slow>0.023892</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3957,14 +3957,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1430.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1860.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>541.5093961178071</Global_base_pos_x>
-         <Global_base_pos_y>333.2340095776181</Global_base_pos_y>
+         <Global_base_pos_x>1505.173203050154</Global_base_pos_x>
+         <Global_base_pos_y>1712.8582641933083</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3993,11 +3993,11 @@
          <Link2_rev_Duration_Slow>0.02743</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4041,14 +4041,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1450.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1900.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108843.53741496598</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>457.7105715357158</Global_base_pos_x>
-         <Global_base_pos_y>356.70786595630733</Global_base_pos_y>
+         <Global_base_pos_x>1588.4653993859872</Global_base_pos_x>
+         <Global_base_pos_y>1689.5663539522482</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4077,11 +4077,11 @@
          <Link2_rev_Duration_Slow>0.031155</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4125,14 +4125,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1470.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1940.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62745.098039215685</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>106666.66666666667</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>481.62136981249796</Global_base_pos_x>
-         <Global_base_pos_y>272.77414907715763</Global_base_pos_y>
+         <Global_base_pos_x>1565.952799433434</Global_base_pos_x>
+         <Global_base_pos_y>1771.9585149192142</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4161,11 +4161,11 @@
          <Link2_rev_Duration_Slow>0.044532</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4209,14 +4209,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1490.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>1980.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63241.106719367584</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>397.5872122552609</Global_base_pos_x>
-         <Global_base_pos_y>297.39664562963003</Global_base_pos_y>
+         <Global_base_pos_x>1650.831378253159</Global_base_pos_x>
+         <Global_base_pos_y>1748.2189599651672</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4245,11 +4245,11 @@
          <Link2_rev_Duration_Slow>0.023573</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4293,14 +4293,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1550.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2100.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108108.1081081081</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>419.2005613134099</Global_base_pos_x>
-         <Global_base_pos_y>211.57268506044613</Global_base_pos_y>
+         <Global_base_pos_x>1627.6857791203834</Global_base_pos_x>
+         <Global_base_pos_y>1833.4577859504584</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4329,11 +4329,11 @@
          <Link2_rev_Duration_Slow>0.022147</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4377,14 +4377,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1570.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63745.01992031872</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>334.18648933427704</Global_base_pos_x>
-         <Global_base_pos_y>236.59187524369062</Global_base_pos_y>
+         <Global_base_pos_x>1712.9725107281608</Global_base_pos_x>
+         <Global_base_pos_y>1810.240963828333</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4413,11 +4413,11 @@
          <Link2_rev_Duration_Slow>0.044632</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4461,14 +4461,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1570.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>354.2815804413419</Global_base_pos_x>
-         <Global_base_pos_y>150.54273727364452</Global_base_pos_y>
+         <Global_base_pos_x>1691.8586005239365</Global_base_pos_x>
+         <Global_base_pos_y>1895.7721809307113</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4497,11 +4497,11 @@
          <Link2_rev_Duration_Slow>0.021069</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4545,14 +4545,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1570.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63492.06349206349</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>108843.53741496598</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>271.783344286405</Global_base_pos_x>
-         <Global_base_pos_y>173.61100604476846</Global_base_pos_y>
+         <Global_base_pos_x>1774.6590252678056</Global_base_pos_x>
+         <Global_base_pos_y>1872.7204301538568</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4581,11 +4581,11 @@
          <Link2_rev_Duration_Slow>0.025979</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4629,14 +4629,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1570.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>62992.12598425197</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>109589.04109589041</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>290.6550608573794</Global_base_pos_x>
-         <Global_base_pos_y>90.34018158460367</Global_base_pos_y>
+         <Global_base_pos_x>1756.1500768456183</Global_base_pos_x>
+         <Global_base_pos_y>1956.3153499472342</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4665,11 +4665,11 @@
          <Link2_rev_Duration_Slow>0.024627</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4713,14 +4713,14 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>1570.000000</Motor1_Run_Frequency>
-         <Motor2_Run_Frequency>2140.000000</Motor2_Run_Frequency>
+         <Motor1_Run_Frequency>63745.01992031872</Motor1_Run_Frequency>
+         <Motor2_Run_Frequency>110344.82758620688</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>209.790780391223</Global_base_pos_x>
-         <Global_base_pos_y>113.6522613271274</Global_base_pos_y>
+         <Global_base_pos_x>1836.8533624845084</Global_base_pos_x>
+         <Global_base_pos_y>1932.8906825518798</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4749,11 +4749,11 @@
          <Link2_rev_Duration_Slow>0.024178</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
-         <Link1_Link_Length>26.427111157735578</Link1_Link_Length>
+         <Link1_Link_Length>26.423783440769366</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.427111157735578</Link2_Link_Length>
+         <Link2_Link_Length>26.423783440769366</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
