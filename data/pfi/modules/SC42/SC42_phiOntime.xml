@@ -15,8 +15,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1837.1889444548412</Global_base_pos_x>
-         <Global_base_pos_y>1933.169693426719</Global_base_pos_y>
+         <Global_base_pos_x>1857.3049556916708</Global_base_pos_x>
+         <Global_base_pos_y>1916.2811985811622</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -32,24 +32,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.742950454376455</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -99,8 +99,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1755.725665920719</Global_base_pos_x>
-         <Global_base_pos_y>1959.0661786543562</Global_base_pos_y>
+         <Global_base_pos_x>1737.0707597251783</Global_base_pos_x>
+         <Global_base_pos_y>1975.2493623467599</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -116,24 +116,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.75083923046965</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -183,8 +183,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1774.1382699576545</Global_base_pos_x>
-         <Global_base_pos_y>1872.427102360591</Global_base_pos_y>
+         <Global_base_pos_x>1794.8690599700267</Global_base_pos_x>
+         <Global_base_pos_y>1854.978916303215</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -200,24 +200,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.201349201910386</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -267,8 +267,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1692.0074240316085</Global_base_pos_x>
-         <Global_base_pos_y>1895.7802016632918</Global_base_pos_y>
+         <Global_base_pos_x>1674.8191315768963</Global_base_pos_x>
+         <Global_base_pos_y>1913.5700546638714</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -284,24 +284,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.760273262921643</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -351,8 +351,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1712.8834369113465</Global_base_pos_x>
-         <Global_base_pos_y>1811.1554834693068</Global_base_pos_y>
+         <Global_base_pos_x>1732.4584283036827</Global_base_pos_x>
+         <Global_base_pos_y>1794.8292074080496</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -368,24 +368,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.87909596798788</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -435,8 +435,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1629.029425961437</Global_base_pos_x>
-         <Global_base_pos_y>1833.2594981213208</Global_base_pos_y>
+         <Global_base_pos_x>1611.912301821444</Global_base_pos_x>
+         <Global_base_pos_y>1853.2986241300716</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -452,24 +452,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>23.94781931056284</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -519,8 +519,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1652.4204282513115</Global_base_pos_x>
-         <Global_base_pos_y>1748.9073413494784</Global_base_pos_y>
+         <Global_base_pos_x>1665.0179433947721</Global_base_pos_x>
+         <Global_base_pos_y>1729.2912369794055</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -536,24 +536,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.37228540218361</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -603,8 +603,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1567.6714723774312</Global_base_pos_x>
-         <Global_base_pos_y>1772.1976518612555</Global_base_pos_y>
+         <Global_base_pos_x>1550.6034922054796</Global_base_pos_x>
+         <Global_base_pos_y>1794.637978523157</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -620,24 +620,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.894616479950727</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -687,8 +687,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1588.596200072672</Global_base_pos_x>
-         <Global_base_pos_y>1689.8298569548122</Global_base_pos_y>
+         <Global_base_pos_x>1604.454355747124</Global_base_pos_x>
+         <Global_base_pos_y>1668.5057707735432</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -704,24 +704,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.46785005935101</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -771,8 +771,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1506.1397555989022</Global_base_pos_x>
-         <Global_base_pos_y>1713.0735191140905</Global_base_pos_y>
+         <Global_base_pos_x>1488.576003730051</Global_base_pos_x>
+         <Global_base_pos_y>1732.9380154208588</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -788,24 +788,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.03658270049441</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -855,8 +855,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1529.408153351255</Global_base_pos_x>
-         <Global_base_pos_y>1628.12022037277</Global_base_pos_y>
+         <Global_base_pos_x>1548.539263168348</Global_base_pos_x>
+         <Global_base_pos_y>1614.1742224522386</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -872,24 +872,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>23.971958778195884</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -939,8 +939,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1444.7700480147619</Global_base_pos_x>
-         <Global_base_pos_y>1654.6510708541089</Global_base_pos_y>
+         <Global_base_pos_x>1427.8439495517148</Global_base_pos_x>
+         <Global_base_pos_y>1672.243758860244</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -956,24 +956,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.963598439358872</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1023,8 +1023,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1464.4497910144</Global_base_pos_x>
-         <Global_base_pos_y>1567.2941295084154</Global_base_pos_y>
+         <Global_base_pos_x>1482.949532212387</Global_base_pos_x>
+         <Global_base_pos_y>1548.9854049343487</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1040,24 +1040,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>27.23521656623019</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1107,8 +1107,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1384.7406102037717</Global_base_pos_x>
-         <Global_base_pos_y>1593.9274632907243</Global_base_pos_y>
+         <Global_base_pos_x>1365.1280799072003</Global_base_pos_x>
+         <Global_base_pos_y>1611.471146570744</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1124,24 +1124,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.85393484293546</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1191,8 +1191,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1402.9168965852537</Global_base_pos_x>
-         <Global_base_pos_y>1507.6874950345739</Global_base_pos_y>
+         <Global_base_pos_x>1423.2078735289151</Global_base_pos_x>
+         <Global_base_pos_y>1491.0012167792559</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1208,24 +1208,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.919525659862508</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1275,8 +1275,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1321.8670997978136</Global_base_pos_x>
-         <Global_base_pos_y>1534.5231390203005</Global_base_pos_y>
+         <Global_base_pos_x>1307.2799567151646</Global_base_pos_x>
+         <Global_base_pos_y>1554.4074002899274</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1292,24 +1292,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.040135261219184</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1359,8 +1359,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1344.8064927992343</Global_base_pos_x>
-         <Global_base_pos_y>1445.4520221320831</Global_base_pos_y>
+         <Global_base_pos_x>1361.1578185150254</Global_base_pos_x>
+         <Global_base_pos_y>1428.9502416034395</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1376,24 +1376,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>27.571617184959372</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1443,8 +1443,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1259.8563417947748</Global_base_pos_x>
-         <Global_base_pos_y>1472.0980251868943</Global_base_pos_y>
+         <Global_base_pos_x>1240.6770196718821</Global_base_pos_x>
+         <Global_base_pos_y>1490.2509207259793</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1460,24 +1460,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.570464390558676</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1527,8 +1527,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1284.1055704674905</Global_base_pos_x>
-         <Global_base_pos_y>1384.898859214807</Global_base_pos_y>
+         <Global_base_pos_x>1298.8926047792859</Global_base_pos_x>
+         <Global_base_pos_y>1367.5326550594941</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1544,24 +1544,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>27.709031233193674</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1611,8 +1611,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1196.3911984750978</Global_base_pos_x>
-         <Global_base_pos_y>1411.8066935097495</Global_base_pos_y>
+         <Global_base_pos_x>1178.3825305454259</Global_base_pos_x>
+         <Global_base_pos_y>1430.1482784842528</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1628,24 +1628,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.255641237735034</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1695,8 +1695,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1219.2584211513454</Global_base_pos_x>
-         <Global_base_pos_y>1324.3626718411617</Global_base_pos_y>
+         <Global_base_pos_x>1238.0594850068194</Global_base_pos_x>
+         <Global_base_pos_y>1308.6196649161138</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1712,24 +1712,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.11808893129993</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1779,8 +1779,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1134.3189665176835</Global_base_pos_x>
-         <Global_base_pos_y>1352.6556726566062</Global_base_pos_y>
+         <Global_base_pos_x>1116.1685921955934</Global_base_pos_x>
+         <Global_base_pos_y>1369.2239681588399</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1796,24 +1796,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.002978107032426</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1863,8 +1863,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1155.0777878590686</Global_base_pos_x>
-         <Global_base_pos_y>1265.1559324684426</Global_base_pos_y>
+         <Global_base_pos_x>1173.193150090505</Global_base_pos_x>
+         <Global_base_pos_y>1247.3081162385874</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1880,24 +1880,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>27.28843666862583</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -1947,8 +1947,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1073.6921711374412</Global_base_pos_x>
-         <Global_base_pos_y>1290.8897136523324</Global_base_pos_y>
+         <Global_base_pos_x>1058.0186637122724</Global_base_pos_x>
+         <Global_base_pos_y>1310.9236211687487</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -1964,24 +1964,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.08</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.07150000000000001</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.28485849598331</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2031,8 +2031,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1094.366211237601</Global_base_pos_x>
-         <Global_base_pos_y>1204.9780000219134</Global_base_pos_y>
+         <Global_base_pos_x>1112.2488342089378</Global_base_pos_x>
+         <Global_base_pos_y>1187.1221746743702</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2048,24 +2048,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.558960022727582</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2115,8 +2115,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1012.203949659568</Global_base_pos_x>
-         <Global_base_pos_y>1229.0650975887402</Global_base_pos_y>
+         <Global_base_pos_x>989.8868441570906</Global_base_pos_x>
+         <Global_base_pos_y>1246.4096799715026</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2132,24 +2132,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.7576678496092</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2199,8 +2199,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>1034.7222612744126</Global_base_pos_x>
-         <Global_base_pos_y>1143.9901455888591</Global_base_pos_y>
+         <Global_base_pos_x>1050.768594923186</Global_base_pos_x>
+         <Global_base_pos_y>1124.8488983670659</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2216,24 +2216,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.343158222477236</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2283,8 +2283,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>948.2178561706459</Global_base_pos_x>
-         <Global_base_pos_y>1171.340101945896</Global_base_pos_y>
+         <Global_base_pos_x>931.3506571661848</Global_base_pos_x>
+         <Global_base_pos_y>1187.889400581771</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2300,24 +2300,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.407008672634305</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2367,8 +2367,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>971.1674320024323</Global_base_pos_x>
-         <Global_base_pos_y>1083.8714230804742</Global_base_pos_y>
+         <Global_base_pos_x>990.9307809353196</Global_base_pos_x>
+         <Global_base_pos_y>1070.2441204713127</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2384,24 +2384,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.248472279849896</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2451,8 +2451,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>887.0686783949216</Global_base_pos_x>
-         <Global_base_pos_y>1110.6154995993054</Global_base_pos_y>
+         <Global_base_pos_x>870.3296381544336</Global_base_pos_x>
+         <Global_base_pos_y>1128.9615249237238</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2468,24 +2468,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.153818155983327</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2535,8 +2535,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>908.1472718027569</Global_base_pos_x>
-         <Global_base_pos_y>1024.9061789368639</Global_base_pos_y>
+         <Global_base_pos_x>930.0898855049943</Global_base_pos_x>
+         <Global_base_pos_y>1009.0385228292188</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2552,24 +2552,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>27.05627269709155</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2619,8 +2619,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>825.1900905012011</Global_base_pos_x>
-         <Global_base_pos_y>1046.1265339400122</Global_base_pos_y>
+         <Global_base_pos_x>806.0722534368249</Global_base_pos_x>
+         <Global_base_pos_y>1065.6777058538573</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2636,24 +2636,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.128523162011124</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2703,8 +2703,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>846.7995260790954</Global_base_pos_x>
-         <Global_base_pos_y>964.238236582094</Global_base_pos_y>
+         <Global_base_pos_x>865.7607953004817</Global_base_pos_x>
+         <Global_base_pos_y>944.5840346400981</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2720,24 +2720,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.59744247576498</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2787,8 +2787,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>763.1213046687479</Global_base_pos_x>
-         <Global_base_pos_y>987.6608953614971</Global_base_pos_y>
+         <Global_base_pos_x>747.1596532301628</Global_base_pos_x>
+         <Global_base_pos_y>1008.1005788100778</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2804,24 +2804,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.586359609955338</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2871,8 +2871,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>786.5046647923241</Global_base_pos_x>
-         <Global_base_pos_y>903.4785767954899</Global_base_pos_y>
+         <Global_base_pos_x>805.4572724900547</Global_base_pos_x>
+         <Global_base_pos_y>886.5954202115876</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2888,24 +2888,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.575147424409828</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -2955,8 +2955,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>703.4718943470629</Global_base_pos_x>
-         <Global_base_pos_y>925.5108981914766</Global_base_pos_y>
+         <Global_base_pos_x>684.8476844828706</Global_base_pos_x>
+         <Global_base_pos_y>947.5460476938819</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -2972,24 +2972,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.90386499350522</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3039,8 +3039,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>723.9854422924897</Global_base_pos_x>
-         <Global_base_pos_y>845.2151327243193</Global_base_pos_y>
+         <Global_base_pos_x>744.3007090681363</Global_base_pos_x>
+         <Global_base_pos_y>825.6861153217008</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3056,24 +3056,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.29521976542665</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3123,8 +3123,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>638.4829946643864</Global_base_pos_x>
-         <Global_base_pos_y>866.1568554950172</Global_base_pos_y>
+         <Global_base_pos_x>620.4269740421137</Global_base_pos_x>
+         <Global_base_pos_y>885.0170258369461</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3140,24 +3140,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.254316975990424</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3207,8 +3207,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>662.2076623851124</Global_base_pos_x>
-         <Global_base_pos_y>783.8462967655282</Global_base_pos_y>
+         <Global_base_pos_x>684.3063497541184</Global_base_pos_x>
+         <Global_base_pos_y>768.5879272316913</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3224,24 +3224,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.099363219595975</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3291,8 +3291,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>578.908402797367</Global_base_pos_x>
-         <Global_base_pos_y>805.4001129622735</Global_base_pos_y>
+         <Global_base_pos_x>561.9093323918157</Global_base_pos_x>
+         <Global_base_pos_y>825.8464505071744</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3308,24 +3308,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.161079612128756</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3375,8 +3375,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>600.3305797674539</Global_base_pos_x>
-         <Global_base_pos_y>724.52883405931</Global_base_pos_y>
+         <Global_base_pos_x>621.1516355419222</Global_base_pos_x>
+         <Global_base_pos_y>706.7978830971373</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3392,24 +3392,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.983488063053368</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3459,8 +3459,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>517.137945502143</Global_base_pos_x>
-         <Global_base_pos_y>747.8138986008688</Global_base_pos_y>
+         <Global_base_pos_x>497.02951057167127</Global_base_pos_x>
+         <Global_base_pos_y>764.5026937286407</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3476,24 +3476,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.042457924054187</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3543,8 +3543,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>540.9599200743445</Global_base_pos_x>
-         <Global_base_pos_y>661.9766287727243</Global_base_pos_y>
+         <Global_base_pos_x>557.4854998049519</Global_base_pos_x>
+         <Global_base_pos_y>643.1560276419139</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3560,24 +3560,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.08</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.08</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.05500000000000001</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.05500000000000001</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.519293057470456</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3627,8 +3627,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>456.7141823658208</Global_base_pos_x>
-         <Global_base_pos_y>685.4737037151224</Global_base_pos_y>
+         <Global_base_pos_x>434.81605790554903</Global_base_pos_x>
+         <Global_base_pos_y>703.1565612881992</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3644,24 +3644,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.68289842105845</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3711,8 +3711,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>478.44092088759606</Global_base_pos_x>
-         <Global_base_pos_y>600.4511833912477</Global_base_pos_y>
+         <Global_base_pos_x>494.8757852673038</Global_base_pos_x>
+         <Global_base_pos_y>582.8586034971183</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3728,24 +3728,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.027543806869264</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3795,8 +3795,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>395.32418111169653</Global_base_pos_x>
-         <Global_base_pos_y>625.3164256703965</Global_base_pos_y>
+         <Global_base_pos_x>370.64854350987804</Global_base_pos_x>
+         <Global_base_pos_y>640.7466689893064</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3812,24 +3812,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.790871734634827</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3879,8 +3879,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>412.96965243168984</Global_base_pos_x>
-         <Global_base_pos_y>540.9965352553872</Global_base_pos_y>
+         <Global_base_pos_x>434.0776970211555</Global_base_pos_x>
+         <Global_base_pos_y>525.5088218272034</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3896,24 +3896,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.142993352677635</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -3963,8 +3963,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>332.1854865031936</Global_base_pos_x>
-         <Global_base_pos_y>563.787238548572</Global_base_pos_y>
+         <Global_base_pos_x>311.5714503891272</Global_base_pos_x>
+         <Global_base_pos_y>580.3992306948751</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -3980,24 +3980,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.5786209633671</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4047,8 +4047,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>352.423628640728</Global_base_pos_x>
-         <Global_base_pos_y>482.0983780411741</Global_base_pos_y>
+         <Global_base_pos_x>372.0306808459057</Global_base_pos_x>
+         <Global_base_pos_y>465.0162150313186</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4064,24 +4064,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.066</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.033</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.752098170212278</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4131,8 +4131,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>268.94697838302096</Global_base_pos_x>
-         <Global_base_pos_y>504.0426820700712</Global_base_pos_y>
+         <Global_base_pos_x>248.56575625440533</Global_base_pos_x>
+         <Global_base_pos_y>521.6196205481141</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4148,24 +4148,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.776148520640636</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4215,8 +4215,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>290.1973325778345</Global_base_pos_x>
-         <Global_base_pos_y>419.8825323796749</Global_base_pos_y>
+         <Global_base_pos_x>310.8190357519702</Global_base_pos_x>
+         <Global_base_pos_y>402.67136014681597</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4232,24 +4232,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.378198155532733</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4299,8 +4299,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>208.90407949178757</Global_base_pos_x>
-         <Global_base_pos_y>443.82988803323536</Global_base_pos_y>
+         <Global_base_pos_x>188.57527085633936</Global_base_pos_x>
+         <Global_base_pos_y>460.6291867341762</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4316,24 +4316,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.4600880959663</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4383,8 +4383,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>228.05241473467595</Global_base_pos_x>
-         <Global_base_pos_y>357.9643369752885</Global_base_pos_y>
+         <Global_base_pos_x>248.5927337053967</Global_base_pos_x>
+         <Global_base_pos_y>343.7098627831193</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4400,24 +4400,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.066</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.033</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.41848173446071</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4467,8 +4467,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>145.7974624017539</Global_base_pos_x>
-         <Global_base_pos_y>381.72772364307116</Global_base_pos_y>
+         <Global_base_pos_x>125.3842665838331</Global_base_pos_x>
+         <Global_base_pos_y>399.0337842501746</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4484,24 +4484,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>24.567049542695823</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4551,8 +4551,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>166.85308705564782</Global_base_pos_x>
-         <Global_base_pos_y>297.85127332637796</Global_base_pos_y>
+         <Global_base_pos_x>182.95705053725203</Global_base_pos_x>
+         <Global_base_pos_y>279.3908724147984</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4568,24 +4568,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.216534324147972</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4635,8 +4635,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>83.70936077413732</Global_base_pos_x>
-         <Global_base_pos_y>323.12847354004936</Global_base_pos_y>
+         <Global_base_pos_x>60.73134624748482</Global_base_pos_x>
+         <Global_base_pos_y>336.4066208300165</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4652,24 +4652,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.022000000000000002</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.022000000000000002</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>26.19417165364649</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
@@ -4719,8 +4719,8 @@
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
       </DATA_HEADER>
       <KINEMATICS>
-         <Global_base_pos_x>105.25061575511303</Global_base_pos_x>
-         <Global_base_pos_y>237.83556152538566</Global_base_pos_y>
+         <Global_base_pos_x>123.26210991783853</Global_base_pos_x>
+         <Global_base_pos_y>221.47891648664358</Global_base_pos_y>
          <Global_base_pos_z>0.000000</Global_base_pos_z>
          <CCW_Global_base_ori_z>0.0</CCW_Global_base_ori_z>
          <CW_Global_base_ori_z>20.0</CW_Global_base_ori_z>
@@ -4736,24 +4736,24 @@
          <Link1_rev_Intervals>2.500000</Link1_rev_Intervals>
          <Link1_rev_Duration>0.08</Link1_rev_Duration>
          <Link2_fwd_Intervals>2.500000</Link2_fwd_Intervals>
-         <Link2_fwd_Duration>0.07</Link2_fwd_Duration>
+         <Link2_fwd_Duration>0.06</Link2_fwd_Duration>
          <Link2_rev_Intervals>2.500000</Link2_rev_Intervals>
-         <Link2_rev_Duration>0.07</Link2_rev_Duration>
+         <Link2_rev_Duration>0.06</Link2_rev_Duration>
          <Link1_fwd_Intervals_Slow>2.500000</Link1_fwd_Intervals_Slow>
          <Link1_fwd_Duration_Slow>0.06</Link1_fwd_Duration_Slow>
          <Link1_rev_Intervals_Slow>2.500000</Link1_rev_Intervals_Slow>
          <Link1_rev_Duration_Slow>0.06</Link1_rev_Duration_Slow>
          <Link2_fwd_Intervals_Slow>2.500000</Link2_fwd_Intervals_Slow>
-         <Link2_fwd_Duration_Slow>0.05</Link2_fwd_Duration_Slow>
+         <Link2_fwd_Duration_Slow>0.0165</Link2_fwd_Duration_Slow>
          <Link2_rev_Intervals_Slow>2.500000</Link2_rev_Intervals_Slow>
-         <Link2_rev_Duration_Slow>0.05</Link2_rev_Duration_Slow>
+         <Link2_rev_Duration_Slow>0.0165</Link2_rev_Duration_Slow>
          <Link1_Alpha_Angle>0.000000</Link1_Alpha_Angle>
          <Link1_Link_Offset>0.000000</Link1_Link_Offset>
          <Link1_Link_Length>26.42677709926385</Link1_Link_Length>
          <Link1_Twist_Angle>0.000000</Link1_Twist_Angle>
          <Link2_Alpha_Angle>0.000000</Link2_Alpha_Angle>
          <Link2_Link_Offset>0.000000</Link2_Link_Offset>
-         <Link2_Link_Length>26.42677709926385</Link2_Link_Length>
+         <Link2_Link_Length>25.302435253079288</Link2_Link_Length>
          <Link2_Twist_Angle>0.000000</Link2_Twist_Angle>
          <Link2_BaseRadious>2.000000</Link2_BaseRadious>
          <Link2_TipRadious>3.600000</Link2_TipRadious>
