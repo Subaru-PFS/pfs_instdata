@@ -1521,7 +1521,7 @@
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
          <Switch_Joint2_Polarity>0</Switch_Joint2_Polarity>
-         <Motor1_Run_Frequency>74418.6046511628</Motor1_Run_Frequency>
+         <Motor1_Run_Frequency>66700.0</Motor1_Run_Frequency>
          <Motor2_Run_Frequency>107382.55033557047</Motor2_Run_Frequency>
          <Save_Time>NewScaleData</Save_Time>
          <Read_Time>1479403918,Thu Nov 17 09:31:58 2016</Read_Time>
