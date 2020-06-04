@@ -3,5 +3,7 @@
 #          SC20,SC21,SC22,SC23,SC27,SC28,SC29,
 #          SC30,SC31,SC32,SC34,SC35,SC37,SC39,
 #          SC40,SC41,SC42]
-modules: [SP01]
 
+modules: [SC01,SC02,SC03
+          SC15,SC16,SC17
+          SC29,SC30,SC31]
