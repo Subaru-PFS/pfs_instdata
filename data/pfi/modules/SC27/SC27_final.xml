@@ -592,7 +592,7 @@
          <Status>1</Status>
          <Module_Id>27</Module_Id>
          <Positioner_Id>8</Positioner_Id>
-         <Serial_Number>1080</Serial_Number>
+         <Serial_Number>9080</Serial_Number>
          <Even_Board_Number>2</Even_Board_Number>
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
@@ -2944,7 +2944,7 @@
          <Status>1</Status>
          <Module_Id>27</Module_Id>
          <Positioner_Id>36</Positioner_Id>
-         <Serial_Number>1277</Serial_Number>
+         <Serial_Number>9277</Serial_Number>
          <Even_Board_Number>2</Even_Board_Number>
          <Odd_Board_Number>1</Odd_Board_Number>
          <Switch_Joint1_Polarity>0</Switch_Joint1_Polarity>
