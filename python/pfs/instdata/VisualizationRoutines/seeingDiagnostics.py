@@ -200,6 +200,11 @@ def runSeeing(db,mcsFrameIds,stitle,plotRangeRMS=None,plotRangeX=None,plotRangeY
       plotRangeX, plotRangeY, plotRangeP: as above for other variables
       outFile: prefix output file, if wanted. Output file will in outFile_rms.png outFile_fx.png etc.
 
+    Returns
+      plot, optionally saved to file
+      rmsVal.mean(),fxAv.mean(),fyAv.mean(),peakAv.mean(): mean values of the parameters for the run.
+      
+
     """
 
 
@@ -213,6 +218,8 @@ def runSeeing(db,mcsFrameIds,stitle,plotRangeRMS=None,plotRangeX=None,plotRangeY
     #do a set of plots. This plots the rms, the spot sizes and the peak values
     nbins=30
     dr.pairPlot(xAv.ravel(),yAv.ravel(),rmsVal.ravel(),rmsVal.ravel(),plotRangeRMS,"RMS",outPref,"_rms"+source,"RMS","mm",nbins,stitle)
-    dr.pairPlot(xAv.ravel(),yAv.ravel(),rmsVal.ravel(),rmsVal.ravel(),plotRangeRMS,"Spot Size (x)",outPref,"_fx"+source,"Spot Size (x)","mm",nbins,stitle)
-    dr.pairPlot(xAv.ravel(),yAv.ravel(),rmsVal.ravel(),rmsVal.ravel(),plotRangeRMS,"Spot Size (y)",outPref,"_fy"+source,"Spot Size (y)","mm",nbins,stitle)
-    dr.pairPlot(xAv.ravel(),yAv.ravel(),rmsVal.ravel(),rmsVal.ravel(),plotRangeRMS,"Peak Value",outPref,"_peak"+source,"Peak Value","mm",nbins,stitle)
+    dr.pairPlot(xAv.ravel(),fxAv.ravel(),fxAv.ravel(),rmsVal.ravel(),plotRangeRMS,"Spot Size (x)",outPref,"_fx"+source,"Spot Size (x)","mm",nbins,stitle)
+    dr.pairPlot(xAv.ravel(),fyAv.ravel(),fyAv.ravel(),rmsVal.ravel(),plotRangeRMS,"Spot Size (y)",outPref,"_fy"+source,"Spot Size (y)","mm",nbins,stitle)
+    dr.pairPlot(xAv.ravel(),peakAv.ravel(),peakAv.ravel(),rmsVal.ravel(),plotRangeRMS,"Peak Value",outPref,"_peak"+source,"Peak Value","mm",nbins,stitle)
+
+    return rmsVal.mean(),fxAv.mean(),fyAv.mean(),peakAv.mean()
