@@ -1,0 +1,28 @@
+definitions:
+  boxCent: box cize for calculating windowed centroid paramters
+  boxFind: box size for finding spots above the threshold
+  centSigma: sigmas over the background for centroiding spots
+  findSigma: sigmas over the background for finding spots
+  fwhmx: initial guess for fwhm to over-ride on the fly calculation.
+  fwhmy: initial guess for fwhm to over-ride on the fly calculation.
+  matchRad: radius for nearest neighbour matching
+  maxIt: maximum number of iterations for fit
+  nmax: maximum number of points for a spot to be valid
+  nmin: minimum number of points for a spot to be valid
+  threshFact: tweak for thresholding, probably not needed
+  threshMode: mode for thresholding; relic from engineering run with pinhole mask
+  threshSigma: sigma to clip when determining the threshold values
+values:
+  boxCent: 6
+  boxFind: 10
+  centSigma: 15
+  findSigma: 25
+  fwhmx: 0
+  fwhmy: 0
+  matchRad: 20
+  maxIt: 20
+  nmax: 180
+  nmin: 8
+  threshFact: 4
+  threshMode: full
+  threshSigma: 4
