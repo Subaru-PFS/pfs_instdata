@@ -1,0 +1,22 @@
+geometry:
+  # Coefficients for a skimage.transform.ProjectiveTransform
+  transformCoeffs: [[ 7.31536530e-02,  3.25639510e-03, -1.72244744e+02],
+                    [ 1.09735634e-04,  1.90284246e-01, -4.73095848e+02],
+                    [-1.43293200e-08,  1.57991111e-06,  9.79020258e-01]]
+
+# Aim for 7k ADU in 3-reads
+leds:
+  wave: [1300, 1200, 1085, 1070, 1050, 970, 930]
+  dutyCycle: [15.0, 5.0, 30, 33, 5, 15, 13]
+  focusOffset: [4.0, 0, 0, 0, 0, 0, -10.0]
+  position: [112, 432, 1396, 1639, 1822, 3250, 3996]
+
+#
+mono:
+  wave: [1260, 1250, 1180, 1100, 1020, 940]
+  dutyCycle: [5.0, 5, 5, 5, 5, 5]
+  positionMM: [-29.450, -27.525, -14.135, 0.721, 15.290, 29.700]
+
+# Per detector tweaks to positions, with a dictionary of (wave, rows} -> (xoff, yoff)
+nudges:
+  n1: {}
