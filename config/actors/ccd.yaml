@@ -10,6 +10,9 @@ connections: &CONNECTIONS
     all: [ fee, ccd ]
     starting: [ fee, ccd ]
 
+amp : &AMP
+  serialOverscanLevelLim : [500, 2000]
+  serialOverscanNoiseLim : [1, 8]
 
 ccd: &CCD
   <<: *CONNECTIONS
@@ -36,6 +39,24 @@ ccd: &CCD
   adcOffsets:
     reference: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
     master: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+
+  amplifiers: &AMPLIFIERS
+    "0":
+      <<: *AMP
+    "1":
+      <<: *AMP
+    "2":
+      <<: *AMP
+    "3":
+      <<: *AMP
+    "4":
+      <<: *AMP
+    "5":
+      <<: *AMP
+    "6":
+      <<: *AMP
+    "7":
+      <<: *AMP
 
 r1:
   <<: *CCD
@@ -70,7 +91,7 @@ b3:
 b4:
   <<: *CCD
 
-  r2:
+r2:
   <<: *CCD
 r3:
   <<: *CCD
