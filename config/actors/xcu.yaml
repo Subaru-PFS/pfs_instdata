@@ -1,0 +1,115 @@
+xcu: &XCU
+  listen:
+    interface: bee-{cam}         # localhost is safest, if on same host
+    # as tron hub.
+    port: 9104
+
+  controllers: &CONTROLLERS
+    all: [ PCM, temps, turbo, ionpump, cooler, gatevalve, roughGauge1 ]
+    starting: [ PCM, temps, turbo, ionpump, cooler, gatevalve ]
+
+  PCM: &PCM
+    host: pcm-{cam}
+    port: 1000
+    portNames: [ motors,gauge,cooler,temps,bee,fee,interlock,heaters ]
+
+  temps: &TEMPS
+    host: temps-{cam}
+    port: 1024
+
+  # Currently using a TCP interface; must fix!
+  turbo: &TURBO
+    host: bee-{cam}
+    port: 4001
+
+  NOTturbo:
+    port: /dev/ttyS1
+
+  ionpump: &IONPUMP
+    host: moxa-rack-{specName}
+    port: 4001
+    busId: None
+    pumpIds: [ None, None ]
+
+  # Pull out into roughingActor
+  roughGauge1:
+    host: moxa-pfs
+    port: 4001
+    busid: 1
+
+  # Which periodic monitors to start when a device is turned on.
+  monitors: &MONITORS
+    temps: 15
+    turbo: 15
+    ionpump: 15
+    cooler: 15
+    gatevalve: 60
+
+# There are two 2-pump ionpump controllers per 3-dewar spectrograph.
+#
+blue: &BLUE_XCU
+  <<: *XCU
+
+  ionpump:
+    <<: *IONPUMP
+    busId: 1
+    pumpIds: [ 1, 2 ]
+
+red: &RED_XCU
+  <<: *XCU
+
+  ionpump:
+    <<: *IONPUMP
+    busId: 1
+    pumpIds: [ 3, 4 ]
+
+nir: &NIR_XCU
+  <<: *XCU
+
+  ionpump:
+    <<: *IONPUMP
+    busId: 2
+    pumpIds: [ 1, 2 ]
+
+b1:
+  <<: *BLUE_XCU
+b2:
+  <<: *BLUE_XCU
+b3:
+  <<: *BLUE_XCU
+b4:
+  <<: *BLUE_XCU
+
+r1:
+  <<: *RED_XCU
+r2:
+  <<: *RED_XCU
+r3:
+  <<: *RED_XCU
+r4:
+  <<: *RED_XCU
+
+n1:
+  <<: *NIR_XCU
+n2:
+  <<: *NIR_XCU
+n3:
+  <<: *NIR_XCU
+n4:
+  <<: *NIR_XCU
+
+# Optics Lab dewar
+b9:
+  <<: *BLUE_XCU
+
+  controllers:
+    <<: *CONTROLLERS
+    all: [ PCM, temps ]
+    starting: [ PCM, temps ]
+
+  monitors:
+    <<: *MONITORS
+    turbo: 0
+    ionpump: 0
+    cooler: 0
+    gatevalve: 0
