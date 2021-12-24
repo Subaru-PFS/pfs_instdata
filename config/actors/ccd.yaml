@@ -1,0 +1,110 @@
+connections: &CONNECTIONS
+  listen:
+    interface: bee-{cam}         # localhost is safest, if on same host
+    # as tron hub.
+    port: 9103
+  fee:
+    port: /dev/ttyS1
+
+  controllers: &CONTROLLERS
+    all: [ fee, ccd ]
+    starting: [ fee, ccd ]
+
+amp : &AMP
+  serialOverscanLevelLim : [500, 2000]
+  serialOverscanNoiseLim : [1, 8]
+
+ccd: &CCD
+  <<: *CONNECTIONS
+  serialNumbers: &SERIAL_NUMBERS
+    ccd0: invalid
+    ccd1: invalid
+    adc: invalid
+    fee: invalid
+    pa0: invalid
+
+  geometry: &GEOMETRY
+    namps: 8                    # 2 CCDs, each with 4 amps.
+    ccdRows: 4224               # Physical pixels in readout
+    ccdAmpCols: 520             # Physical pixels in readout
+    leadinRows: 50              # Rows to ignore
+    leadinCols: 8               # Cols to ignore
+    overscanRows: 76            # Additional pixels
+    overscanCols: 32            # Additional pixels
+
+  requiredVersions: &REQUIRED_VERSIONS
+    fee: 20170601_02
+    fpga: 71
+
+  adcOffsets:
+    reference: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+    master: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+
+  amplifiers: &AMPLIFIERS
+    "0":
+      <<: *AMP
+    "1":
+      <<: *AMP
+    "2":
+      <<: *AMP
+    "3":
+      <<: *AMP
+    "4":
+      <<: *AMP
+    "5":
+      <<: *AMP
+    "6":
+      <<: *AMP
+    "7":
+      <<: *AMP
+
+r1:
+  <<: *CCD
+  serialNumbers:
+    <<: *SERIAL_NUMBERS
+    ccd0: 'BI13-06-4K-1'
+    ccd1: 'BI13-07-4K-2'
+    adc: 3063058
+    fee: 3060348
+    pa0: 186
+  adcOffsets:
+    reference: [ -238.01, -226.84, -231.84, -234.62, -242.69, -100.98, -194.99, -235.47 ]
+    master: [ -298.84, -298.84, -298.84, -298.84, -298.84, -146.51, -277.68, -298.84 ]
+
+b1:
+  <<: *CCD
+  serialNumbers:
+    <<: *SERIAL_NUMBERS
+    ccd0: 'BI14-25-4K-3'
+    ccd1: 'BI14-41-4K-3'
+    adc: 3063056
+    fee: 3060350
+    pa0: 190
+  adcOffsets:
+    reference: [ -207. -211. -200. -223. -216. -209. -205. -222. ]
+    master: [ -295.2 -300.4 -285.  -317.9 -307.7 -297.9 -291.5 -316.2 ]
+
+b2:
+  <<: *CCD
+b3:
+  <<: *CCD
+b4:
+  <<: *CCD
+
+r2:
+  <<: *CCD
+r3:
+  <<: *CCD
+r4:
+  <<: *CCD
+
+# Bench system
+b9:
+  <<: *CCD
+  serialNumbers:
+    <<: *SERIAL_NUMBERS
+    ccd0: dummy_0
+    ccd1: dummy_1
+    adc: 0
+    fee: 0
+    pa0: 0
