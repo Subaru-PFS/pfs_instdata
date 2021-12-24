@@ -32,7 +32,7 @@ leds:
 #
 mono:
   wave: [1260, 1250, 1180, 1100, 1020, 940]
-  dutyCycle: [5.0, 5, 5, 5, 5, 5]
+  dutyCycle: [100, 100, 100, 100, 100, 100]
   positionMM: [-29.450, -27.525, -14.135, 0.721, 15.290, 29.700]
 
 # Per detector tweaks to positions, with a dictionary of (wave, rows} -> (xoff, yoff)
