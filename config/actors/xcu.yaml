@@ -5,7 +5,7 @@ xcu: &XCU
     port: 9104
 
   controllers: &CONTROLLERS
-    all: [ PCM, temps, turbo, ionpump, cooler, gatevalve, roughGauge1 ]
+    all: [ PCM, temps, turbo, ionpump, cooler, gatevalve ]
     starting: [ PCM, temps, turbo, ionpump, cooler, gatevalve ]
 
   PCM: &PCM
@@ -30,12 +30,6 @@ xcu: &XCU
     port: 4001
     busId: None
     pumpIds: [ None, None ]
-
-  # Pull out into roughingActor
-  roughGauge1:
-    host: moxa-pfs
-    port: 4001
-    busid: 1
 
   # Which periodic monitors to start when a device is turned on.
   monitors: &MONITORS
