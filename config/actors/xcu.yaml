@@ -19,10 +19,6 @@ xcu: &XCU
 
   # Currently using a TCP interface; must fix!
   turbo: &TURBO
-    host: bee-{cam}
-    port: 4001
-
-  NOTturbo:
     port: /dev/ttyS1
 
   ionpump: &IONPUMP
