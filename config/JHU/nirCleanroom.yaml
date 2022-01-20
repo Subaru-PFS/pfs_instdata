@@ -31,10 +31,35 @@ leds:
 
 #
 mono:
-  wave: [1260, 1180, 1100, 1020, 940]
-  dutyCycle: [100, 100, 100, 100, 100]
-  positionMM: [-29.450, -14.135, 0.721, 15.290, 29.700]
+  use: [True, True, True, True, True, False]
+  wave: [1260, 1180, 1100, 1020, 950, 940]
+  dutyCycle: [100, 100, 100, 100, 100, 100]
+  positionMM: [-29.450, -14.135, 0.721, 15.290, 27.900, 29.700]
 
-# Per detector tweaks to positions, with a dictionary of (wave, rows} -> (xoff, yoff)
+# Per detector tweaks to positions, with a dictionary of (wave, rows) -> (xoff, yoff)
+# But we have to save the keys as strings. Python encodes tuples with spaces
+# after the commas: make sure we match that here. Both wave and row should be ints.
+#
 nudges:
-  n1: {}
+  n1:
+    (1260, 3900): [3, 2]
+    (1260, 3283): [8, 0]
+    (1260, 2666): [5, 0]
+    (1260, 1433): [-5, 0]
+    (1260, 816): [-5, -3]
+    (1260, 200): [-1, -2]
+    (1180, 2666): [0, 5]
+    (1180, 2050): [3, 0]
+    (1180, 816): [0, 4]
+    (1100, 3900): [-3, -3]
+    (1100, 3283): [0, 3]
+    (1100, 1433): [2, -3]
+    (1100, 816): [-3, 0]
+    (1020, 3283): [4, 3]
+    (1020, 1433): [-3, 3]
+    (1020, 200): [0, -4]
+    (940, 3900): [-2, 2]
+    (940, 2050): [3, 0]
+    (940, 1125): [2, -2]
+    (940, 816): [-3, -3]
+    (940, 200): [4, -10]
