@@ -1,0 +1,42 @@
+h4cam: &H4CAM
+  serial_numbers: &SERIAL_NUMBERS
+    sam: 0
+    asic: 0
+    h4: 0
+  samRegisters: DefaultJadeRegisters_slow.rf
+  asicFirmware: H4RG_IRP_rowskipping.mcd
+
+  # These are only needed for the rowskipping firmware.
+  asicPostload:
+    registers: [0x4006]
+    values: [0x0002]
+  configName: coldIrp1
+  voltages: &VOLTAGES
+    VDD: 3.30
+    VDDA: 3.30
+    VBiasPower: 3.30
+
+
+n1:
+  <<: *H4CAM
+  serial_numbers:
+    <<: *SERIAL_NUMBERS
+    asic: 120
+    h4: 18315
+  voltages:
+    <<: *VOLTAGES
+    DSub: 0.600
+    VReset: 0.250
+    VBiasGate: 1.94
+    Drain: 0.00
+    CellDrain: 0.01
+
+n2:
+  <<: *H4CAM
+  serial_numbers:
+    <<: *SERIAL_NUMBERS
+    h4: 18660
+
+n9:
+  <<: *H4CAM
+  configName: warmIrp1
