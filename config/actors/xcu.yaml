@@ -35,6 +35,11 @@ xcu: &XCU
     cooler: 15
     gatevalve: 60
 
+  fpa: &FPA
+    range: [400, 400, 400]
+    tilts: [0, 0, 0]
+    focus: 150
+
 # There are two 2-pump ionpump controllers per 3-dewar spectrograph.
 #
 blue: &BLUE_XCU
@@ -81,6 +86,12 @@ r4:
 
 n1:
   <<: *NIR_XCU
+  fpa:
+    <<: *FPA
+    range: [286.67,290.35,285.03]
+    tilts: [-100.0, -20.0, 20.0]
+    focus: 150.0
+
 n2:
   <<: *NIR_XCU
 n3:
