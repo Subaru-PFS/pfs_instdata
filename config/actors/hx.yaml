@@ -21,6 +21,7 @@ n1:
   <<: *H4CAM
   serial_numbers:
     <<: *SERIAL_NUMBERS
+    sam: 57
     asic: 120
     h4: 18315
   voltages:
@@ -35,7 +36,14 @@ n2:
   <<: *H4CAM
   serial_numbers:
     <<: *SERIAL_NUMBERS
+    sam: 58
     h4: 18660
+
+n3:
+  <<: *H4CAM
+  serial_numbers:
+    <<: *SERIAL_NUMBERS
+    sam: 55
 
 n9:
   <<: *H4CAM
