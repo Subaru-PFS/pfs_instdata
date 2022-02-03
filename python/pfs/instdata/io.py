@@ -3,8 +3,8 @@ import os
 import yaml
 
 
-def openFile(rootDirectory, subDirectory, fileName, mode='r'):
-    """Open instdata file given the path.
+def absFilepath(rootDirectory, subDirectory, fileName):
+    """Return yaml absolute filepath.
 
     Parameters
     ----------
@@ -14,13 +14,11 @@ def openFile(rootDirectory, subDirectory, fileName, mode='r'):
        Sub directory.
     fileName : `str`
         File name.
-    mode : `str`
-        file opening mode.
 
     Returns
     -------
-    IO : `IOFile`
-        IO file.
+    abspath : `str`
+        Absolute filepath.
     """
 
     varName = '$PFS_INSTDATA_DIR'
@@ -29,8 +27,7 @@ def openFile(rootDirectory, subDirectory, fileName, mode='r'):
     if rootPath == varName:
         raise RuntimeError(f'{varName} is not defined')
 
-    path = os.path.join(rootPath, rootDirectory, subDirectory, f'{fileName}.yaml')
-    return open(path, mode=mode)
+    return os.path.join(rootPath, rootDirectory, subDirectory, f'{fileName}.yaml')
 
 
 def loadYaml(rootDirectory, fileName, subDirectory=''):
@@ -50,7 +47,7 @@ def loadYaml(rootDirectory, fileName, subDirectory=''):
     dict : `dict`
         yaml file as python dictionary.
     """
-    with openFile(rootDirectory, subDirectory, fileName, mode='r') as file:
+    with open(absFilepath(rootDirectory, subDirectory, fileName), mode='r') as file:
         return yaml.load(file, Loader=yaml.FullLoader)
 
 
@@ -68,7 +65,7 @@ def dumpYaml(rootDirectory, fileName, data, subDirectory=''):
     subDirectory : `str`
        Optional subdirectory.
     """
-    with openFile(rootDirectory, subDirectory, fileName, mode='w') as file:
+    with open(absFilepath(rootDirectory, subDirectory, fileName), mode='w') as file:
         return yaml.dump(data, file)
 
 
