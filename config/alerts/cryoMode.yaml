@@ -1,0 +1,80 @@
+################################################################
+#
+# Actual alerts below
+#
+
+# We group all keyword alerts by actor
+#
+_alert: &ALERT
+  limits: [null, null]
+
+cryoRules: &CRYORULES
+  offline:
+    null
+  standby:
+    null
+  warmup:
+    null
+  unknown:
+    null
+  pumpdown:
+    turboSpeed[0]:
+      <<: *ALERT
+      limits: [89000, null]
+    pressure[0]:
+      <<: *ALERT
+      limits: [null, 1]
+  cooldown:
+    coolerTemps[1]:
+      <<: *ALERT
+      limits: [null, 45]
+    coolerTemps[3]:
+      <<: *ALERT
+      limits: [70, null]
+    pressure[0]:
+      <<: *ALERT
+      limits: [null, 5.0e-6]
+  operation:
+    coolerTemps[1]:
+      <<: *ALERT
+      limits: [null, 35]
+    coolerTemps[3]:
+      <<: *ALERT
+      limits: [70, null]
+    pressure[0]:
+      <<: *ALERT
+      limits: [null, 5.0e-6]
+    visTemps[5]:
+      <<: *ALERT
+      limits: [161, 165]
+    visTemps[6]:
+      <<: *ALERT
+      limits: [161, 165]
+  bakeout:
+    turboSpeed[0]:
+      <<: *ALERT
+      limits: [89000, null]
+    visTemps[5]:
+      <<: *ALERT
+      limits: [null, 330]
+    visTemps[6]:
+      <<: *ALERT
+      limits: [null, 330]
+
+nirRules:
+  <<: *CRYORULES
+  pumpdown:
+    coolerTemps[2]:
+      <<: *ALERT
+      limits: [null, 40.9]
+  cooldown:
+    coolerTemps[2]:
+      <<: *ALERT
+      limits: [135, 136]
+
+xcu_b1:
+  <<: *CRYORULES
+xcu_r1:
+  <<: *CRYORULES
+
+
