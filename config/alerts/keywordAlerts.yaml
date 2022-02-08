@@ -1,0 +1,186 @@
+# Template for all keyword alerts:
+#    alertType: a name, to help any consumers
+#    call: True, False, or an object, method pair, where we find the named object
+#          and call the corresponding method.
+#          If True, call a generic callback for this alertType
+#    alertFmt: if non-null, an f-string evaluated inside the call method. It is expected
+#              to have the alertCall() argument variables available to it, plus "value".
+#              This may be the biggest security hole ever put into a program.
+#
+# The call method is called with:
+#    alertCall(fullReply, actorName, keyName, keyIndex)
+#
+# Note that the base template "alert" is actually a trigger: it is always called
+# when a new keyword value is received.
+#
+_alert: &ALERT
+  alertType: trigger
+  call: True
+  alertFmt: null
+# Template for an alert with simple limits:
+#   limits: a numeric pair of non-inclusive limits, with NaN for
+#           unused limits. I.e. trigger if (min <= val or val >=  max)
+#
+_limitsAlert: &LIMITS_ALERT
+  <<: *ALERT
+  alertType: limits
+  limits: [ null, null ]
+
+# Template for regexp match alerts:
+#   re: a regular expression
+#   invert: bool, whether or not to invert the match sense
+#
+_regexpAlert: &REGEXP_ALERT
+  <<: *ALERT
+  alertType: regexp
+  pattern: null
+  invert: False
+
+_boolAlert: &BOOLEAN_ALERT
+  <<: *ALERT
+  alertType: boolean
+  invert: False
+
+_cryomodeAlert: &CRYOMODE_ALERT
+  <<: *ALERT
+  alertType: cryomode
+
+
+
+################################################################
+#
+# Actual alerts below
+#
+
+# We group all keyword alerts by actor
+#
+actors:
+  charis: # Just for pre-commissioning testing
+    temps[0]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 40.9 ]
+    temps:
+      <<: *ALERT
+      call: charis.checkTempRange
+    motor6status[6]:
+      <<: *REGEXP_ALERT
+      pattern: 'limit switch error'
+
+  meb: # MCS E-Box
+    flow:
+      <<: *LIMITS_ALERT
+      limits: [ 0.0, null ]
+      alertFmt: 'coolant flow has stopped !!'
+    temps[0]:
+      <<: *LIMITS_ALERT
+      limits: [ 0.0, 25.0 ]
+      alertFmt: 'temperature out of range !!'
+
+  peb: # PFI E-Box
+    leakage[0]:
+      <<: *BOOLEAN_ALERT
+      invert: True
+      alertFmt: 'there is a leak !!'
+
+    temps[0]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 25 ]
+      alertFmt: 'is too high: {value}C !!'
+    temps[1]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 25 ]
+      alertFmt: 'is too high: {value}C !!'
+    temps[2]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 25 ]
+      alertFmt: 'is too high: {value}C !!'
+    temps[3]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 25 ]
+      alertFmt: 'is too high: {value}C !!'
+    temps[4]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 25 ]
+      alertFmt: 'is too high: {value}C !!'
+    temps[5]:
+      <<: *LIMITS_ALERT
+      limits: [ null, 25 ]
+      alertFmt: 'is too high: {value}C !!'
+
+
+  xcu: &XCU # All XCUs
+    pcmPower1[2]:
+      <<: *LIMITS_ALERT
+      limits: [ 27.0, null ]
+      alertFmt: '24V-UPS Input power is failing: {value}V !!'
+    pcmPower2[2]:
+      <<: *LIMITS_ALERT
+      limits: [ 24.0, null ]
+      alertFmt: '24V-AUX Input power is failing: {value}V !!'
+    ionpump1Errors[2]:
+      <<: *REGEXP_ALERT
+      alertFmt: '{value} !!'
+    ionpump2Errors[2]:
+      <<: *REGEXP_ALERT
+      alertFmt: '{value} !!'
+    coolerStatus[2]:
+      <<: *REGEXP_ALERT
+      alertFmt: '{value} !!'
+    pressure:
+      <<: *CRYOMODE_ALERT
+      alertFmt: 'is too high: {value}Torr !!'
+    turboSpeed:
+      <<: *CRYOMODE_ALERT
+      alertFmt: 'is too low: {value}RPM !!'
+    coolerTemps[1]:
+      <<: *CRYOMODE_ALERT
+      alertFmt: 'is too high: {value}C !!'
+    coolerTemps[3]:
+      <<: *CRYOMODE_ALERT
+      call: xcu.coolerPower
+      alertFmt: 'is out of range: {value}W !! ({lowerLimit};{upperLimit})'
+    visTemps[5]:
+      <<: *CRYOMODE_ALERT
+      alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
+    visTemps[6]:
+      <<: *CRYOMODE_ALERT
+      alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
+
+    ionpump1[0]:
+      <<: *ALERT
+      call: xcu.ionpumpState
+      alertFmt: 'pump should be on !!'
+    ionpump2[0]:
+      <<: *ALERT
+      call: xcu.ionpumpState
+      alertFmt: 'pump should be on !!'
+    gatevalve[1]:
+      <<: *ALERT
+      call: xcu.gatevalveState
+
+  enu: &ENU
+    biashaFSM[1]:
+      <<: *REGEXP_ALERT
+      pattern: ^FAILED$
+      invert: True
+      alertFmt: 'arduino board is in failed state !!'
+
+  tests:
+    keytest1:
+      <<: *ALERT
+      call: tests.checkTempRange
+    keytest2:
+      <<: *LIMITS_ALERT
+      limits: [ null, 1.0e-06 ]
+      alertFmt: 'keytest3 is too high: {value} !!'
+    keytest3[1]:
+      <<: *REGEXP_ALERT
+      alertFmt: 'test regexp: {value} !!'
+
+  xcu_b1:
+    <<: *XCU
+  xcu_r1:
+    <<: *XCU
+    
+  enu_sm1:
+    <<: *ENU
