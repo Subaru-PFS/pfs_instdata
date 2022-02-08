@@ -71,7 +71,7 @@ actors:
       <<: *LIMITS_ALERT
       limits: [ 0.0, null ]
       alertFmt: 'coolant flow has stopped !!'
-    temps[0]:
+    temps[Top_plate]:
       <<: *LIMITS_ALERT
       limits: [ 0.0, 25.0 ]
       alertFmt: 'temperature out of range !!'
@@ -82,48 +82,48 @@ actors:
       invert: True
       alertFmt: 'there is a leak !!'
 
-    temps[0]:
+    temps[AGC_1]:
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
       alertFmt: 'is too high: {value}C !!'
-    temps[1]:
+    temps[AGC_2]:
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
       alertFmt: 'is too high: {value}C !!'
-    temps[2]:
+    temps[AGC_3]:
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
       alertFmt: 'is too high: {value}C !!'
-    temps[3]:
+    temps[AGC_4]:
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
       alertFmt: 'is too high: {value}C !!'
-    temps[4]:
+    temps[AGC_5]:
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
       alertFmt: 'is too high: {value}C !!'
-    temps[5]:
+    temps[AGC_6]:
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
       alertFmt: 'is too high: {value}C !!'
 
 
   xcu: &XCU # All XCUs
-    pcmPower1[2]:
+    pcmPower1[volts]:
       <<: *LIMITS_ALERT
       limits: [ 27.0, null ]
       alertFmt: '24V-UPS Input power is failing: {value}V !!'
-    pcmPower2[2]:
+    pcmPower2[volts]:
       <<: *LIMITS_ALERT
       limits: [ 24.0, null ]
       alertFmt: '24V-AUX Input power is failing: {value}V !!'
-    ionpump1Errors[2]:
+    ionpump1Errors[errors]:
       <<: *REGEXP_ALERT
       alertFmt: '{value} !!'
-    ionpump2Errors[2]:
+    ionpump2Errors[errors]:
       <<: *REGEXP_ALERT
       alertFmt: '{value} !!'
-    coolerStatus[2]:
+    coolerStatus[errors]:
       <<: *REGEXP_ALERT
       alertFmt: '{value} !!'
     pressure:
@@ -132,34 +132,34 @@ actors:
     turboSpeed:
       <<: *CRYOMODE_ALERT
       alertFmt: 'is too low: {value}RPM !!'
-    coolerTemps[1]:
+    coolerTemps[reject]:
       <<: *CRYOMODE_ALERT
       alertFmt: 'is too high: {value}C !!'
-    coolerTemps[3]:
+    coolerTemps[power]:
       <<: *CRYOMODE_ALERT
       call: xcu.coolerPower
       alertFmt: 'is out of range: {value}W !! ({lowerLimit};{upperLimit})'
-    visTemps[5]:
+    visTemps[detector1]:
       <<: *CRYOMODE_ALERT
       alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
-    visTemps[6]:
+    visTemps[detector2]:
       <<: *CRYOMODE_ALERT
       alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
 
-    ionpump1[0]:
+    ionpump1[enabled]:
       <<: *ALERT
       call: xcu.ionpumpState
       alertFmt: 'pump should be on !!'
-    ionpump2[0]:
+    ionpump2[enabled]:
       <<: *ALERT
       call: xcu.ionpumpState
       alertFmt: 'pump should be on !!'
-    gatevalve[1]:
+    gatevalve[position]:
       <<: *ALERT
       call: xcu.gatevalveState
 
   enu: &ENU
-    biashaFSM[1]:
+    biashaFSM[substate]:
       <<: *REGEXP_ALERT
       pattern: ^FAILED$
       invert: True
