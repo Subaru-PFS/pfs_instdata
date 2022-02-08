@@ -2,70 +2,83 @@ actors:
   enu_sm1:
     biashaFSM:
     - keyId: 1
-      stsHelp: 'PFS: ENU_SM1 biasha state machine'
+      keyName: substate
+      stsHelp: 'PFS: ENU_SM1 biasha action state-machine'
       stsId: 1320
       stsType: INTEGER+TEXT
       units: null
   meb:
     flow:
     - keyId: 0
+      keyName: flow_meter
       stsHelp: 'PFS: MEB Flow meter reading'
       stsId: 1107
       stsType: FLOAT+TEXT
       units: Gal/min
     power:
     - keyId: 0
+      keyName: Camera
       stsHelp: 'PFS: MEB Camera Power'
       stsId: 1103
       stsType: INTEGER+TEXT
       units: V
     - keyId: 1
+      keyName: Shutter_and_Temp
       stsHelp: 'PFS: MEB Shutter and Temp Power'
       stsId: 1104
       stsType: INTEGER+TEXT
       units: V
     - keyId: 2
+      keyName: Cisco_switch
       stsHelp: 'PFS: MEB Cisco Switch Power'
       stsId: 1105
       stsType: INTEGER+TEXT
       units: V
     - keyId: 3
+      keyName: MCS_computer
       stsHelp: 'PFS: MEB Computer Power'
       stsId: 1106
       stsType: INTEGER+TEXT
       units: V
     temps:
     - keyId: 0
+      keyName: Top_plate
       stsHelp: 'PFS: MEB Top plate temp'
       stsId: 1096
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 1
+      keyName: Carbon_fiber_tube
       stsHelp: 'PFS: MEB Carbon fiber tube temp'
       stsId: 1097
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 2
+      keyName: Primary_mirror
       stsHelp: 'PFS: MEB Primary mirror temp'
       stsId: 1098
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 3
+      keyName: Cover_panel
       stsHelp: 'PFS: MEB Cover panel temp'
       stsId: 1099
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 4
+      keyName: Coolant_water_in
       stsHelp: 'PFS: MEB Coolant inlet temp'
       stsId: 1100
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 5
+      keyName: Coolant_water_out
       stsHelp: 'PFS: MEB Coolant outlet temp'
       stsId: 1101
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 6
+      keyName: Electronic_rack
       stsHelp: 'PFS: MEB Electronics rack temp'
       stsId: 1102
       stsType: FLOAT+TEXT
@@ -73,144 +86,172 @@ actors:
   peb:
     flow:
     - keyId: 0
+      keyName: Flow_meter
       stsHelp: 'PFS: PEB Coolant Flow rate'
       stsId: 2343
       stsType: FLOAT+TEXT
       units: Gal/min
     - keyId: 1
+      keyName: Flow_rotor
       stsHelp: 'PFS: PEB Flowmeter rotor speed'
       stsId: 2344
       stsType: FLOAT+TEXT
       units: Hz
     humidity:
     - keyId: 0
+      keyName: Humidity
       stsHelp: 'PFS: PEB E-box Humidity'
       stsId: 2340
       stsType: FLOAT+TEXT
       units: '%'
     - keyId: 1
+      keyName: Temperature
       stsHelp: 'PFS: PEB E-box Coolant temperature'
       stsId: 2341
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 2
+      keyName: Dew_point
       stsHelp: 'PFS: PEB E-box Dew point'
       stsId: 2342
       stsType: FLOAT+TEXT
       units: degC
     leakage:
     - keyId: 0
+      keyName: Leakage
       stsHelp: 'PFS: PEB No Leakage indicator'
       stsId: 2345
       stsType: INTEGER+TEXT
       units: bool
     - keyId: 1
+      keyName: Disconnect
       stsHelp: 'PFS: PEB Leakage sensor connected'
       stsId: 2346
       stsType: INTEGER+TEXT
       units: bool
     temps:
     - keyId: 0
+      keyName: AGC_4
       stsHelp: 'PFS: PEB AGC-4 Temperature'
       stsId: 2347
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 1
+      keyName: AGC_3
       stsHelp: 'PFS: PEB AGC-3 Temperature'
       stsId: 2348
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 2
+      keyName: AGC_2
       stsHelp: 'PFS: PEB AGC-2 Temperature'
       stsId: 2349
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 3
+      keyName: AGC_1
       stsHelp: 'PFS: PEB AGC-1 Temperature'
       stsId: 2350
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 4
+      keyName: AGC_6
       stsHelp: 'PFS: PEB AGC-6 Temperature'
       stsId: 2351
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 5
+      keyName: AGC_5
       stsHelp: 'PFS: PEB AGC-5 Temperature'
       stsId: 2352
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 6
+      keyName: UL_link_1
       stsHelp: 'PFS: PEB UL link 1 Temperature'
       stsId: 2353
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 7
+      keyName: UL_link_2
       stsHelp: 'PFS: PEB UL link 2 Temperature'
       stsId: 2354
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 8
+      keyName: UL_link_3
       stsHelp: 'PFS: PEB UL link 3 Temperature'
       stsId: 2355
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 9
+      keyName: Positioner_frame
       stsHelp: 'PFS: PEB positioner frame'
       stsId: 2356
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 10
+      keyName: COB_1
       stsHelp: 'PFS: PEB COB1 Temperature'
       stsId: 2357
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 11
+      keyName: COB_2
       stsHelp: 'PFS: PEB COB2 Temperature'
       stsId: 2358
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 12
+      keyName: COB_3
       stsHelp: 'PFS: PEB COB3 Temperature'
       stsId: 2359
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 13
+      keyName: COB_4
       stsHelp: 'PFS: PEB COB4 Temperature'
       stsId: 2360
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 14
+      keyName: COB_5
       stsHelp: 'PFS: PEB COB5 Temperature'
       stsId: 2361
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 15
+      keyName: COB_6
       stsHelp: 'PFS: PEB COB6 Temperature'
       stsId: 2362
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 16
+      keyName: Ebox_1
       stsHelp: 'PFS: PEB EBOX1 Temperature'
       stsId: 2363
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 17
+      keyName: Ebox_2
       stsHelp: 'PFS: PEB EBOX2 Temperature'
       stsId: 2364
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 18
+      keyName: Ebox_3
       stsHelp: 'PFS: PEB EBOX3 Temperature'
       stsId: 2365
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 19
+      keyName: Flow_in
       stsHelp: 'PFS: PEB Input coolant Temperature'
       stsId: 2366
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 20
+      keyName: Flow_out
       stsHelp: 'PFS: PEB Output coolant Temperature'
       stsId: 2367
       stsType: FLOAT+TEXT
@@ -218,12 +259,14 @@ actors:
   rough1:
     pressure:
     - keyId: 0
+      keyName: null
       stsHelp: 'PFS: ROUGH1 roughing line pressure'
       stsId: 1941
       stsType: FLOAT+TEXT
       units: Torr
     pumpSpeed:
     - keyId: 0
+      keyName: null
       stsHelp: 'PFS: ROUGH1 roughing pump speed'
       stsId: 1940
       stsType: FLOAT+TEXT
@@ -231,92 +274,108 @@ actors:
   xcu_b1:
     coolerStatus:
     - keyId: 2
+      keyName: errors
       stsHelp: 'PFS: XCU_B1 Cooler1 error string'
       stsId: 1200
       stsType: INTEGER+TEXT
       units: null
     coolerTemps:
     - keyId: 1
+      keyName: reject
       stsHelp: 'PFS: XCU_B1 Cooler1 reject temperature'
       stsId: 1201
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 3
+      keyName: power
       stsHelp: 'PFS: XCU_B1 Cooler1 load'
       stsId: 1202
       stsType: FLOAT+TEXT
       units: W
     gatevalve:
     - keyId: 1
+      keyName: position
       stsHelp: 'PFS: XCU_B1 actual gatevalve position'
       stsId: 1214
       stsType: INTEGER+TEXT
       units: null
     ionpump1:
     - keyId: 0
+      keyName: enabled
       stsHelp: 'PFS: XCU_B1 ionpump1 enabled'
       stsId: 1204
       stsType: INTEGER+TEXT
       units: null
     - keyId: 4
+      keyName: Pressure
       stsHelp: 'PFS: XCU_B1 ionpump1 pressure'
       stsId: 1205
       stsType: FLOAT+TEXT
       units: Torr
     ionpump1Errors:
     - keyId: 2
+      keyName: errors
       stsHelp: 'PFS: XCU_B1 ionpump1 error string'
       stsId: 1208
       stsType: INTEGER+TEXT
       units: null
     ionpump2:
     - keyId: 0
+      keyName: enabled
       stsHelp: 'PFS: XCU_B1 ionpump2 enabled'
       stsId: 1206
       stsType: INTEGER+TEXT
       units: null
     - keyId: 4
+      keyName: Pressure
       stsHelp: 'PFS: XCU_B1 ionpump2 pressure'
       stsId: 1207
       stsType: FLOAT+TEXT
       units: Torr
     ionpump2Errors:
     - keyId: 2
+      keyName: errors
       stsHelp: 'PFS: XCU_B1 ionpump2 error string'
       stsId: 1209
       stsType: INTEGER+TEXT
       units: null
     pcmPower1:
     - keyId: 2
+      keyName: volts
       stsHelp: 'PFS: XCU_B1 PCM bus 1 input voltage'
       stsId: 1210
       stsType: FLOAT+TEXT
       units: V
     pcmPower2:
     - keyId: 2
+      keyName: volts
       stsHelp: 'PFS: XCU_B1 PCM bus 2 input voltage'
       stsId: 1211
       stsType: FLOAT+TEXT
       units: V
     pressure:
     - keyId: 0
+      keyName: null
       stsHelp: 'PFS: XCU_B1 Cryostat gauge pressure'
       stsId: 1203
       stsType: FLOAT+TEXT
       units: Torr
     turboSpeed:
     - keyId: 0
+      keyName: null
       stsHelp: 'PFS: XCU_B1 turbo pump speed'
       stsId: 1215
       stsType: INTEGER+TEXT
       units: rpm
     visTemps:
     - keyId: 5
+      keyName: detector1
       stsHelp: 'PFS: XCU_B1 Detector probe #1 temp'
       stsId: 1212
       stsType: FLOAT+TEXT
       units: K
     - keyId: 6
+      keyName: detector2
       stsHelp: 'PFS: XCU_B1 Detector probe #2 temp'
       stsId: 1213
       stsType: FLOAT+TEXT
@@ -324,92 +383,108 @@ actors:
   xcu_r1:
     coolerStatus:
     - keyId: 2
+      keyName: errors
       stsHelp: 'PFS: XCU_R1 Cooler1 error string'
       stsId: 1140
       stsType: INTEGER+TEXT
       units: null
     coolerTemps:
     - keyId: 1
+      keyName: reject
       stsHelp: 'PFS: XCU_R1 Cooler1 reject temperature'
       stsId: 1141
       stsType: FLOAT+TEXT
       units: degC
     - keyId: 3
+      keyName: power
       stsHelp: 'PFS: XCU_R1 Cooler1 load'
       stsId: 1142
       stsType: FLOAT+TEXT
       units: W
     gatevalve:
     - keyId: 1
+      keyName: position
       stsHelp: 'PFS: XCU_R1 actual gatevalve position'
       stsId: 1154
       stsType: INTEGER+TEXT
       units: null
     ionpump1:
     - keyId: 0
+      keyName: enabled
       stsHelp: 'PFS: XCU_R1 ionpump1 enabled'
       stsId: 1144
       stsType: INTEGER+TEXT
       units: null
     - keyId: 4
+      keyName: Pressure
       stsHelp: 'PFS: XCU_R1 ionpump1 pressure'
       stsId: 1145
       stsType: FLOAT+TEXT
       units: Torr
     ionpump1Errors:
     - keyId: 2
+      keyName: errors
       stsHelp: 'PFS: XCU_R1 ionpump1 error string'
       stsId: 1148
       stsType: INTEGER+TEXT
       units: null
     ionpump2:
     - keyId: 0
+      keyName: enabled
       stsHelp: 'PFS: XCU_R1 ionpump2 enabled'
       stsId: 1146
       stsType: INTEGER+TEXT
       units: null
     - keyId: 4
+      keyName: Pressure
       stsHelp: 'PFS: XCU_R1 ionpump2 pressure'
       stsId: 1147
       stsType: FLOAT+TEXT
       units: Torr
     ionpump2Errors:
     - keyId: 2
+      keyName: errors
       stsHelp: 'PFS: XCU_R1 ionpump2 error string'
       stsId: 1149
       stsType: INTEGER+TEXT
       units: null
     pcmPower1:
     - keyId: 2
+      keyName: volts
       stsHelp: 'PFS: XCU_R1 PCM bus 1 input voltage'
       stsId: 1150
       stsType: FLOAT+TEXT
       units: V
     pcmPower2:
     - keyId: 2
+      keyName: volts
       stsHelp: 'PFS: XCU_R1 PCM bus 2 input voltage'
       stsId: 1151
       stsType: FLOAT+TEXT
       units: V
     pressure:
     - keyId: 0
+      keyName: null
       stsHelp: 'PFS: XCU_R1 Cryostat gauge pressure'
       stsId: 1143
       stsType: FLOAT+TEXT
       units: Torr
     turboSpeed:
     - keyId: 0
+      keyName: null
       stsHelp: 'PFS: XCU_R1 turbo pump speed'
       stsId: 1155
       stsType: INTEGER+TEXT
       units: rpm
     visTemps:
     - keyId: 5
+      keyName: detector1
       stsHelp: 'PFS: XCU_R1 Detector probe #1 temp'
       stsId: 1152
       stsType: FLOAT+TEXT
       units: K
     - keyId: 6
+      keyName: detector2
       stsHelp: 'PFS: XCU_R1 Detector probe #2 temp'
       stsId: 1153
       stsType: FLOAT+TEXT
