@@ -39,7 +39,7 @@ _regexpAlert: &REGEXP_ALERT
 _boolAlert: &BOOLEAN_ALERT
   <<: *ALERT
   alertType: boolean
-  invert: False
+  nominalValue: False
 
 _cryomodeAlert: &CRYOMODE_ALERT
   <<: *ALERT
@@ -55,115 +55,133 @@ _cryomodeAlert: &CRYOMODE_ALERT
 # We group all keyword alerts by actor
 #
 actors:
-  charis: # Just for pre-commissioning testing
-    temps[0]:
-      <<: *LIMITS_ALERT
-      limits: [ null, 40.9 ]
-    temps:
-      <<: *ALERT
-      call: charis.checkTempRange
-    motor6status[6]:
-      <<: *REGEXP_ALERT
-      pattern: 'limit switch error'
-
   meb: # MCS E-Box
-    flow:
+    flow[flow_meter]:
       <<: *LIMITS_ALERT
       limits: [ 0.0, null ]
-      alertFmt: 'coolant flow has stopped !!'
+      alertFmt: 'coolant flow has stopped !'
     temps[Top_plate]:
       <<: *LIMITS_ALERT
       limits: [ 0.0, 25.0 ]
-      alertFmt: 'temperature out of range !!'
+      alertFmt: 'temperature out of range !'
 
   peb: # PFI E-Box
     leakage[0]:
       <<: *BOOLEAN_ALERT
-      invert: True
-      alertFmt: 'there is a leak !!'
+      nominalValue: True
+      alertFmt: 'there is a leak !'
 
-    temps[AGC_1]:
+    temps[AGC_1]: &AGC_TEMP
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
-      alertFmt: 'is too high: {value}C !!'
+      alertFmt: 'is too high: {value}C !'
     temps[AGC_2]:
-      <<: *LIMITS_ALERT
-      limits: [ null, 25 ]
-      alertFmt: 'is too high: {value}C !!'
+      <<: *AGC_TEMP
     temps[AGC_3]:
-      <<: *LIMITS_ALERT
-      limits: [ null, 25 ]
-      alertFmt: 'is too high: {value}C !!'
+      <<: *AGC_TEMP
     temps[AGC_4]:
-      <<: *LIMITS_ALERT
-      limits: [ null, 25 ]
-      alertFmt: 'is too high: {value}C !!'
+      <<: *AGC_TEMP
     temps[AGC_5]:
-      <<: *LIMITS_ALERT
-      limits: [ null, 25 ]
-      alertFmt: 'is too high: {value}C !!'
+      <<: *AGC_TEMP
     temps[AGC_6]:
-      <<: *LIMITS_ALERT
-      limits: [ null, 25 ]
-      alertFmt: 'is too high: {value}C !!'
-
+      <<: *AGC_TEMP
 
   xcu: &XCU # All XCUs
-    pcmPower1[volts]:
-      <<: *LIMITS_ALERT
-      limits: [ 27.0, null ]
-      alertFmt: '24V-UPS Input power is failing: {value}V !!'
-    pcmPower2[volts]:
-      <<: *LIMITS_ALERT
-      limits: [ 24.0, null ]
-      alertFmt: '24V-AUX Input power is failing: {value}V !!'
-    ionpump1Errors[errors]:
-      <<: *REGEXP_ALERT
-      alertFmt: '{value} !!'
-    ionpump2Errors[errors]:
-      <<: *REGEXP_ALERT
-      alertFmt: '{value} !!'
-    coolerStatus[errors]:
-      <<: *REGEXP_ALERT
-      alertFmt: '{value} !!'
-    pressure:
-      <<: *CRYOMODE_ALERT
-      alertFmt: 'is too high: {value}Torr !!'
-    turboSpeed:
-      <<: *CRYOMODE_ALERT
-      alertFmt: 'is too low: {value}RPM !!'
-    coolerTemps[reject]:
-      <<: *CRYOMODE_ALERT
-      alertFmt: 'is too high: {value}C !!'
-    coolerTemps[power]:
-      <<: *CRYOMODE_ALERT
-      call: xcu.coolerPower
-      alertFmt: 'is out of range: {value}W !! ({lowerLimit};{upperLimit})'
-    visTemps[detector1]:
-      <<: *CRYOMODE_ALERT
-      alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
-    visTemps[detector2]:
-      <<: *CRYOMODE_ALERT
-      alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
+    all: &ALL
+      pcmPower1[volts]:
+        <<: *LIMITS_ALERT
+        limits: [ 27.0, null ]
+        alertFmt: '24V-UPS Input power is failing: {value}V !'
+      pcmPower2[volts]:
+        <<: *LIMITS_ALERT
+        limits: [ 24.0, null ]
+        alertFmt: '24V-AUX Input power is failing: {value}V !'
+      ionpump1Errors[errors]: &IONPUMP_ERROR
+        <<: *REGEXP_ALERT
+        alertFmt: '{value} !'
+      ionpump2Errors[errors]:
+        <<: *IONPUMP_ERROR
+      coolerStatus[errors]:  &COOLER_ERROR
+        <<: *REGEXP_ALERT
+        alertFmt: '{value} !'
 
-    ionpump1[enabled]:
-      <<: *ALERT
-      call: xcu.ionpumpState
-      alertFmt: 'pump should be on !!'
-    ionpump2[enabled]:
-      <<: *ALERT
-      call: xcu.ionpumpState
-      alertFmt: 'pump should be on !!'
-    gatevalve[position]:
-      <<: *ALERT
-      call: xcu.gatevalveState
+    pumpdown: &PUMPDOWN
+      pressure: &PRESSURE
+        <<: *LIMITS_ALERT
+        alertFmt: 'is too high: {value}Torr !'
+        limits: [ null, 1]
+      turboSpeed:
+        <<: *LIMITS_ALERT
+        alertFmt: 'is too low: {value}RPM !'
+        limits: [ 89000, null ]
+      gatevalve[position]:
+        <<: *REGEXP_ALERT
+        alertFmt: 'current {value} should be open !'
+        pattern: '^Open$'
+
+    cooldown: &COOLDOWN
+      pressure:
+        <<: *PRESSURE
+        limits: [ null, 5.0e-6 ]
+      gatevalve[position]:
+        <<: *REGEXP_ALERT
+        alertFmt: 'current {value} should be closed !'
+        pattern: '^Closed$'
+      ionpump1[enabled]: &IONPUMP_ON
+        <<: *BOOLEAN_ALERT
+        alertFmt: 'pump should be on !'
+        nominalValue: True
+      ionpump2[enabled]:
+        x²<<: *IONPUMP_ON
+      coolerTemps[reject]: &COOLER_REJECT
+        <<: *LIMITS_ALERT
+        alertFmt: 'is too high: {value}C !'
+        limits: [ null, 45 ]
+      coolerTemps[power]: &COOLER_POWER
+        <<: *LIMITS_ALERT
+        alertFmt: 'is out of range: {value}W ! ({lowerLimit};{upperLimit})'
+        limits: [ 70, null]
+
+    operation:
+      <<: *COOLDOWN
+      coolerTemps[reject]:
+        <<: *COOLER_REJECT
+        limits: [ null, 35]
+      visTemps[detector1]: &DETECTOR_TEMP
+        <<: *LIMITS_ALERT
+        alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
+        limits: [ 161, 165]
+      visTemps[detector2]:
+        <<: *DETECTOR_TEMP
+    bakeout:
+      <<: *PUMPDOWN
+      visTemps[detector1]:
+        <<: *DETECTOR_TEMP
+        limits: [ null, 330]
+      visTemps[detector2]:
+        <<: *DETECTOR_TEMP
+        limits: [ null, 330]
+
+  ncu: &NCU # All NCUs
+    <<: *XCU
+    all:
+      <<: *ALL
+      coolerStatus2[errors]:
+        <<: *COOLER_ERROR
+    cooldown:
+      <<: *COOLDOWN
+      cooler2Temps[reject]:
+        <<: *COOLER_REJECT
+      cooler2Temps[power]:
+        <<: *COOLER_POWER
+
 
   enu: &ENU
     biashaFSM[substate]:
       <<: *REGEXP_ALERT
       pattern: ^FAILED$
       invert: True
-      alertFmt: 'arduino board is in failed state !!'
+      alertFmt: 'arduino board is in failed state !'
 
   tests:
     keytest1:
@@ -172,15 +190,17 @@ actors:
     keytest2:
       <<: *LIMITS_ALERT
       limits: [ null, 1.0e-06 ]
-      alertFmt: 'keytest3 is too high: {value} !!'
+      alertFmt: 'keytest3 is too high: {value} !'
     keytest3[1]:
       <<: *REGEXP_ALERT
-      alertFmt: 'test regexp: {value} !!'
+      alertFmt: 'test regexp: {value} !'
 
   xcu_b1:
     <<: *XCU
   xcu_r1:
     <<: *XCU
-    
+  xcu_n1:
+    <<: *NCU
+
   enu_sm1:
     <<: *ENU
