@@ -36,16 +36,13 @@ _regexpAlert: &REGEXP_ALERT
   pattern: null
   invert: False
 
+# Template for boolean alerts:
+#   nominalValue:False or True
+#
 _boolAlert: &BOOLEAN_ALERT
   <<: *ALERT
   alertType: boolean
   nominalValue: False
-
-_cryomodeAlert: &CRYOMODE_ALERT
-  <<: *ALERT
-  alertType: cryomode
-
-
 
 ################################################################
 #
@@ -101,7 +98,7 @@ actors:
         alertFmt: '{value} !'
       ionpump2Errors[errors]:
         <<: *IONPUMP_ERROR
-      coolerStatus[errors]:  &COOLER_ERROR
+      coolerStatus[errors]: &COOLER_ERROR
         <<: *REGEXP_ALERT
         alertFmt: '{value} !'
 
@@ -109,7 +106,7 @@ actors:
       pressure: &PRESSURE
         <<: *LIMITS_ALERT
         alertFmt: 'is too high: {value}Torr !'
-        limits: [ null, 1]
+        limits: [ null, 1 ]
       turboSpeed:
         <<: *LIMITS_ALERT
         alertFmt: 'is too low: {value}RPM !'
@@ -140,27 +137,27 @@ actors:
       coolerTemps[power]: &COOLER_POWER
         <<: *LIMITS_ALERT
         alertFmt: 'is out of range: {value}W ! ({lowerLimit};{upperLimit})'
-        limits: [ 70, null]
+        limits: [ 70, null ]
 
     operation:
       <<: *COOLDOWN
       coolerTemps[reject]:
         <<: *COOLER_REJECT
-        limits: [ null, 35]
+        limits: [ null, 35 ]
       visTemps[detector1]: &DETECTOR_TEMP
         <<: *LIMITS_ALERT
         alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
-        limits: [ 161, 165]
+        limits: [ 161, 165 ]
       visTemps[detector2]:
         <<: *DETECTOR_TEMP
     bakeout:
       <<: *PUMPDOWN
       visTemps[detector1]:
         <<: *DETECTOR_TEMP
-        limits: [ null, 330]
+        limits: [ null, 330 ]
       visTemps[detector2]:
         <<: *DETECTOR_TEMP
-        limits: [ null, 330]
+        limits: [ null, 330 ]
 
   ncu: &NCU # All NCUs
     <<: *XCU
@@ -199,8 +196,19 @@ actors:
     <<: *XCU
   xcu_r1:
     <<: *XCU
-  xcu_n1:
-    <<: *NCU
-
   enu_sm1:
+    <<: *ENU
+
+  xcu_b2:
+    <<: *XCU
+  xcu_r2:
+    <<: *XCU
+  enu_sm2:
+    <<: *ENU
+
+  xcu_b3:
+    <<: *XCU
+  xcu_r3:
+    <<: *XCU
+  enu_sm3:
     <<: *ENU
