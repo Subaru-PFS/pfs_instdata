@@ -16,8 +16,21 @@ h4cam: &H4CAM
     VDDA: 3.30
     VBiasPower: 3.30
 
-
 n1:
+  <<: *H4CAM
+  serial_numbers:
+    <<: *SERIAL_NUMBERS
+    sam: 55
+
+n2:
+  <<: *H4CAM
+  serial_numbers:
+    <<: *SERIAL_NUMBERS
+    sam: 58
+    asic: 117
+    h4: 18660
+
+n3:
   <<: *H4CAM
   serial_numbers:
     <<: *SERIAL_NUMBERS
@@ -31,19 +44,6 @@ n1:
     VBiasGate: 1.94
     Drain: 0.00
     CellDrain: 0.01
-
-n2:
-  <<: *H4CAM
-  serial_numbers:
-    <<: *SERIAL_NUMBERS
-    sam: 58
-    h4: 18660
-
-n3:
-  <<: *H4CAM
-  serial_numbers:
-    <<: *SERIAL_NUMBERS
-    sam: 55
 
 n9:
   <<: *H4CAM

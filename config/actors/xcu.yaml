@@ -86,20 +86,19 @@ r4:
 
 n1:
   <<: *NIR_XCU
+n2:
+  <<: *NIR_XCU
+n3:
+  <<: *NIR_XCU
   fpa:
     <<: *FPA
     range: [286.67,290.35,285.03]
     tilts: [-100.0, -20.0, 20.0]
     focus: 150.0
-
-n2:
-  <<: *NIR_XCU
-n3:
-  <<: *NIR_XCU
 n4:
   <<: *NIR_XCU
 
-# Optics Lab dewar
+# IDG dewars
 b9:
   <<: *BLUE_XCU
 
@@ -114,3 +113,8 @@ b9:
     ionpump: 0
     cooler: 0
     gatevalve: 0
+
+n8:
+  <<: *NIR_XCU
+r8:
+  <<: *RED_XCU
