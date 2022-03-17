@@ -31,7 +31,7 @@ leds:
 
 #
 mono:
-  use: [True, True, True, True, True, False]
+  use: [True, True, True, True, False, True]
   wave: [1260, 1180, 1100, 1020, 950, 940]
   dutyCycle: [100, 100, 100, 100, 100, 100]
   positionMM: [-29.450, -14.135, 0.721, 15.290, 27.900, 29.700]
