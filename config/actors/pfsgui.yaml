@@ -1,0 +1,3 @@
+pfsgui:
+  listen:
+    interface: localhost

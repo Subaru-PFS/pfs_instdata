@@ -1,8 +1,6 @@
 connections: &CONNECTIONS
   listen:
     interface: bee-{cam}         # localhost is safest, if on same host
-    # as tron hub.
-    port: 9103
   fee:
     port: /dev/ttyS1
 

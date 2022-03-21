@@ -1,0 +1,13 @@
+rough: &ROUGH
+  listen:
+    interface: sps-ics
+
+  logging:
+    ioLevel: 10
+    cmdLevel: 30
+
+rough1:
+  <<: *ROUGH
+
+rough2:
+  <<: *ROUGH
