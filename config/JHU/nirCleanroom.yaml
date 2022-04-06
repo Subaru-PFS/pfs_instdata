@@ -40,8 +40,7 @@ mono:
 # after the commas: make sure we match that here. Both wave and row should be ints.
 #
 nudges:
-  n3: {}
-  nx3:
+  n3:
     (1260, 3900): [3, 2]
     (1260, 3283): [8, 0]
     (1260, 2666): [5, 0]
