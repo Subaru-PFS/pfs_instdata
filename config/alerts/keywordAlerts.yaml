@@ -65,7 +65,7 @@ actors:
   peb: # PFI E-Box
     leakage[0]:
       <<: *BOOLEAN_ALERT
-      nominalValue: True
+      nominalValue: False
       alertFmt: 'there is a leak !'
 
     temps[AGC_1]: &AGC_TEMP
