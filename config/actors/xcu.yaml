@@ -1,8 +1,6 @@
 xcu: &XCU
   listen:
     interface: bee-{cam}         # localhost is safest, if on same host
-    # as tron hub.
-    port: 0
 
   controllers: &CONTROLLERS
     all: [ PCM, temps, turbo, ionpump, cooler, gatevalve ]

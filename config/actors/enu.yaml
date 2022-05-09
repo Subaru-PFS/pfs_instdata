@@ -1,52 +1,6 @@
 enu: &ENU
   listen:
-    interface: rack5-ics
-    # as tron hub.
-    port: 0
-
-  biasha: &BIASHA
-    mode: operation
-    host: biasha-{specName}
-    port: 23
-    bia_strobe: off
-    bia_power: 60
-    bia_period: 2000
-    bia_duty: 20
-
-  blueshutter: &BLUESHUTTER
-    host: moxa-enu{specNum}
-    port: 4002
-
-  redshutter: &REDSHUTTER
-    host: moxa-enu{specNum}
-    port: 4003
-
-  slit: &SLIT
-    mode: operation
-    host: slit-{specName}
-    port: 5001
-
-  rexm: &REXM
-    mode: operation
-    host: moxa-enu{specNum}
-    port: 4001
-
-  temps: &TEMPS
-    mode: operation
-    host: temps-{specName}
-    port: 5025
-
-  pdu: &PDU
-    mode: operation
-    host: pdu-{specName}
-    port: 23
-
-  iis: &IIS
-    mode: operation
-    host: pdu-iis-{specName}
-    port: 9000
-
-  # to be continued
+    interface: sps-ics
 
 sm1:
   <<: *ENU

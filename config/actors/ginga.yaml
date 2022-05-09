@@ -1,0 +1,3 @@
+ginga:
+  listen:
+    interface: shell-ics

@@ -1,0 +1,6 @@
+dcb: &DCB
+  listen:
+    interface: sps-ics
+
+dcb2:
+    <<: *DCB

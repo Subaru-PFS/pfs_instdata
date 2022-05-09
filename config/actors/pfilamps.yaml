@@ -1,0 +1,4 @@
+pfilamps:
+  logging:
+    baseLevel: 10
+    consoleLevel: 10

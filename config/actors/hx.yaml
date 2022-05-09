@@ -1,4 +1,9 @@
+connections: &CONNECTIONS
+  listen:
+    interface: bee-{cam}         # localhost is safest, if on same host
+
 h4cam: &H4CAM
+  <<: *CONNECTIONS
   serial_numbers: &SERIAL_NUMBERS
     sam: 0
     asic: 0

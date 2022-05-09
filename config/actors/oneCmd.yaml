@@ -1,0 +1,13 @@
+oneCmd:
+  listen:
+    interface: None
+    port: 9999
+  misc:
+    runInReactorThread: True
+
+  logging:
+    baseLevel: 40
+    cmdLevel: 40
+    dispatchLevel: 40
+    consoleLevel: 40
+
