@@ -1,0 +1,16 @@
+iic:
+  dotroaches:
+    stepSize: -25
+    count: 12
+    nearDotConvergence:
+      maxIteration: 7
+      tolerance: 0.1
+    windowedFlat:
+      exptime: 10.
+      row0: 1800
+      nrows: 400
+    fluxMeasurements:
+      dataPath: /data/drp/drpActor/dotroaches/fluxMeasurements
+
+
+
