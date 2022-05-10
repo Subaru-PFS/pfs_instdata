@@ -1,4 +1,6 @@
 iic:
+  pfsDesign:
+    root: /data/pfsDesign
   dotroaches:
     stepSize: -25
     count: 12
