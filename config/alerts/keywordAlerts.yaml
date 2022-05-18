@@ -67,7 +67,10 @@ actors:
       <<: *BOOLEAN_ALERT
       nominalValue: False
       alertFmt: 'there is a leak !'
-
+    valve_status[0]:
+      <<: *BOOLEAN_ALERT
+      nominalValue: False
+      alertFmt: 'Valve closed, go check !'
     temps[AGC_1]: &AGC_TEMP
       <<: *LIMITS_ALERT
       limits: [ null, 25 ]
