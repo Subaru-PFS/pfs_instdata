@@ -1,7 +1,8 @@
 iic:
   pfsDesign:
     root: /data/pfsDesign
-  dotroaches:
+  dotRoach:
+    configRoot: /data/dotRoach/config
     stepSize: -25
     count: 12
     nearDotConvergence:
@@ -9,10 +10,14 @@ iic:
       tolerance: 0.1
     windowedFlat:
       exptime: 10.
-      row0: 1800
-      nrows: 400
+      redWindow:
+        row0: 600
+        nrows: 400
+      blueWindow:
+        row0: 2500
+        nrows: 400
     fluxMeasurements:
-      dataPath: /data/drp/drpActor/dotroaches/fluxMeasurements
+      dataPath: /data/dotRoach/fluxMeasurements
 
 
 
