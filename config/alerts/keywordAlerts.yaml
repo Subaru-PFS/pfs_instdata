@@ -67,6 +67,10 @@ actors:
       <<: *BOOLEAN_ALERT
       nominalValue: False
       alertFmt: 'there is a leak !'
+    leakage[1]:
+      <<: *BOOLEAN_ALERT
+      nominalValue: False
+      alertFmt: 'Sensor disconnected !'
     valve_status[0]:
       <<: *BOOLEAN_ALERT
       nominalValue: False
