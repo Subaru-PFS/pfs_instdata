@@ -1,10 +1,11 @@
 iic:
   pfsDesign:
-    root: /data/pfsDesign
+    rootDir: /data/pfsDesign
   dotRoach:
-    configRoot: /data/dotRoach/config
+    rootDir: /data/dotRoach
     stepSize: -25
     count: 12
+    motor: phi
     nearDotConvergence:
       maxIteration: 7
       tolerance: 0.1
@@ -16,8 +17,5 @@ iic:
       blueWindow:
         row0: 2500
         nrows: 400
-    fluxMeasurements:
-      dataPath: /data/dotRoach/fluxMeasurements
-
 
 
