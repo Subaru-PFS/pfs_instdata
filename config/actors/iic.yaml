@@ -1,14 +1,20 @@
 iic:
   pfsDesign:
     rootDir: /data/pfsDesign
+  maskFiles:
+    rootDir: /data/fps/maskFiles
+  nearDotConvergence:
+    maxIteration: 7
+    tolerance: 0.1
+  dotCrossing:
+    stepSize: -40
+    count: 40
+    exptime: 0.8
   dotRoach:
     rootDir: /data/dotRoach
     stepSize: -25
-    count: 12
+    count: 30
     motor: phi
-    nearDotConvergence:
-      maxIteration: 7
-      tolerance: 0.1
     windowedFlat:
       exptime: 10.
       redWindow:
@@ -17,5 +23,7 @@ iic:
       blueWindow:
         row0: 2500
         nrows: 400
+
+
 
 
