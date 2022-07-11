@@ -91,7 +91,10 @@ n3:
   fpa:
     <<: *FPA
     range: [286.67,290.35,285.03]
-    tilts: [-100.0, -20.0, 20.0]
+    # NB -- until INSTRM-1512 gets done, ABC are CAB
+    # So to tilt in x, move A = -C
+    # +A = -C moved red best focus lower.
+    tilts: [8, 0, -8]
     focus: 150.0
 n4:
   <<: *NIR_XCU
