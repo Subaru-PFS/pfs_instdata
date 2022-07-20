@@ -17,10 +17,12 @@ leds:
 
 #
 mono:
-  use: [True, True, True, True, False, True]
-  wave: [1260, 1180, 1100, 1020, 950, 940]
-  dutyCycle: [100, 100, 100, 100, 100, 100]
-  positionMM: [-29.450, -14.135, 0.721, 15.290, 27.900, 29.700]
+  use: [True, True, True, True, True]
+  wave: [1260, 1180, 1100, 1020, 940]
+  dutyCycle: [100, 100, 100, 100, 100]
+  positionMM: [-29.450, -14.135, 0.721, 15.290, 29.700]
+
+rowsMM:  [-30.03, -21.0, -14.99, 0, 14.99, 21.00, 30.03]
 
 # Per detector tweaks to positions, with a dictionary of (wave, rows) -> (xoff, yoff)
 # But we have to save the keys as strings. Python encodes tuples with spaces
