@@ -12,6 +12,8 @@ definitions:
   threshFact: tweak for thresholding, probably not needed
   threshMode: mode for thresholding; relic from engineering run with pinhole mask
   threshSigma: sigma to clip when determining the threshold values
+  activeX: half the size of the active region in the X direction, in pixels
+  activeY: half the size of the active region in the Y direction, in pixels  
 values:
   boxCent: 6
   boxFind: 10
@@ -26,3 +28,6 @@ values:
   threshFact: 4
   threshMode: full
   threshSigma: 4
+  activeX: 2665
+  activeY: 2665
+  
