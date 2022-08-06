@@ -94,7 +94,7 @@ n3:
     # NB -- until INSTRM-1512 gets done, ABC are CAB
     # So to tilt in x, move A = -C
     # +A = -C moved red best focus lower.
-    tilts: [6, 2, -10]
+    tilts: [7, 1, -9]
     focus: 150.0
 n4:
   <<: *NIR_XCU
