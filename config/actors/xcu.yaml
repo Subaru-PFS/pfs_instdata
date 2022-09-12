@@ -34,6 +34,13 @@ xcu: &XCU
     gatevalve: 60
 
   fpa: &FPA
+    # Ugh.
+    # A is vertical arm, others are clockwise w.r.t. that, facing the cryostat window.
+    # For NIR, A is down and dispersion is L-R on detector.
+    # For vis, A is up and dispersion is U-D on detector.
+    #
+    # range is microns as determined by `tests fpaMotors findRange`
+    # tilts is microns offsets to flatten focus plane.
     range: [400, 400, 400]
     tilts: [0, 0, 0]
     focus: 150
@@ -90,11 +97,8 @@ n3:
   <<: *NIR_XCU
   fpa:
     <<: *FPA
-    range: [286.67,290.35,285.03]
-    # NB -- until INSTRM-1512 gets done, ABC are CAB
-    # So to tilt in x, move A = -C
-    # +A = -C moved red best focus lower.
-    tilts: [7, 1, -9]
+    range: [292.23, 278.05, 309.12]
+    tilts: [1, -9, 7]
     focus: 150.0
 n4:
   <<: *NIR_XCU
@@ -102,7 +106,6 @@ n4:
 # IDG dewars
 b9:
   <<: *BLUE_XCU
-
   controllers:
     <<: *CONTROLLERS
     all: [ PCM, temps ]
