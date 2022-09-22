@@ -1,5 +1,5 @@
 gen2:
   listen:
     interface: mhs-ics
-  logging:
-    logdir: $ICS_MHS_LOGS_ROOT/actors/core
+
+

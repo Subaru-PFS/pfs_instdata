@@ -1,3 +1,13 @@
 drp:
   listen:
     interface: shell2-ics
+
+drp2:
+  tron:
+    host: localhost 
+  listen:
+    interface: localhost
+    port: 10000
+  logging:
+    logdir: /work/alefur/logs/actors/drp2
+    
