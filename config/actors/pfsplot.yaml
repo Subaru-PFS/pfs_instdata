@@ -1,0 +1,3 @@
+pfsplot:
+  listen:
+    interface: localhost
