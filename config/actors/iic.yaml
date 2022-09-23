@@ -1,6 +1,7 @@
 iic:
   pfsDesign:
     rootDir: /data/pfsDesign
+    cobraHome: 0x7fd90716c76a1446
   maskFiles:
     rootDir: /data/fps/maskFiles
   nearDotConvergence:
