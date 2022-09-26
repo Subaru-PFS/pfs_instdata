@@ -22,22 +22,19 @@ iic:
       exptime: 10.
       redWindow:
         row0: 600
-        nrows: 400
+        nrows: 500
       blueWindow:
         row0: 2500
-        nrows: 400
+        nrows: 500
 
   fiberIdentification:
-    stepSize: -50
-    count: 8
-    motor: phi
     windowedFlat:
-      exptime: 5.
+      exptime: 15
       redWindow:
         row0: 600
-        nrows: 400
+        nrows: 800
       blueWindow:
         row0: 2500
-        nrows: 400
+        nrows: 800
 
 
