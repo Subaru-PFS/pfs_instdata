@@ -2,8 +2,8 @@ iic:
   pfsDesign:
     rootDir: /data/pfsDesign
     cobraHome: 0x7fd90716c76a1446
-    phiCrossing: 0x51773baa1a359f2e
-    thetaCrossing: 0x662cf9deec5c1ce9
+    phiCrossing: 0x662cf9deec5c1ce9
+    thetaCrossing: 0x51773baa1a359f2e
   maskFiles:
     rootDir: /data/fps/maskFiles
   nearDotConvergence:
