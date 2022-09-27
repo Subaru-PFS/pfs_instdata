@@ -1,34 +1,24 @@
 iic:
   pfsDesign:
     rootDir: /data/pfsDesign
-    cobraHome: 0x7fd90716c76a1446
-    phiCrossing: 0x662cf9deec5c1ce9
-    thetaCrossing: 0x51773baa1a359f2e
   maskFiles:
     rootDir: /data/fps/maskFiles
   nearDotConvergence:
-    maxIteration: 10
+    maxIteration: 12
     tolerance: 0.05
   dotCrossing:
     stepSize: -40
     count: 40
-    exptime: 4.8
   dotRoach:
     rootDir: /data/dotRoach
-    stepSize: -25
+    stepSize: -40
     count: 30
     motor: phi
-    windowedFlat:
-      exptime: 10.
-      redWindow:
-        row0: 600
-        nrows: 500
-      blueWindow:
-        row0: 2500
-        nrows: 500
+  mcs:
+     exptime: 4.8
 
-  fiberIdentification:
-    windowedFlat:
+  windowedFlat:
+    pfiLamps:
       exptime: 15
       redWindow:
         row0: 600
@@ -36,5 +26,12 @@ iic:
       blueWindow:
         row0: 2500
         nrows: 800
-
+    hscLamps:
+      exptime: 5.
+      redWindow:
+        row0: 600
+        nrows: 500
+      blueWindow:
+        row0: 2500
+        nrows: 500
 
