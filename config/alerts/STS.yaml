@@ -23,6 +23,14 @@ actors:
       stsId: 1720
       stsType: INTEGER+TEXT
       units: null
+  enu_sm4:
+    biashaFSM:
+    - keyId: 1
+      keyName: substate
+      stsHelp: 'PFS: ENU_SM4 biasha action state-machine'
+      stsId: 1920
+      stsType: INTEGER+TEXT
+      units: null
   meb:
     flow:
     - keyId: 0
@@ -135,13 +143,13 @@ actors:
     leakage:
     - keyId: 0
       keyName: Leakage
-      stsHelp: 'PFS: PEB No Leakage indicator'
+      stsHelp: 'PFS: PEB Leak Sensor'
       stsId: 2345
       stsType: INTEGER+TEXT
       units: bool
     - keyId: 1
       keyName: Disconnect
-      stsHelp: 'PFS: PEB Leakage sensor connected'
+      stsHelp: 'PFS: PEB Leakage Sensor Disconnected'
       stsId: 2346
       stsType: INTEGER+TEXT
       units: bool
@@ -272,6 +280,13 @@ actors:
       stsId: 2367
       stsType: FLOAT+TEXT
       units: degC
+    valve_status:
+    - keyId: 0
+      keyName: Valve_status
+      stsHelp: 'PFS: PEB Coolant valve status'
+      stsId: 2368
+      stsType: INTEGER+TEXT
+      units: bool
   rough1:
     pressure:
     - keyId: 0
@@ -285,6 +300,21 @@ actors:
       keyName: null
       stsHelp: 'PFS: ROUGH1 roughing pump speed'
       stsId: 1940
+      stsType: FLOAT+TEXT
+      units: rpm
+  rough2:
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: ROUGH2 roughing line pressure'
+      stsId: 1951
+      stsType: FLOAT+TEXT
+      units: Torr
+    pumpSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: ROUGH2 roughing pump speed'
+      stsId: 1950
       stsType: FLOAT+TEXT
       units: rpm
   xcu_b1:
@@ -304,7 +334,7 @@ actors:
       units: degC
     - keyId: 3
       keyName: power
-      stsHelp: 'PFS: XCU_B1 Cooler1 load'
+      stsHelp: 'PFS: XCU_B1 Cooler1 power'
       stsId: 1202
       stsType: FLOAT+TEXT
       units: W
@@ -413,7 +443,7 @@ actors:
       units: degC
     - keyId: 3
       keyName: power
-      stsHelp: 'PFS: XCU_B2 Cooler1 load'
+      stsHelp: 'PFS: XCU_B2 Cooler1 power'
       stsId: 1402
       stsType: FLOAT+TEXT
       units: W
@@ -522,7 +552,7 @@ actors:
       units: degC
     - keyId: 3
       keyName: power
-      stsHelp: 'PFS: XCU_B3 Cooler1 load'
+      stsHelp: 'PFS: XCU_B3 Cooler1 power'
       stsId: 1602
       stsType: FLOAT+TEXT
       units: W
@@ -614,6 +644,655 @@ actors:
       stsId: 1613
       stsType: FLOAT+TEXT
       units: K
+  xcu_b4:
+    coolerStatus:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_B4 Cooler1 error string'
+      stsId: 1800
+      stsType: INTEGER+TEXT
+      units: null
+    coolerTemps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_B4 Cooler1 reject temperature'
+      stsId: 1801
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_B4 Cooler1 power'
+      stsId: 1802
+      stsType: FLOAT+TEXT
+      units: W
+    gatevalve:
+    - keyId: 1
+      keyName: position
+      stsHelp: 'PFS: XCU_B4 actual gatevalve position'
+      stsId: 1814
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump1:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_B4 ionpump1 enabled'
+      stsId: 1804
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_B4 ionpump1 pressure'
+      stsId: 1805
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump1Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_B4 ionpump1 error string'
+      stsId: 1808
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump2:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_B4 ionpump2 enabled'
+      stsId: 1806
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_B4 ionpump2 pressure'
+      stsId: 1807
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump2Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_B4 ionpump2 error string'
+      stsId: 1809
+      stsType: INTEGER+TEXT
+      units: null
+    pcmPower1:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_B4 PCM bus 1 input voltage'
+      stsId: 1810
+      stsType: FLOAT+TEXT
+      units: V
+    pcmPower2:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_B4 PCM bus 2 input voltage'
+      stsId: 1811
+      stsType: FLOAT+TEXT
+      units: V
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_B4 Cryostat gauge pressure'
+      stsId: 1803
+      stsType: FLOAT+TEXT
+      units: Torr
+    turboSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_B4 turbo pump speed'
+      stsId: 1815
+      stsType: INTEGER+TEXT
+      units: rpm
+    visTemps:
+    - keyId: 5
+      keyName: detector1
+      stsHelp: 'PFS: XCU_B4 Detector probe #1 temp'
+      stsId: 1812
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 6
+      keyName: detector2
+      stsHelp: 'PFS: XCU_B4 Detector probe #2 temp'
+      stsId: 1813
+      stsType: FLOAT+TEXT
+      units: K
+  xcu_n1:
+    cooler2Status:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N1 Cooler2 error string'
+      stsId: 1277
+      stsType: INTEGER+TEXT
+      units: null
+    cooler2Temps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N1 Cooler2 reject temperature'
+      stsId: 1278
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N1 Cooler2 power'
+      stsId: 1279
+      stsType: FLOAT+TEXT
+      units: W
+    coolerStatus:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N1 Cooler1 error string'
+      stsId: 1260
+      stsType: INTEGER+TEXT
+      units: null
+    coolerTemps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N1 Cooler1 reject temperature'
+      stsId: 1261
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N1 Cooler1 power'
+      stsId: 1262
+      stsType: FLOAT+TEXT
+      units: W
+    gatevalve:
+    - keyId: 1
+      keyName: position
+      stsHelp: 'PFS: XCU_N1 actual gatevalve position'
+      stsId: 1274
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump1:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N1 ionpump1 enabled'
+      stsId: 1264
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N1 ionpump1 pressure'
+      stsId: 1265
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump1Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N1 ionpump1 error string'
+      stsId: 1268
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump2:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N1 ionpump2 enabled'
+      stsId: 1266
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N1 ionpump2 pressure'
+      stsId: 1267
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump2Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N1 ionpump2 error string'
+      stsId: 1269
+      stsType: INTEGER+TEXT
+      units: null
+    nirTemps:
+    - keyId: 8
+      keyName: ASIC
+      stsHelp: 'PFS: XCU_N1 ASIC temp'
+      stsId: 1276
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 9
+      keyName: detector1
+      stsHelp: 'PFS: XCU_N1 Detector temp #1'
+      stsId: 1272
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 10
+      keyName: detector2
+      stsHelp: 'PFS: XCU_N1 Detector temp #2'
+      stsId: 1273
+      stsType: FLOAT+TEXT
+      units: K
+    pcmPower1:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N1 PCM bus 1 input voltage'
+      stsId: 1270
+      stsType: FLOAT+TEXT
+      units: V
+    pcmPower2:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N1 PCM bus 2 input voltage'
+      stsId: 1271
+      stsType: FLOAT+TEXT
+      units: V
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N1 Cryostat gauge pressure'
+      stsId: 1263
+      stsType: FLOAT+TEXT
+      units: Torr
+    turboSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N1 turbo pump speed'
+      stsId: 1275
+      stsType: INTEGER+TEXT
+      units: rpm
+  xcu_n2:
+    cooler2Status:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N2 Cooler2 error string'
+      stsId: 1477
+      stsType: INTEGER+TEXT
+      units: null
+    cooler2Temps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N2 Cooler2 reject temperature'
+      stsId: 1478
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N2 Cooler2 power'
+      stsId: 1479
+      stsType: FLOAT+TEXT
+      units: W
+    coolerStatus:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N2 Cooler1 error string'
+      stsId: 1460
+      stsType: INTEGER+TEXT
+      units: null
+    coolerTemps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N2 Cooler1 reject temperature'
+      stsId: 1461
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N2 Cooler1 power'
+      stsId: 1462
+      stsType: FLOAT+TEXT
+      units: W
+    gatevalve:
+    - keyId: 1
+      keyName: position
+      stsHelp: 'PFS: XCU_N2 actual gatevalve position'
+      stsId: 1474
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump1:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N2 ionpump1 enabled'
+      stsId: 1464
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N2 ionpump1 pressure'
+      stsId: 1465
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump1Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N2 ionpump1 error string'
+      stsId: 1468
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump2:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N2 ionpump2 enabled'
+      stsId: 1466
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N2 ionpump2 pressure'
+      stsId: 1467
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump2Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N2 ionpump2 error string'
+      stsId: 1469
+      stsType: INTEGER+TEXT
+      units: null
+    nirTemps:
+    - keyId: 8
+      keyName: ASIC
+      stsHelp: 'PFS: XCU_N2 ASIC temp'
+      stsId: 1476
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 9
+      keyName: detector1
+      stsHelp: 'PFS: XCU_N2 Detector temp #1'
+      stsId: 1472
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 10
+      keyName: detector2
+      stsHelp: 'PFS: XCU_N2 Detector temp #2'
+      stsId: 1473
+      stsType: FLOAT+TEXT
+      units: K
+    pcmPower1:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N2 PCM bus 1 input voltage'
+      stsId: 1470
+      stsType: FLOAT+TEXT
+      units: V
+    pcmPower2:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N2 PCM bus 2 input voltage'
+      stsId: 1471
+      stsType: FLOAT+TEXT
+      units: V
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N2 Cryostat gauge pressure'
+      stsId: 1463
+      stsType: FLOAT+TEXT
+      units: Torr
+    turboSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N2 turbo pump speed'
+      stsId: 1475
+      stsType: INTEGER+TEXT
+      units: rpm
+  xcu_n3:
+    cooler2Status:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N3 Cooler2 error string'
+      stsId: 1677
+      stsType: INTEGER+TEXT
+      units: null
+    cooler2Temps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N3 Cooler2 reject temperature'
+      stsId: 1678
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N3 Cooler2 power'
+      stsId: 1679
+      stsType: FLOAT+TEXT
+      units: W
+    coolerStatus:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N3 Cooler1 error string'
+      stsId: 1660
+      stsType: INTEGER+TEXT
+      units: null
+    coolerTemps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N3 Cooler1 reject temperature'
+      stsId: 1661
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N3 Cooler1 power'
+      stsId: 1662
+      stsType: FLOAT+TEXT
+      units: W
+    gatevalve:
+    - keyId: 1
+      keyName: position
+      stsHelp: 'PFS: XCU_N3 actual gatevalve position'
+      stsId: 1674
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump1:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N3 ionpump1 enabled'
+      stsId: 1664
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N3 ionpump1 pressure'
+      stsId: 1665
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump1Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N3 ionpump1 error string'
+      stsId: 1668
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump2:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N3 ionpump2 enabled'
+      stsId: 1666
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N3 ionpump2 pressure'
+      stsId: 1667
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump2Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N3 ionpump2 error string'
+      stsId: 1669
+      stsType: INTEGER+TEXT
+      units: null
+    nirTemps:
+    - keyId: 8
+      keyName: ASIC
+      stsHelp: 'PFS: XCU_N3 ASIC temp'
+      stsId: 1676
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 9
+      keyName: detector1
+      stsHelp: 'PFS: XCU_N3 Detector temp #1'
+      stsId: 1672
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 10
+      keyName: detector2
+      stsHelp: 'PFS: XCU_N3 Detector temp #2'
+      stsId: 1673
+      stsType: FLOAT+TEXT
+      units: K
+    pcmPower1:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N3 PCM bus 1 input voltage'
+      stsId: 1670
+      stsType: FLOAT+TEXT
+      units: V
+    pcmPower2:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N3 PCM bus 2 input voltage'
+      stsId: 1671
+      stsType: FLOAT+TEXT
+      units: V
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N3 Cryostat gauge pressure'
+      stsId: 1663
+      stsType: FLOAT+TEXT
+      units: Torr
+    turboSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N3 turbo pump speed'
+      stsId: 1675
+      stsType: INTEGER+TEXT
+      units: rpm
+  xcu_n4:
+    cooler2Status:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N4 Cooler2 error string'
+      stsId: 1877
+      stsType: INTEGER+TEXT
+      units: null
+    cooler2Temps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N4 Cooler2 reject temperature'
+      stsId: 1878
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N4 Cooler2 power'
+      stsId: 1879
+      stsType: FLOAT+TEXT
+      units: W
+    coolerStatus:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N4 Cooler1 error string'
+      stsId: 1860
+      stsType: INTEGER+TEXT
+      units: null
+    coolerTemps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_N4 Cooler1 reject temperature'
+      stsId: 1861
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_N4 Cooler1 power'
+      stsId: 1862
+      stsType: FLOAT+TEXT
+      units: W
+    gatevalve:
+    - keyId: 1
+      keyName: position
+      stsHelp: 'PFS: XCU_N4 actual gatevalve position'
+      stsId: 1874
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump1:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N4 ionpump1 enabled'
+      stsId: 1864
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N4 ionpump1 pressure'
+      stsId: 1865
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump1Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N4 ionpump1 error string'
+      stsId: 1868
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump2:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_N4 ionpump2 enabled'
+      stsId: 1866
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_N4 ionpump2 pressure'
+      stsId: 1867
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump2Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_N4 ionpump2 error string'
+      stsId: 1869
+      stsType: INTEGER+TEXT
+      units: null
+    nirTemps:
+    - keyId: 8
+      keyName: ASIC
+      stsHelp: 'PFS: XCU_N4 ASIC temp'
+      stsId: 1876
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 9
+      keyName: detector1
+      stsHelp: 'PFS: XCU_N4 Detector temp #1'
+      stsId: 1872
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 10
+      keyName: detector2
+      stsHelp: 'PFS: XCU_N4 Detector temp #2'
+      stsId: 1873
+      stsType: FLOAT+TEXT
+      units: K
+    pcmPower1:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N4 PCM bus 1 input voltage'
+      stsId: 1870
+      stsType: FLOAT+TEXT
+      units: V
+    pcmPower2:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_N4 PCM bus 2 input voltage'
+      stsId: 1871
+      stsType: FLOAT+TEXT
+      units: V
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N4 Cryostat gauge pressure'
+      stsId: 1863
+      stsType: FLOAT+TEXT
+      units: Torr
+    turboSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_N4 turbo pump speed'
+      stsId: 1875
+      stsType: INTEGER+TEXT
+      units: rpm
   xcu_r1:
     coolerStatus:
     - keyId: 2
@@ -631,7 +1310,7 @@ actors:
       units: degC
     - keyId: 3
       keyName: power
-      stsHelp: 'PFS: XCU_R1 Cooler1 load'
+      stsHelp: 'PFS: XCU_R1 Cooler1 power'
       stsId: 1142
       stsType: FLOAT+TEXT
       units: W
@@ -740,7 +1419,7 @@ actors:
       units: degC
     - keyId: 3
       keyName: power
-      stsHelp: 'PFS: XCU_R2 Cooler1 load'
+      stsHelp: 'PFS: XCU_R2 Cooler1 power'
       stsId: 1342
       stsType: FLOAT+TEXT
       units: W
@@ -849,7 +1528,7 @@ actors:
       units: degC
     - keyId: 3
       keyName: power
-      stsHelp: 'PFS: XCU_R3 Cooler1 load'
+      stsHelp: 'PFS: XCU_R3 Cooler1 power'
       stsId: 1542
       stsType: FLOAT+TEXT
       units: W
@@ -939,5 +1618,114 @@ actors:
       keyName: detector2
       stsHelp: 'PFS: XCU_R3 Detector probe #2 temp'
       stsId: 1553
+      stsType: FLOAT+TEXT
+      units: K
+  xcu_r4:
+    coolerStatus:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_R4 Cooler1 error string'
+      stsId: 1740
+      stsType: INTEGER+TEXT
+      units: null
+    coolerTemps:
+    - keyId: 1
+      keyName: reject
+      stsHelp: 'PFS: XCU_R4 Cooler1 reject temperature'
+      stsId: 1741
+      stsType: FLOAT+TEXT
+      units: degC
+    - keyId: 3
+      keyName: power
+      stsHelp: 'PFS: XCU_R4 Cooler1 power'
+      stsId: 1742
+      stsType: FLOAT+TEXT
+      units: W
+    gatevalve:
+    - keyId: 1
+      keyName: position
+      stsHelp: 'PFS: XCU_R4 actual gatevalve position'
+      stsId: 1754
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump1:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_R4 ionpump1 enabled'
+      stsId: 1744
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_R4 ionpump1 pressure'
+      stsId: 1745
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump1Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_R4 ionpump1 error string'
+      stsId: 1748
+      stsType: INTEGER+TEXT
+      units: null
+    ionpump2:
+    - keyId: 0
+      keyName: enabled
+      stsHelp: 'PFS: XCU_R4 ionpump2 enabled'
+      stsId: 1746
+      stsType: INTEGER+TEXT
+      units: null
+    - keyId: 4
+      keyName: Pressure
+      stsHelp: 'PFS: XCU_R4 ionpump2 pressure'
+      stsId: 1747
+      stsType: FLOAT+TEXT
+      units: Torr
+    ionpump2Errors:
+    - keyId: 2
+      keyName: errors
+      stsHelp: 'PFS: XCU_R4 ionpump2 error string'
+      stsId: 1749
+      stsType: INTEGER+TEXT
+      units: null
+    pcmPower1:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_R4 PCM bus 1 input voltage'
+      stsId: 1750
+      stsType: FLOAT+TEXT
+      units: V
+    pcmPower2:
+    - keyId: 2
+      keyName: volts
+      stsHelp: 'PFS: XCU_R4 PCM bus 2 input voltage'
+      stsId: 1751
+      stsType: FLOAT+TEXT
+      units: V
+    pressure:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_R4 Cryostat gauge pressure'
+      stsId: 1743
+      stsType: FLOAT+TEXT
+      units: Torr
+    turboSpeed:
+    - keyId: 0
+      keyName: null
+      stsHelp: 'PFS: XCU_R4 turbo pump speed'
+      stsId: 1755
+      stsType: INTEGER+TEXT
+      units: rpm
+    visTemps:
+    - keyId: 5
+      keyName: detector1
+      stsHelp: 'PFS: XCU_R4 Detector probe #1 temp'
+      stsId: 1752
+      stsType: FLOAT+TEXT
+      units: K
+    - keyId: 6
+      keyName: detector2
+      stsHelp: 'PFS: XCU_R4 Detector probe #2 temp'
+      stsId: 1753
       stsType: FLOAT+TEXT
       units: K
