@@ -136,7 +136,7 @@ actors:
         alertFmt: 'pump should be on !'
         nominalValue: True
       ionpump2[enabled]:
-        x²<<: *IONPUMP_ON
+        <<: *IONPUMP_ON
       coolerTemps[reject]: &COOLER_REJECT
         <<: *LIMITS_ALERT
         alertFmt: 'is too high: {value}C !'
@@ -146,24 +146,27 @@ actors:
         alertFmt: 'is out of range: {value}W ! ({lowerLimit};{upperLimit})'
         limits: [ 70, null ]
 
+
+  viscu: &VISCU # All VisCU (b + r)
+    <<: *XCU
     operation:
       <<: *COOLDOWN
       coolerTemps[reject]:
         <<: *COOLER_REJECT
         limits: [ null, 35 ]
-      visTemps[detector1]: &DETECTOR_TEMP
+      visTemps[detector1]: &CCD_TEMP
         <<: *LIMITS_ALERT
         alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
         limits: [ 161, 165 ]
       visTemps[detector2]:
-        <<: *DETECTOR_TEMP
+        <<: *CCD_TEMP
     bakeout:
       <<: *PUMPDOWN
       visTemps[detector1]:
-        <<: *DETECTOR_TEMP
+        <<: *CCD_TEMP
         limits: [ null, 330 ]
       visTemps[detector2]:
-        <<: *DETECTOR_TEMP
+        <<: *CCD_TEMP
         limits: [ null, 330 ]
 
   ncu: &NCU # All NCUs
@@ -172,13 +175,36 @@ actors:
       <<: *ALL
       coolerStatus2[errors]:
         <<: *COOLER_ERROR
-    cooldown:
+    cooldown: &NIRCOOLDOWN
       <<: *COOLDOWN
       cooler2Temps[reject]:
         <<: *COOLER_REJECT
       cooler2Temps[power]:
         <<: *COOLER_POWER
 
+    operation:
+      <<: *NIRCOOLDOWN
+      coolerTemps[reject]:
+        <<: *COOLER_REJECT
+        limits: [ null, 35 ]
+      cooler2Temps[reject]:
+        <<: *COOLER_REJECT
+        limits: [ null, 35 ]
+      nirTemps[detector1]: &H4_TEMP
+        <<: *LIMITS_ALERT
+        alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
+        limits: [ 99, 101 ]
+      nirTemps[detector2]:
+        <<: *H4_TEMP
+
+    bakeout:
+      <<: *PUMPDOWN
+      nirTemps[detector1]:
+        <<: *H4_TEMP
+        limits: [ null, 330 ]
+      nirTemps[detector2]:
+        <<: *H4_TEMP
+        limits: [ null, 330 ]
 
   enu: &ENU
     biashaFSM[substate]:
@@ -200,22 +226,37 @@ actors:
       alertFmt: 'test regexp: {value} !'
 
   xcu_b1:
-    <<: *XCU
+    <<: *VISCU
   xcu_r1:
-    <<: *XCU
+    <<: *VISCU
+  xcu_n1:
+    <<: *NCU
   enu_sm1:
     <<: *ENU
 
   xcu_b2:
-    <<: *XCU
+    <<: *VISCU
   xcu_r2:
-    <<: *XCU
+    <<: *VISCU
+  xcu_n2:
+    <<: *NCU
   enu_sm2:
     <<: *ENU
 
   xcu_b3:
-    <<: *XCU
+    <<: *VISCU
   xcu_r3:
-    <<: *XCU
+    <<: *VISCU
+  xcu_n3:
+    <<: *NCU
   enu_sm3:
+    <<: *ENU
+
+  xcu_b4:
+    <<: *VISCU
+  xcu_r4:
+    <<: *VISCU
+  xcu_n4:
+    <<: *NCU
+  enu_sm4:
     <<: *ENU
