@@ -1,3 +1,8 @@
 alerts:
   listen:
     interface: mhs-ics
+  sts:
+    host: sts-vm1.sum.subaru.nao.ac.jp
+  parts:
+    S: [meb, peb, rough1, b1, r1, enu_sm1]
+    L: [rough1, b2, r2, n2, enu_sm2]
