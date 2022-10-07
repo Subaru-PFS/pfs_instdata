@@ -91,6 +91,11 @@ actors:
       <<: *AGC_TEMP
 
   xcu: &XCU # All XCUs
+    unknown: [ ]
+    offline: [ ]
+    standby: [ ]
+    warmup: [ ]
+
     all: &ALL
       pcmPower1[volts]:
         <<: *LIMITS_ALERT
