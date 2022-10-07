@@ -1,13 +1,29 @@
 drp:
   listen:
     interface: shell2-ics
+  S:
+    target: /data/drp/sm1-5.2
+    rerun: ginga/drpActor
+    CALIB: CALIB-PFI-20211108
+    pfsConfigDir: /data/drp/pfsDesign
+
+  L:
+    target: /data/drp/sps
+    rerun: ginga/detrend
+    CALIB: CALIB
+    pfsConfigDir: /data/drp/sps-pfsConfig
 
 drp2:
   tron:
-    host: localhost 
+    host: localhost
   listen:
     interface: localhost
     port: 10000
   logging:
     logdir: /work/alefur/logs/actors/drp2
-    
+
+  H:
+    target: /work/drp
+    rerun: drpActor/CALIB-20220630
+    CALIB: CALIB-20220630
+    pfsConfigDir: /work/drp/pfsDesign
