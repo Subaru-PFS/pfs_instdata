@@ -1,3 +1,29 @@
 sps:
   listen:
     interface: sps-ics
+  # its probably wrong, I'll change later(probably).
+  S:
+    spsModules: [ sm1 ]
+    sm1:
+      bcu: sci
+      rcu: sci
+      ncu: none
+      rsh: ok
+      bsh: ok
+      fca: ok
+      rda: ok
+      bia: ok
+      iis: broken
+
+  L:
+    spsModules: [ sm2 ]
+    sm2:
+      bcu: none
+      rcu: none
+      ncu: sci
+      rsh: ok
+      bsh: ok
+      fca: ok
+      rda: ok
+      bia: ok
+      iis: ok
