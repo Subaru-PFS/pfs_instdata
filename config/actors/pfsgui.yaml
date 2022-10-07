@@ -4,7 +4,7 @@ pfsgui:
 
   display:
     L:
-      ait: [ rough1, dcb2, aten]
+      ait: [ rough1, dcb2, aten ]
       sm2: [ enu, b, r, n ]
     S:
       ait: [ ] # dcb,rough1
