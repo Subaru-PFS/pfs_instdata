@@ -265,3 +265,11 @@ actors:
     <<: *NCU
   enu_sm4:
     <<: *ENU
+
+
+  # AIT@LAM keyword:
+  aitroom: # MCS E-Box
+    chiller[flow]:
+      <<: *LIMITS_ALERT
+      limits: [ 0.0, null ]
+      alertFmt: 'coolant flow has stopped !'

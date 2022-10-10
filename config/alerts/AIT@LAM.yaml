@@ -1,0 +1,9 @@
+actors:
+  aitroom:
+    chiller:
+    - keyId: 0
+      keyName: flow
+      stsHelp: 'AIT@LAM: Chiller Coolant flow rate'
+      stsId: 2500
+      stsType: FLOAT+TEXT
+      units: L/min
