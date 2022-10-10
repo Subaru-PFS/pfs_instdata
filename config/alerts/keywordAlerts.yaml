@@ -20,11 +20,15 @@ _alert: &ALERT
 # Template for an alert with simple limits:
 #   limits: a numeric pair of non-inclusive limits, with NaN for
 #           unused limits. I.e. trigger if (min <= val or val >=  max)
+#           lowerBound and upperBound can be set to be inclusive using
+#           lowerBoundInclusive, upperBoundInclusive config knob.
 #
 _limitsAlert: &LIMITS_ALERT
   <<: *ALERT
   alertType: limits
   limits: [ null, null ]
+  lowerBoundInclusive: False
+  upperBoundInclusive: False
 
 # Template for regexp match alerts:
 #   re: a regular expression
@@ -150,6 +154,7 @@ actors:
         <<: *LIMITS_ALERT
         alertFmt: 'is out of range: {value}W ! ({lowerLimit};{upperLimit})'
         limits: [ 70, null ]
+        lowerBoundInclusive: True
 
 
   viscu: &VISCU # All VisCU (b + r)
