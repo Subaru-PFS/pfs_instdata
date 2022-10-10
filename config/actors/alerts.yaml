@@ -8,4 +8,5 @@ alerts:
 
   L:
     stsHost: localhost
-    parts: [ rough1, b2, r2, n2, enu_sm2 ]
+    extendSTS: AIT@LAM
+    parts: [ aitroom, rough1, b2, r2, n2, enu_sm2 ]
