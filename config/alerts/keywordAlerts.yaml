@@ -183,7 +183,7 @@ actors:
     <<: *XCU
     all:
       <<: *ALL
-      coolerStatus2[errors]:
+      cooler2Status[errors]:
         <<: *COOLER_ERROR
     cooldown: &NIRCOOLDOWN
       <<: *COOLDOWN
