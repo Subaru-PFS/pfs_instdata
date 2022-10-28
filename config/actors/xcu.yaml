@@ -40,7 +40,7 @@ xcu: &XCU
     busId: null
     pumpIds: [ null, null ]
     delay: 2.5
-    maxPressure: 3e-5
+    maxPressure: 3.0e-5
     spikeDelay: 300
 
   # Which periodic monitors to start when a device is turned on.
