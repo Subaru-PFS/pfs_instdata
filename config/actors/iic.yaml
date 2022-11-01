@@ -15,23 +15,14 @@ iic:
     count: 30
     motor: phi
   mcs:
-     exptime: 4.8
+    exptime: 4.8
 
   windowedFlat:
     pfiLamps:
       exptime: 15
-      redWindow:
-        row0: 600
-        nrows: 800
-      blueWindow:
-        row0: 2500
-        nrows: 800
+      redWindow: 600,800
+      blueWindow: 2500,800
     hscLamps:
       exptime: 5.
-      redWindow:
-        row0: 600
-        nrows: 500
-      blueWindow:
-        row0: 2500
-        nrows: 500
-
+      redWindow: 600,500
+      blueWindow: 2500,500
