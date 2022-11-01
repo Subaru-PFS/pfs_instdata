@@ -2,12 +2,36 @@ rough: &ROUGH
   listen:
     interface: sps-ics
 
+  controllers: &CONTROLLERS
+    all: [ pump, gauge ]
+    starting: [ pump, gauge ]
+
+  gauge: &GAUGE
+    host: moxa-rough
+    port: 9999
+
+  pump: &PUMP
+    host: moxa-rough
+    port: 9999
+
   logging:
     ioLevel: 10
     cmdLevel: 30
 
 rough1:
   <<: *ROUGH
+  gauge:
+    <<: *GAUGE
+    port: 4003
+  pump:
+    <<: *PUMP
+    port: 4001
 
 rough2:
   <<: *ROUGH
+  gauge:
+    <<: *GAUGE
+    port: 4004
+  pump:
+    <<: *PUMP
+    port: 4002
