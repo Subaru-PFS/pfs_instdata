@@ -4,15 +4,18 @@ connections: &CONNECTIONS
 
 h4cam: &H4CAM
   <<: *CONNECTIONS
-  serial_numbers: &SERIAL_NUMBERS
+  serialNumbers: &SERIAL_NUMBERS
+    fpa: 0
     sam: 0
     asic: 0
     h4: 0
+  link: usb
   samRegisters: DefaultJadeRegisters_slow.rf
   asicFirmware: H4RG_IRP.mcd
 
-  # These are only needed for the rowskipping firmware.
-  asicPostload:
+  asicPreloadRegisters:
+  asicPostloadRegisters:
+
   configName: coldIrp1
   voltages: &VOLTAGES
     VDD: 3.30
@@ -21,18 +24,19 @@ h4cam: &H4CAM
 
 n1:
   <<: *H4CAM
-
-n2:
-  <<: *H4CAM
   serial_numbers:
     <<: *SERIAL_NUMBERS
-    sam: 55
+    fpa: 2
+    sam: 56
+    asic: 117
+    h4: 18660
 
 n3:
   <<: *H4CAM
   serial_numbers:
     <<: *SERIAL_NUMBERS
-    sam: 57
+    fpa: 1
+    sam: 54
     asic: 120
     h4: 18315
   voltages:
@@ -47,15 +51,29 @@ n8:
   <<: *H4CAM
   serial_numbers:
     <<: *SERIAL_NUMBERS
-    sam: 58
-    asic: 117
-    h4: 18660
+    fpa: 4
+    sam: 57
+    asic: 119
+    h4: 18321
+
+nLast:
+  <<: *H4CAM
+  serial_numbers:
+    <<: *SERIAL_NUMBERS
+    fpa: 3
+    asic: 118
+    sam: 55
+    h4: 18661
 
 n9:
   <<: *H4CAM
   configName: warmIrp1
   serial_numbers:
     <<: *SERIAL_NUMBERS
-    sam: 56
+    sam: 58
+    asic: 124
+
   listen:
     interface: bee-b9
+
+# sam 59 was "bad"/"suspect"
