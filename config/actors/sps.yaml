@@ -14,6 +14,16 @@ sps:
       rda: ok
       bia: ok
       iis: broken
+    sm3:
+      bcu: sci
+      rcu: sci
+      ncu: none
+      rsh: ok
+      bsh: ok
+      fca: ok
+      rda: ok
+      bia: ok
+      iis: ok
 
   L:
     spsModules: [ sm2 ]
