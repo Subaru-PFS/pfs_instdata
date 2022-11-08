@@ -1,0 +1,3 @@
+sequencepanel:
+  listen:
+    interface: localhost
