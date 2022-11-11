@@ -4,6 +4,11 @@ connections: &CONNECTIONS
 
 h4cam: &H4CAM
   <<: *CONNECTIONS
+
+  controllers: &CONTROLLERS
+    all: [ hxhal ]
+    starting: [ hxhal ]
+
   serialNumbers: &SERIAL_NUMBERS
     fpa: 0
     sam: 0
@@ -24,7 +29,7 @@ h4cam: &H4CAM
 
 n1:
   <<: *H4CAM
-  serial_numbers:
+  serialNumbers:
     <<: *SERIAL_NUMBERS
     fpa: 2
     sam: 56
@@ -33,7 +38,7 @@ n1:
 
 n3:
   <<: *H4CAM
-  serial_numbers:
+  serialNumbers:
     <<: *SERIAL_NUMBERS
     fpa: 1
     sam: 54
@@ -49,7 +54,7 @@ n3:
 
 n8:
   <<: *H4CAM
-  serial_numbers:
+  serialNumbers:
     <<: *SERIAL_NUMBERS
     fpa: 4
     sam: 57
@@ -58,7 +63,7 @@ n8:
 
 nLast:
   <<: *H4CAM
-  serial_numbers:
+  serialNumbers:
     <<: *SERIAL_NUMBERS
     fpa: 3
     asic: 118
@@ -68,7 +73,7 @@ nLast:
 n9:
   <<: *H4CAM
   configName: warmIrp1
-  serial_numbers:
+  serialNumbers:
     <<: *SERIAL_NUMBERS
     sam: 58
     asic: 124

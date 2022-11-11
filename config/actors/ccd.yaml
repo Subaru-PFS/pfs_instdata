@@ -98,6 +98,9 @@ r3:
 r4:
   <<: *CCD
 
+r8:
+  <<: *CCD
+
 # Bench system
 b9:
   <<: *CCD

@@ -11,11 +11,6 @@ xcu: &XCU
     port: 10001
     rejectLimit: 60
 
-  cooler2:
-    host: cooler2-{cam}
-    port: 10001
-    rejectLimit: 60
-
   interlock:
     port: /dev/ttyS1
     speed: 38400
@@ -86,6 +81,16 @@ red: &RED_XCU
 nir: &NIR_XCU
   <<: *XCU
 
+  controllers:
+    <<: *CONTROLLERS
+    all: [ PCM, temps, turbo, ionpump, cooler, gatevalve, interlock, cooler2 ]
+    starting: [ PCM, temps, turbo, ionpump, cooler, gatevalve, interlock, cooler2 ]
+
+  cooler2:
+    host: cooler2-{cam}
+    port: 10001
+    rejectLimit: 60
+
   ionpump: &NIONPUMP
     <<: *IONPUMP
     busId: 2
@@ -152,8 +157,6 @@ b9:
     ionpump: 0
     cooler: 0
     gatevalve: 0
-
-  roughActor: rough1
 
 n8:
   <<: *NIR_XCU
