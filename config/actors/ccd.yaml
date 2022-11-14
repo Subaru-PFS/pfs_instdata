@@ -2,7 +2,7 @@ connections: &CONNECTIONS
   listen:
     interface: bee-{cam}         # localhost is safest, if on same host
   fee:
-    port: /dev/ttyS1
+    port: /dev/ttyS2
 
   controllers: &CONTROLLERS
     all: [ fee, ccd ]
