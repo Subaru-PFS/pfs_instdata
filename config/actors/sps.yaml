@@ -3,7 +3,7 @@ sps:
     interface: sps-ics
   # its probably wrong, I'll change later(probably).
   S:
-    spsModules: [ sm1 ]
+    spsModules: [ sm1, sm3 ]
     sm1:
       bcu: sci
       rcu: sci
