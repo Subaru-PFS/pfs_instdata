@@ -3,8 +3,8 @@ drp:
     interface: shell2-ics
   S:
     target: /data/drp/sm1-5.2
-    rerun: ginga/drpActor
-    CALIB: CALIB-PFI-20211108
+    rerun: drpActor/CALIB-20220630
+    CALIB: CALIB-20220630
     pfsConfigDir: /data/drp/pfsDesign
 
   L:
