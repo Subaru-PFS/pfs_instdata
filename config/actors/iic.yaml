@@ -4,14 +4,14 @@ iic:
   maskFiles:
     rootDir: /data/fps/maskFiles
   nearDotConvergence:
-    maxIteration: 12
-    tolerance: 0.05
+    nIteration: 10
+    tolerance: 0.025
   dotCrossing:
     stepSize: -40
     count: 40
   dotRoach:
     rootDir: /data/dotRoach
-    stepSize: -40
+    stepSize: 50
     count: 30
     motor: phi
   mcs:
