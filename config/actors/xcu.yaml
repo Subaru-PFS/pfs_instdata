@@ -11,7 +11,7 @@ xcu: &XCU
     port: 10001
     rejectLimit: 60
 
-  interlock:
+  interlock: &INTERLOCK
     port: /dev/ttyS1
     speed: 38400
 
@@ -33,9 +33,11 @@ xcu: &XCU
     host: moxa-{specName}
     port: 4001
     busId: null
+    busIds: [ null, null ]
     pumpIds: [ null, null ]
-    delay: 2.5
+    delay: 3.0
     maxPressure: 3.0e-5
+    maxPressureDuringStartup: 5.0e-4
     spikeDelay: 300
 
   # Which periodic monitors to start when a device is turned on.
@@ -68,6 +70,7 @@ blue: &BLUE_XCU
   ionpump: &BIONPUMP
     <<: *IONPUMP
     busId: 1
+    busIds: [ 1, 1 ]
     pumpIds: [ 1, 2 ]
 
 red: &RED_XCU
@@ -76,6 +79,7 @@ red: &RED_XCU
   ionpump: &RIONPUMP
     <<: *IONPUMP
     busId: 1
+    busIds: [ 1, 1 ]
     pumpIds: [ 3, 4 ]
 
 nir: &NIR_XCU
@@ -94,6 +98,7 @@ nir: &NIR_XCU
   ionpump: &NIONPUMP
     <<: *IONPUMP
     busId: 2
+    busIds: [ 2, 2 ]
     pumpIds: [ 1, 2 ]
 
 b1:
@@ -109,6 +114,7 @@ b4:
   ionpump:
     <<: *BIONPUMP
     host: moxa-sm3
+    busIds: [ 1, 1 ]
   roughActor: rough1
 
 r1:
@@ -138,6 +144,9 @@ n2:
     range: [292.23, 278.05, 309.12]
     tilts: [1, -9, 7]
     focus: 150.0
+  interlock:
+    <<: *INTERLOCK
+    ignoreRoughPump: true
 n3:
   <<: *NIR_XCU
 n4:
@@ -162,8 +171,8 @@ n8:
   <<: *NIR_XCU
   controllers:
     <<: *CONTROLLERS
-    all: [ PCM, temps, coooler]
-    starting: [ PCM, temps, cooler]
+    all: [ PCM, temps, gatevalve, cooler]
+    starting: [ PCM, temps, gatevalve, cooler]
 r8:
   <<: *RED_XCU
   controllers:
