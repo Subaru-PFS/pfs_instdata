@@ -11,7 +11,7 @@ xcu: &XCU
     port: 10001
     rejectLimit: 60
 
-  interlock:
+  interlock: &INTERLOCK
     port: /dev/ttyS1
     speed: 38400
 
@@ -144,6 +144,9 @@ n2:
     range: [292.23, 278.05, 309.12]
     tilts: [1, -9, 7]
     focus: 150.0
+  interlock:
+    <<: *INTERLOCK
+    ignoreRoughPump: true
 n3:
   <<: *NIR_XCU
 n4:
