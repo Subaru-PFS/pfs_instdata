@@ -171,8 +171,8 @@ n8:
   <<: *NIR_XCU
   controllers:
     <<: *CONTROLLERS
-    all: [ PCM, temps, coooler]
-    starting: [ PCM, temps, cooler]
+    all: [ PCM, temps, gatevalve, cooler]
+    starting: [ PCM, temps, gatevalve, cooler]
 r8:
   <<: *RED_XCU
   controllers:
