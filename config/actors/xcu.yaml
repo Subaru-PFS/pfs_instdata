@@ -33,6 +33,7 @@ xcu: &XCU
     host: moxa-{specName}
     port: 4001
     busId: null
+    busIds: [ null, null ]
     pumpIds: [ null, null ]
     delay: 2.5
     maxPressure: 3.0e-5
@@ -68,6 +69,7 @@ blue: &BLUE_XCU
   ionpump: &BIONPUMP
     <<: *IONPUMP
     busId: 1
+    busIds: [ 1, 1 ]
     pumpIds: [ 1, 2 ]
 
 red: &RED_XCU
@@ -76,6 +78,7 @@ red: &RED_XCU
   ionpump: &RIONPUMP
     <<: *IONPUMP
     busId: 1
+    busIds: [ 1, 1 ]
     pumpIds: [ 3, 4 ]
 
 nir: &NIR_XCU
@@ -94,6 +97,7 @@ nir: &NIR_XCU
   ionpump: &NIONPUMP
     <<: *IONPUMP
     busId: 2
+    busIds: [ 2, 2 ]
     pumpIds: [ 1, 2 ]
 
 b1:
@@ -109,6 +113,7 @@ b4:
   ionpump:
     <<: *BIONPUMP
     host: moxa-sm3
+    busIds: [ 1, 1 ]
   roughActor: rough1
 
 r1:
