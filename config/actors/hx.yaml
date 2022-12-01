@@ -36,6 +36,9 @@ n1:
     asic: 117
     h4: 18660
 
+n2:
+  <<: *H4CAM
+
 n3:
   <<: *H4CAM
   serialNumbers:
