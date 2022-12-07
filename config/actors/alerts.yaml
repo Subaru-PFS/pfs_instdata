@@ -2,7 +2,7 @@ alerts:
   listen:
     interface: mhs-ics
 
-  allowInvalid: 3  # allow consecutive invalid value without raising alerts.
+  allowInvalid: 5  # allow consecutive invalid value without raising alerts.
 
   S:
     stsHost: sts-vm1.sum.subaru.nao.ac.jp
