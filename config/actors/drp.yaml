@@ -2,10 +2,10 @@ drp:
   listen:
     interface: shell2-ics
   S:
-    target: /data/drp/sm1-5.2
-    rerun: drpActor/CALIB-20220630
-    CALIB: CALIB-20220630
-    pfsConfigDir: /data/drp/pfsDesign
+    target: /data/drp/repo
+    rerun: drpActor
+    CALIB: CALIB
+    pfsConfigDir: /data/raw
 
   L:
     target: /data/drp/sps
@@ -24,6 +24,6 @@ drp2:
 
   H:
     target: /work/drp
-    rerun: drpActor/CALIB-20220630
-    CALIB: CALIB-20220630
-    pfsConfigDir: /work/drp/pfsDesign
+    rerun: drpActor
+    CALIB: CALIB
+    pfsConfigDir: /data/raw
