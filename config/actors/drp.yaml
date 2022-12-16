@@ -3,7 +3,7 @@ drp:
     interface: shell2-ics
   S:
     target: /data/drp/repo
-    rerun: drpActor
+    rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
 
@@ -24,6 +24,6 @@ drp2:
 
   H:
     target: /work/drp
-    rerun: drpActor
+    rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
