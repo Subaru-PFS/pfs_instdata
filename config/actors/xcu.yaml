@@ -139,6 +139,11 @@ n1:
     focus: 100.0
 n2:
   <<: *NIR_XCU
+  ionpump:
+    <<: *NIONPUMP
+    host: moxa-sm-nir
+    port: 4004
+    pumpIds: [ 3, 4 ]
   fpa:
     <<: *FPA
     range: [292.23, 278.05, 309.12]
