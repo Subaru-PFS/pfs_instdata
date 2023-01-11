@@ -2,5 +2,43 @@ dcb: &DCB
   listen:
     interface: sps-ics
 
+  icc: &ICC
+    #  lamps,filterwheel
+    ignoreControllers: [ filterwheel ]
+
+  setups:
+    # the knows setName/nColl are defined as such dict(set1=5, set2=5, set3=5, set4=5, oneColl=1)
+    setup1: [ set1 ]
+    setup2: [ set2 ]
+  
+  illumination:
+    setup: setup1
+
+  lamps: &LAMPS
+    host: pdu2-dcb
+    port: 9000
+    mode: operation
+    lampNames: [ halogen, neon, hgar, argon, krypton ]
+    # either aten or digitalLoggers
+    pduModel: digitalLoggers
+
+  filterwheel: &FILTERWHEEL
+    host: filterwheel-dcb2
+    port: 9000
+    mode: operation
+    qthHoles: [ none,0.7,1.0,2.0,4.0 ]
+    lineHoles: [ 0.5,1.0,2.0,4.0,12.7 ]
+
 dcb2:
-    <<: *DCB
+  <<: *DCB
+  icc:
+    <<: *ICC
+    ignoreControllers: [ ]
+
+  illumination:
+    setup: setup2
+
+  lamps:
+    <<: *LAMPS
+    host: pdu-dcb2
+    lampNames: [ halogen, neon, hgar, argon, krypton, xenon ]
