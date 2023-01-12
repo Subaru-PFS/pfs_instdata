@@ -8,7 +8,7 @@ enu: &ENU
 
   pdu: &PDU
     mode: operation
-    host: pdu-enu{specNum)
+    host: pdu-enu{specNum}
     port: 23
     bufferTimeout: 5
     outlets:
