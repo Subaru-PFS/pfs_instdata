@@ -70,7 +70,7 @@ enu: &ENU
     mode: operation
     host: pdu-iis-enu{specNum}
     port: 9000
-    lampNames: [ hgar, neon ]
+    lampNames: [ argon, neon, krypton, halogen ]
     # either aten or digitalLoggers
     pduModel: digitalLoggers
 
@@ -86,7 +86,9 @@ sm1:
   rexm:
     <<: *REXM
     brokenLimitSwitches: True
-
+  iis:
+    <<: *IIS
+    lampNames: [ hgar, neon ]
   temps:
     <<: *TEMPS
 
@@ -182,9 +184,6 @@ sm3:
     209: [ 2.5201492e-05,-6.891401e-03,3.1759091e+00,-2.7408793e+02 ]
     210: [ 2.6249219e-05,-7.315936e-03,3.2291809e+00,-2.7608946e+02 ]
 
-  iis:
-    <<: *IIS
-    lampNames: [ argon, neon, krypton, halogen ]
 
   serials:
     fcaId: FCA5
