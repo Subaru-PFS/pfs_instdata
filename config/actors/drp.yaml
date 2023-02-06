@@ -6,12 +6,15 @@ drp:
     rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
+    nProcesses: 4
+
 
   L:
     target: /data/drp/sps
     rerun: ginga/detrend
     CALIB: CALIB
     pfsConfigDir: /data/drp/sps-pfsConfig
+    nProcesses: 4
 
 drp2:
   tron:
@@ -27,3 +30,4 @@ drp2:
     rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
+    nProcesses: 8
