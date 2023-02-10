@@ -118,6 +118,12 @@ actors:
         <<: *REGEXP_ALERT
         alertFmt: '{value} !'
 
+    roughing:
+      gatevalve[position]: &GATEVALVE_OPEN
+        <<: *REGEXP_ALERT
+        alertFmt: 'current {value} should be open !'
+        pattern: '^Open$'
+
     pumpdown: &PUMPDOWN
       pressure: &PRESSURE
         <<: *LIMITS_ALERT
@@ -128,9 +134,7 @@ actors:
         alertFmt: 'is too low: {value}RPM !'
         limits: [ 89000, null ]
       gatevalve[position]:
-        <<: *REGEXP_ALERT
-        alertFmt: 'current {value} should be open !'
-        pattern: '^Open$'
+        <<: *GATEVALVE_OPEN
 
     cooldown: &COOLDOWN
       pressure:
@@ -237,6 +241,17 @@ actors:
     keytest3[1]:
       <<: *REGEXP_ALERT
       alertFmt: 'test regexp: {value} !'
+
+  rough: &ROUGH
+    pumpSpeed:
+      <<: *ALERT
+      call: rough.checkCryoMode
+      alertFmt: 'is too low: {value}RPM, pump should be running !'
+
+  rough1:
+    <<: *ROUGH
+  rough2:
+    <<: *ROUGH
 
   xcu_b1:
     <<: *VISCU
