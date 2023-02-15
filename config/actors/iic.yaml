@@ -16,6 +16,8 @@ iic:
     motor: phi
   mcs:
     exptime: 4.8
+  ag:
+    fit_dScale: True
 
   windowedFlat:
     pfiLamps:
