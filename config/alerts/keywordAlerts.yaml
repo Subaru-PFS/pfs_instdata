@@ -189,7 +189,7 @@ actors:
       <<: *ALL
       cooler2Status[errors]:
         <<: *COOLER_ERROR
-        
+
     cooldown: &N_COOLDOWN
       <<: *COOLDOWN
       coolerTemps[reject]: &N_COOLDOWN_REJECT
@@ -244,9 +244,11 @@ actors:
 
   rough: &ROUGH
     pumpSpeed:
-      <<: *ALERT
+      <<: *LIMITS_ALERT
+      limits: [ 30, null ]
+      lowerBoundInclusive: True
       call: rough.checkCryoMode
-      alertFmt: 'is too low: {value}RPM, pump should be running !'
+      alertFmt: 'is too low: {value}RPM !'
 
   rough1:
     <<: *ROUGH
