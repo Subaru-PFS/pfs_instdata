@@ -1,0 +1,5 @@
+fps:
+  listen:
+    interface: actors-ics
+  opdb:
+    host: db-ics
