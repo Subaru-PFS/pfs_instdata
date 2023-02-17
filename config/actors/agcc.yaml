@@ -1,6 +1,8 @@
 agcc:
-  updateInterval : 60
-  datadir : $ICS_MHS_DATA_ROOT/agcc
+
+  listen:
+    interface: agcc-optiplex-755
+
   cam1 : ML0424912
   cam2 : ML0374912
   cam3 : ML0384912
@@ -13,14 +15,3 @@ agcc:
   simulator : 0
   # simulated image may contain 6 image extension for 6 AG cameras
   simulatedImagePath : /home/pfs/subaru-telescope-202109/agcc15000.fits
-  
-  listen:
-    interface: agcc-optiplex-755
-  
-  logging:
-    logdir : $ICS_MHS_LOGS_ROOT/actors/agcc
-    baseLevel : 20
-    cmdLevel : 20
-    dispatchLevel : 30
-    consoleLevel : 20
-
