@@ -13,7 +13,7 @@ drp:
     target: /data/drp/sps
     rerun: ginga/detrend
     CALIB: CALIB
-    pfsConfigDir: /data/drp/sps-pfsConfig
+    pfsConfigDir: /data/raw
     nProcesses: 4
 
 drp2:
