@@ -1,3 +1,18 @@
 ginga:
   listen:
     interface: shell-ics
+gingaactors:
+  listen:
+    interface: actors-ics
+gingacappy:
+  listen:
+    interface: 10.1.1.113
+gingapcp2:
+  listen:
+    interface: 10.1.1.132
+gingaws1:
+  listen:
+    interface: ws1
+gingaws2:
+  listen:
+    interface: ws2
