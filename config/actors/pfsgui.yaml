@@ -7,7 +7,7 @@ pfsgui:
       ait: [ rough1, dcb2, aten ]
       sm2: [ enu, b, r, n ]
     S:
-      ait: [ dcb ] # dcb,rough1,rough2
-      sm1: [ enu, b, r ]
+      ait: [ dcb, rough1, rough2 ] # dcb,rough1,rough2
+      sm1: [ enu, b, r, n ]
       sm3: [ enu, b, r ]
       pfi: [ peb, pfilamps ]

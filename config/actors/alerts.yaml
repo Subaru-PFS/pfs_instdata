@@ -6,7 +6,7 @@ alerts:
 
   S:
     stsHost: sts-vm1.sum.subaru.nao.ac.jp
-    parts: [ meb, peb, rough1, rough2, b1, r1, enu_sm1, b3, r3, enu_sm3 ]
+    parts: [ meb, peb, rough1, rough2, b1, r1, n1, enu_sm1, b3, r3, enu_sm3 ]
 
   L:
     stsHost: localhost
