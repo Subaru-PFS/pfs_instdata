@@ -2,3 +2,17 @@ mcs:
   listen:
     interface: us-mcs    
     #interface: mcs
+
+  db:
+    hostname : db-ics
+    dbname : opdb
+    port : 5432
+    username : pfs
+
+  logging:
+    baseLevel : 20
+    cmdLevel : 20
+    ioLevel : 20
+    dispatchLevel : 30
+    consoleLevel : 20
+
