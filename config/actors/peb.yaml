@@ -1,0 +1,44 @@
+
+peb:
+  interface : actors-ics
+  port : 0
+  updateInterval : 60
+  datadir : $ICS_MHS_DATA_ROOT/peb
+
+# Which interface/address we should _listen_ on. 'localhost' does not open security holes!
+# Which port do we listen for connections from tron on? This needs to match the one in tron's config/hub.py 
+
+  controllers : [temps,flow,led,power]
+  startingControllers : [temps,flow,led,power]
+
+  eboxtype : oldebox
+
+  power:
+    host : 133.40.164.97
+
+  flow:
+    host : 133.40.164.98
+    kfactor : 1300
+
+  led:
+    host : 133.40.164.99
+
+    # 0.1ms period
+    aperiod : 100
+    # 10% duty cycle
+    adutycycle : 10
+    # 100ms period
+    bperiod: 100000
+    # 10% duty cycle
+    bdutycycle: 10
+
+  temps:
+    port : 502
+    hosts : [133.40.164.101, 133.40.164.102, 133.40.164.103]
+
+  logging:
+    ioLevel : 20
+    baseLevel : 20
+    cmdLevel : 20
+    dispatchLevel : 30
+    consoleLevel : 20
