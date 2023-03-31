@@ -128,10 +128,6 @@ r4:
 
 n1:
   <<: *NIR_XCU
-  ionpump:
-    <<: *NIONPUMP
-    host: moxa-sm-nir
-    port: 4004
   fpa:
     <<: *FPA
     range: [284.0, 293.0, 287.0]
