@@ -16,3 +16,18 @@ mcs:
     dispatchLevel : 30
     consoleLevel : 20
 
+  centroidParams:
+    values:
+    boxCent: 6
+    boxFind: 10
+    centSigma: 15
+    findSigma: 35
+    fwhmx: 0
+    fwhmy: 0
+    matchRad: 20
+    maxIt: 20
+    nmax: 250
+    nmin: 10
+    threshFact: 4
+    threshMode: full
+    threshSigma: 4
