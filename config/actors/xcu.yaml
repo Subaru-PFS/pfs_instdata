@@ -135,19 +135,11 @@ n1:
     focus: 100.0
 n2:
   <<: *NIR_XCU
-  ionpump:
-    <<: *NIONPUMP
-    host: moxa-sm-nir
-    port: 4004
-    pumpIds: [ 3, 4 ]
   fpa:
     <<: *FPA
     range: [292.23, 278.05, 309.12]
     tilts: [1, -9, 7]
     focus: 150.0
-  interlock:
-    <<: *INTERLOCK
-    ignoreRoughPump: true
 n3:
   <<: *NIR_XCU
 n4:
