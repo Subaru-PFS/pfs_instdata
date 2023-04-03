@@ -27,16 +27,15 @@ h4cam: &H4CAM
     VDDA: 3.30
     VBiasPower: 3.30
 
+  dataRoot: /data/raw
+
   # SITE-indexed configuration.
   S:
-    dataRoot: /data/raw
-    manager: butler
+    rampRoot: null
   L:
-    dataRoot: /data/ramps
-    manager: path
+    rampRoot: /data/ramps
   J:
-    dataRoot: /data/ramps
-    manager: butler
+    rampRoot: /data/ramps
 
 n1:
   <<: *H4CAM
