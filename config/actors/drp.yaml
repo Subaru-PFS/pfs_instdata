@@ -1,6 +1,7 @@
-drp:
+drp: &DRP
   listen:
     interface: shell2-ics
+
   S:
     target: /data/drp/repo
     rerun: drpActor/CALIB
@@ -8,6 +9,38 @@ drp:
     pfsConfigDir: /data/raw
     nProcesses: 4
 
+    isr: &ISR
+      doFlat: False
+    repair: &REPAIR
+      doCosmicRay: False
+
+    detrend: &DETREND
+      isr:
+        <<: *ISR
+      repair:
+        <<: *REPAIR
+
+    reduceExposure: &REDUCEEXPOSURE
+      isr:
+        <<: *ISR
+      repair:
+        <<: *REPAIR
+      extractSpectra:
+        doCrosstalk: False
+      doAdjustDetectorMap: False
+      doMeasureLines: False
+
+  H:
+    target: /work/drp
+    rerun: drpActor/CALIB
+    CALIB: CALIB
+    pfsConfigDir: /data/raw
+    nProcesses: 16
+
+    detrend:
+      <<: *DETREND
+    reduceExposure:
+      <<: *REDUCEEXPOSURE
 
   L:
     target: /data/drp/sps
@@ -16,7 +49,25 @@ drp:
     pfsConfigDir: /data/raw
     nProcesses: 4
 
+    isr: &ISRL
+      <<: *ISR
+      doBias: False
+      doDark: False
+
+    detrend:
+      <<: *DETREND
+      isr:
+        <<: *ISRL
+
+    reduceExposure:
+      <<: *REDUCEEXPOSURE
+      isr:
+        <<: *ISRL
+
+
+
 drp2:
+  <<: *DRP
   tron:
     host: localhost
   listen:
@@ -24,10 +75,3 @@ drp2:
     port: 10000
   logging:
     logdir: /work/alefur/logs/actors/drp2
-
-  H:
-    target: /work/drp
-    rerun: drpActor/CALIB
-    CALIB: CALIB
-    pfsConfigDir: /data/raw
-    nProcesses: 8
