@@ -30,6 +30,14 @@ drp: &DRP
       doAdjustDetectorMap: False
       doMeasureLines: False
 
+    settings: &SETTINGS
+      doCopyDesignToPfsConfigDir: False
+      doAutoIngest: True
+      doAutoDetrend: True
+      doAutoReduce: False
+      ingestMode: 'link'
+      ingestPgsql: False
+
   H:
     target: /work/drp
     rerun: drpActor/CALIB
@@ -41,6 +49,14 @@ drp: &DRP
       <<: *DETREND
     reduceExposure:
       <<: *REDUCEEXPOSURE
+
+    settings:
+      <<: *SETTINGS
+      doAutoDetrend: False
+      doAutoReduce: True
+      ingestMode: 'copy'
+      ingestPgsql: True
+
 
   L:
     target: /data/drp/sps
@@ -64,6 +80,8 @@ drp: &DRP
       isr:
         <<: *ISRL
 
+    settings:
+      <<: *SETTINGS
 
 
 drp2:
