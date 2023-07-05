@@ -107,6 +107,13 @@ b2:
   <<: *BLUE_XCU
 b3:
   <<: *BLUE_XCU
+
+  # Subaru b3 controller failure in 2022-11
+  ionpump:
+    <<: *BIONPUMP
+    busIds: [ 2, 1 ]
+    pumpIds: [ 3, 2 ]
+    
 b4:
   <<: *BLUE_XCU
 
