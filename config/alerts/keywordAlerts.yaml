@@ -265,7 +265,7 @@ actors:
       <<: *N_OPERATION
       nirTemps[detector1]:
         <<: *H4_TEMP
-        limits: [ 101.507 , 101.527 ]
+        limits: [ 101.45 , 101.6 ]
 
   enu_sm1:
 
