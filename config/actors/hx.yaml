@@ -10,10 +10,11 @@ h4cam: &H4CAM
     starting: [ hxhal ]
 
   serialNumbers: &SERIAL_NUMBERS
-    fpa: 0
-    sam: 0
-    asic: 0
-    h4: 0
+    cryostat: -1
+    fpa: -1
+    sam: -1
+    asic: -1
+    h4: -1
   link: usb
   samRegisters: DefaultJadeRegisters_slow.rf
   asicFirmware: H4RG_IRP.mcd
@@ -41,57 +42,66 @@ n1:
   <<: *H4CAM
   serialNumbers:
     <<: *SERIAL_NUMBERS
+    cryostat: 2
     fpa: 2
     sam: 56
-    asic: 117
+    asic: 229
     h4: 18660
 
 n2:
   <<: *H4CAM
-
+  serialNumbers:
+    <<: *SERIAL_NUMBERS
+    cryostat: 1
+    fpa: 1
+    sam: 59
+    asic: 120
+    h4: 18315
+      
 n3:
   <<: *H4CAM
   serialNumbers:
     <<: *SERIAL_NUMBERS
-    fpa: 1
-    sam: 54
-    asic: 120
-    h4: 18315
-  voltages:
-    <<: *VOLTAGES
-    DSub: 0.600
-    VReset: 0.250
-    VBiasGate: 1.94
-    Drain: 0.00
-    CellDrain: 0.01
+    cryostat: 3
+    fpa: 4
+    sam: 55
+    asic: 119
+    h4: 18321
+
+n4:
+  <<: *H4CAM
+  serialNumbers:
+    <<: *SERIAL_NUMBERS
+    cryostat: 4
+    fpa: 3
+    sam: 57
+    asic: 118
+    h4: 18661
 
 n8:
   <<: *H4CAM
   serialNumbers:
     <<: *SERIAL_NUMBERS
-    fpa: 4
-    sam: 57
-    asic: 119
-    h4: 18321
+    fpa: 5
+    sam: 54
+    asic: 117
+    h4: 18734
 
-nLast:
-  <<: *H4CAM
-  serialNumbers:
-    <<: *SERIAL_NUMBERS
-    fpa: 3
-    asic: 118
-    sam: 55
-    h4: 18661
-
+# The NIR part of the b9 bench piepan, CCD DAQ, and NIR DAQ.
+# Used for a portable ASIC+ROIC test FPA, and for electronics bench testing.
 n9:
   <<: *H4CAM
   configName: warmIrp1
   serialNumbers:
     <<: *SERIAL_NUMBERS
-    sam: 58
-    asic: 124
-
+    sam: -1                      # None available, 2023-07
+    asic: -1                     # None available, 2023-07
+    h4: ROIC
+    
   listen:
     interface: bee-b9
 
-# sam 59 was "bad"/"suspect"
+# We were originally shipped six SAMs: 54-59 and five ASICs: 117-120,124.
+#
+# sam 58 was totally destroyed in a flood
+# asic 124 was also flooded, returned to Teledyne for rework, but declared dead and replaced with 229
