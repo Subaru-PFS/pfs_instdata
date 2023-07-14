@@ -113,16 +113,9 @@ b3:
     <<: *BIONPUMP
     busIds: [ 2, 1 ]
     pumpIds: [ 3, 2 ]
-    
+
 b4:
   <<: *BLUE_XCU
-
-  # JHU host hacks
-  ionpump:
-    <<: *BIONPUMP
-    host: moxa-sm3
-    busIds: [ 1, 1 ]
-  roughActor: rough1
 
 r1:
   <<: *RED_XCU
@@ -149,8 +142,18 @@ n2:
     focus: 150.0
 n3:
   <<: *NIR_XCU
+  fpa:
+    range: [294.44, 288.12, 294.78]
+    tilts: [10, 30, -50]
+    focus: 170.0
+
 n4:
   <<: *NIR_XCU
+  fpa:
+    <<: *FPA
+    range: [283.60, 271.46, 306.38]
+    tilts: [11, -11, -11]
+    focus: 180.0
 
 # IDG dewars
 b9:
