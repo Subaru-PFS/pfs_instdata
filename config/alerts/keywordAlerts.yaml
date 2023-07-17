@@ -286,6 +286,11 @@ actors:
     <<: *VISCU
   xcu_n3:
     <<: *NCU
+    operation:
+      <<: *N_OPERATION
+      nirTemps[detector1]:
+        <<: *H4_TEMP
+        limits: [ 100.75 , 100.95 ]
   enu_sm3:
     <<: *ENU
 
