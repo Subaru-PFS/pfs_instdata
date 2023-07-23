@@ -87,7 +87,7 @@ drp: &DRP
 drp2:
   <<: *DRP
   tron:
-    host: localhost
+    host: 133.40.164.64
   listen:
     interface: localhost
     port: 10000
