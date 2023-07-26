@@ -195,7 +195,7 @@ sm4:
   slit:
     <<: *SLIT
     # home and slit position are defined in the slit coordinate system and then are automatically converted to world
-    home: [ 0.0, -0.08, 205.1725, -0.099, 0.0, -120 ]
+    home: [ 0.105, -0.08, 205.1725, -0.099, -0.0598, -120 ]
     slit_position: [ -108.0, 0, 262, 0.0, 0.0, -120 ]
 
   temps:
