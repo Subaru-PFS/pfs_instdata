@@ -107,6 +107,7 @@ actors:
         alertFmt: '24V-UPS Input power is failing: {value}V !'
       pcmPower2[volts]:
         <<: *LIMITS_ALERT
+        call: xcu.check24VAUX
         limits: [ 24.0, null ]
         alertFmt: '24V-AUX Input power is failing: {value}V !'
       ionpump1Errors[errors]: &IONPUMP_ERROR
