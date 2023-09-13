@@ -3,7 +3,8 @@ alerts:
     interface: mhs-ics
 
   allowInvalid: 5  # allow consecutive invalid value without raising alerts.
-
+  TIMEOUT: 600  # time limit(s) before declaring data source is in timeout.
+  STS_DATA_RATE: 300 # default period(s) to push value to STS.
   S:
     stsHost: sts-vm1.sum.subaru.nao.ac.jp
     parts: [ meb, peb, rough1, rough2, b1, r1, n1, enu_sm1, b3, r3, n3, enu_sm3 ]

@@ -7,6 +7,8 @@ actors:
       stsId: 1320
       stsType: INTEGER+TEXT
       units: null
+      STS_DATA_RATE: 300 # Just an example :
+                         # STS_DATA_RATE can be specified for each data source to increase the default data-rate
   enu_sm2:
     biashaFSM:
     - keyId: 1
