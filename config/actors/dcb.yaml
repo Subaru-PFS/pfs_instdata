@@ -18,7 +18,7 @@ dcb: &DCB
     host: pdu2-dcb
     port: 9000
     mode: operation
-    lampNames: [ halogen, neon, hgar, argon, krypton ]
+    lampNames: [ halogen, neon, hgar, argon, krypton, allFiberLamp ]
     # either aten or digitalLoggers
     pduModel: digitalLoggers
 
