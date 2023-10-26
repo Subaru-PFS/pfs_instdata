@@ -69,18 +69,16 @@ blue: &BLUE_XCU
 
   ionpump: &BIONPUMP
     <<: *IONPUMP
-    busId: 1
-    busIds: [ 1, 1 ]
-    pumpIds: [ 1, 2 ]
+    busIds: [ 1, 2 ]
+    pumpIds: [ 1, 1 ]
 
 red: &RED_XCU
   <<: *XCU
 
   ionpump: &RIONPUMP
     <<: *IONPUMP
-    busId: 1
-    busIds: [ 1, 1 ]
-    pumpIds: [ 3, 4 ]
+    busIds: [ 1, 2 ]
+    pumpIds: [ 2, 2 ]
 
 nir: &NIR_XCU
   <<: *XCU
@@ -97,9 +95,8 @@ nir: &NIR_XCU
 
   ionpump: &NIONPUMP
     <<: *IONPUMP
-    busId: 2
-    busIds: [ 2, 2 ]
-    pumpIds: [ 1, 2 ]
+    busIds: [ 1, 2 ]
+    pumpIds: [ 3, 3 ]
 
 b1:
   <<: *BLUE_XCU
@@ -115,12 +112,6 @@ b3:
     <<: *FPA
     tilts: [ 7.71, -2.16, -4.4 ]
     focus: 191.0
-
-  # Subaru b3 controller failure in 2022-11
-  ionpump:
-    <<: *BIONPUMP
-    busIds: [ 2, 1 ]
-    pumpIds: [ 3, 2 ]
 
 b4:
   <<: *BLUE_XCU
@@ -190,8 +181,8 @@ n8:
   <<: *NIR_XCU
   controllers:
     <<: *CONTROLLERS
-    all: [ PCM, temps, gatevalve, cooler]
-    starting: [ PCM, temps, gatevalve, cooler]
+    all: [ PCM, temps, cooler]
+    starting: [ PCM, temps, cooler]
 r8:
   <<: *RED_XCU
   controllers:
