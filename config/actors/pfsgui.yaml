@@ -9,5 +9,7 @@ pfsgui:
     S:
       ait: [ dcb, rough1, rough2 ] # dcb,rough1,rough2
       sm1: [ enu, b, r, n ]
+      sm2: [ enu, b, r, n ]
       sm3: [ enu, b, r, n ]
+      sm4: [ enu, b, r ]
       pfi: [ peb, pfilamps ]

@@ -3,7 +3,8 @@ sps:
     interface: sps-ics
   # its probably wrong, I'll change later(probably).
   S:
-    spsModules: [ sm1, sm3 ]
+    spsModules: [ sm1, sm2, sm3, sm4 ]
+
     sm1:
       bcu: sci
       rcu: sci
@@ -13,7 +14,19 @@ sps:
       fca: ok
       rda: ok
       bia: ok
-      iis: broken
+      iis: ok
+
+    sm2:
+      bcu: sci
+      rcu: sci
+      ncu: sci
+      rsh: ok
+      bsh: ok
+      fca: ok
+      rda: ok
+      bia: ok
+      iis: ok
+
     sm3:
       bcu: sci
       rcu: sci
@@ -25,15 +38,16 @@ sps:
       bia: ok
       iis: ok
 
-  L:
-    spsModules: [ sm2 ]
-    sm2:
-      bcu: none
-      rcu: none
-      ncu: sci
+    sm4:
+      bcu: sci
+      rcu: sci
+      ncu: none
       rsh: ok
       bsh: ok
       fca: ok
       rda: ok
       bia: ok
       iis: ok
+
+  L:
+    spsModules: [ ]
