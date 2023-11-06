@@ -88,7 +88,7 @@ sm1:
     pix_to_mm: [ 0.03447873, 0.03327372 ]
   rexm:
     <<: *REXM
-    brokenLimitSwitches: True
+
   iis:
     <<: *IIS
     lampNames: [ hgar, neon ]
@@ -159,7 +159,7 @@ sm3:
   slit:
     <<: *SLIT
     # home and slit position are defined in the slit coordinate system and then are automatically converted to world
-    home : [-0.06, 0.45, 205.075, -0.0249, 0.1915, -120 ]
+    home: [ -0.06, 0.45, 205.075, -0.0249, 0.1915, -120 ]
     #home: [ -0.72, 0.45, 205.075, -0.0249, -0.2985, -120 ] # bad hexapod connection.
     pix_to_mm: [ 0.033914, 0.036498 ]
 
@@ -193,8 +193,8 @@ sm3:
 
 sm4:
   <<: *ENU
-   
-   
+
+
   slit:
     <<: *SLIT
     # home and slit position are defined in the slit coordinate system and then are automatically converted to world
