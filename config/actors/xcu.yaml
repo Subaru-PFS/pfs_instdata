@@ -14,6 +14,7 @@ xcu: &XCU
   interlock: &INTERLOCK
     port: /dev/ttyS1
     speed: 38400
+    ignoreRoughPump: true
 
   PCM: &PCM
     host: pcm-{cam}
