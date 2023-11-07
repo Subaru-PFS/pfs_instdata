@@ -4,7 +4,7 @@ dcb: &DCB
 
   icc: &ICC
     #  lamps,filterwheel
-    ignoreControllers: [ filterwheel ]
+    ignoreControllers: [ ]
 
   setups:
     # the knows setName/nColl are defined as such dict(set1=5, set2=5, set3=5, set4=5, oneColl=1)
@@ -23,11 +23,11 @@ dcb: &DCB
     pduModel: digitalLoggers
 
   filterwheel: &FILTERWHEEL
-    host: filterwheel-dcb2
+    host: filterwheel-dcb
     port: 9000
     mode: operation
-    qthHoles: [ none,0.7,1.0,2.0,4.0 ]
-    lineHoles: [ 0.5,1.0,2.0,4.0,12.7 ]
+    qthHoles: [ 1.8,2.5,3.3,5.7,12.7 ]
+    lineHoles: [ 1.8,2.5,4.0,5.7,12.7 ]
 
 dcb2:
   <<: *DCB
@@ -42,3 +42,9 @@ dcb2:
     <<: *LAMPS
     host: pdu-dcb2
     lampNames: [ halogen, neon, hgar, argon, krypton, xenon ]
+
+  filterwheel:
+    <<: *FILTERWHEEL
+    host: filterwheel-dcb2
+    qthHoles: [ none,0.7,1.0,2.0,4.0 ]
+    lineHoles: [ 0.5,1.0,2.0,4.0,12.7 ]
