@@ -472,6 +472,7 @@ actors:
       stsId: 1405
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump1Errors:
     - keyId: 2
       keyName: errors
@@ -492,6 +493,7 @@ actors:
       stsId: 1407
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump2Errors:
     - keyId: 2
       keyName: errors
@@ -520,6 +522,7 @@ actors:
       stsId: 1403
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     turboSpeed:
     - keyId: 0
       keyName: null
@@ -693,6 +696,7 @@ actors:
       stsId: 1805
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump1Errors:
     - keyId: 2
       keyName: errors
@@ -713,6 +717,7 @@ actors:
       stsId: 1807
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump2Errors:
     - keyId: 2
       keyName: errors
@@ -741,6 +746,7 @@ actors:
       stsId: 1803
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     turboSpeed:
     - keyId: 0
       keyName: null
@@ -960,6 +966,7 @@ actors:
       stsId: 1465
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump1Errors:
     - keyId: 2
       keyName: errors
@@ -980,6 +987,7 @@ actors:
       stsId: 1467
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump2Errors:
     - keyId: 2
       keyName: errors
@@ -1027,6 +1035,7 @@ actors:
       stsId: 1463
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     turboSpeed:
     - keyId: 0
       keyName: null
@@ -1233,6 +1242,7 @@ actors:
       stsId: 1865
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump1Errors:
     - keyId: 2
       keyName: errors
@@ -1253,6 +1263,7 @@ actors:
       stsId: 1867
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump2Errors:
     - keyId: 2
       keyName: errors
@@ -1300,6 +1311,7 @@ actors:
       stsId: 1863
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     turboSpeed:
     - keyId: 0
       keyName: null
@@ -1460,6 +1472,7 @@ actors:
       stsId: 1345
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump1Errors:
     - keyId: 2
       keyName: errors
@@ -1480,6 +1493,7 @@ actors:
       stsId: 1347
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump2Errors:
     - keyId: 2
       keyName: errors
@@ -1508,6 +1522,7 @@ actors:
       stsId: 1343
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     turboSpeed:
     - keyId: 0
       keyName: null
@@ -1681,6 +1696,7 @@ actors:
       stsId: 1745
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump1Errors:
     - keyId: 2
       keyName: errors
@@ -1701,6 +1717,7 @@ actors:
       stsId: 1747
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     ionpump2Errors:
     - keyId: 2
       keyName: errors
@@ -1729,6 +1746,7 @@ actors:
       stsId: 1743
       stsType: FLOAT+TEXT
       units: Torr
+      STS_DATA_RATE: 60
     turboSpeed:
     - keyId: 0
       keyName: null
