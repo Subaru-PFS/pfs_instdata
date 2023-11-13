@@ -137,11 +137,11 @@ actors:
       gatevalve[position]:
         <<: *GATEVALVE_OPEN
 
-    cooldown: &COOLDOWN
+    ionpumping:
       pressure:
         <<: *PRESSURE
-        limits: [ null, 5.0e-6 ]
-      gatevalve[position]:
+        limits: [ null, 1.0e-4 ]
+      gatevalve[position]: &GATEVALVE_CLOSE
         <<: *REGEXP_ALERT
         alertFmt: 'current {value} should be closed !'
         pattern: '^Closed$'
@@ -149,6 +149,18 @@ actors:
         <<: *BOOLEAN_ALERT
         alertFmt: 'pump should be on !'
         nominalValue: True
+      ionpump2[enabled]:
+        <<: *IONPUMP_ON
+
+
+    cooldown: &COOLDOWN
+      pressure:
+        <<: *PRESSURE
+        limits: [ null, 5.0e-6 ]
+      gatevalve[position]:
+        <<: *GATEVALVE_CLOSE
+      ionpump1[enabled]:
+        <<: *IONPUMP_ON
       ionpump2[enabled]:
         <<: *IONPUMP_ON
       coolerTemps[reject]: &COOLER_REJECT
