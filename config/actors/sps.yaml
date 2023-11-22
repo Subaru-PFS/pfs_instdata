@@ -2,6 +2,9 @@ sps:
   listen:
     interface: sps-ics
   # its probably wrong, I'll change later(probably).
+
+  doUpdatePfsConfigFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers
+
   S:
     spsModules: [ sm1, sm2, sm3, sm4 ]
 
