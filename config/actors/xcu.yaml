@@ -39,7 +39,7 @@ xcu: &XCU
     delay: 3.0
     maxPressure: 3.0e-5
     maxPressureDuringStartup: 5.0e-4
-    spikeDelay: 300
+    spikeDelay: 3000
 
   # Which periodic monitors to start when a device is turned on.
   monitors: &MONITORS
