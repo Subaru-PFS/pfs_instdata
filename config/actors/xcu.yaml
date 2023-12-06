@@ -107,6 +107,10 @@ b1:
     focus: 147
 b2:
   <<: *BLUE_XCU
+  fpa:
+    <<: *FPA
+    tilts: [-13.5, 19.9, -6.3]
+    focus: 136.7
 b3:
   <<: *BLUE_XCU
   fpa:
@@ -128,6 +132,10 @@ r1:
     focus: 173.0
 r2:
   <<: *RED_XCU
+  fpa:
+    <<: *FPA
+    tilts: [-11.7, 25.6, -13.8]
+    focus: 115.0
 r3:
   <<: *RED_XCU
   fpa:
