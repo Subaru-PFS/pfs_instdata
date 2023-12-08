@@ -1,7 +1,7 @@
 agcc:
 
   listen:
-    interface: AGCC-OptiPlex-755
+    interface: agcc2
     #interface: agcc
 
   cam1 : ML0424912
