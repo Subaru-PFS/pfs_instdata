@@ -103,51 +103,52 @@ b1:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
-    tilts: [ 15.61,  18.21, -32.96]
-    focus: 146.1
+    tilts: [15.3, 17.9, -33.2]
+    focus: 146.4
 b2:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
-    tilts: [-13.5, 19.9, -6.3]
-    focus: 136.7
+    tilts: [-2.3, 17.0, -14.7]
+    focus: 219.6
 b3:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
-    tilts: [  9.29, -0.21, -8.16]
-    focus: 218.7
-
+    tilts: [9.0, -0.5, -8.5]
+    focus: 219.0
 b4:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
-    tilts: [5.3, -10.2, 5.0]
-    focus: 67.8
+    tilts: [10.2, -12.5, 2.3]
+    focus: 106.0
+
 r1:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [ 7.11 ,  9.33, -26.29]
-    focus: 170.1
+    tilts: [10.4, 12.6, -23.0]
+    focus: 166.8
 r2:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [-11.7, 25.6, -13.8]
-    focus: 115.0
+    tilts: [-8.6, 21.3, -12.7]
+    focus: 170.5
 r3:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [  4.48, -8.83, -8.09]
-    focus: 204.3
+    tilts: [8.9, -3.7, -5.2]
+    focus: 201.9
 r4:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [13.2, -1.2, -12.1]
-    focus: 46.0
+    tilts: [19.5, -20.7, 1.1]
+    focus: 88.0
+
 n1:
   <<: *NIR_XCU
   fpa:
