@@ -7,7 +7,7 @@ drp: &DRP
     rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
-    nProcesses: 4
+    nProcesses: 12
 
     isr: &ISR
       doFlat: False
