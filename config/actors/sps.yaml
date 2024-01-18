@@ -3,7 +3,8 @@ sps:
     interface: sps-ics
   # its probably wrong, I'll change later(probably).
 
-  doUpdatePfsConfigFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers
+  doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
+  doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
 
   S:
     spsModules: [ sm1, sm2, sm3, sm4 ]
