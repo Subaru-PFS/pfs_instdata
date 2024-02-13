@@ -50,8 +50,8 @@ enu: &ENU
     dither_x_axis: [ 0.0, 0.0, 1.0, 0.0, 0.0, 0.0 ]
     dither_y_axis: [ 0.0, 1.0, 0.0, 0.0, 0.0, 0.0 ]
     pix_to_mm: [ 0.035, 0.035 ]
-    lowerBounds: [ -5.0,-5.0,-5.0,-1.0,-1.0,-1.0 ]
-    upperBounds: [ 5.0,5.0,5.0,1.0,1.0,1.0 ]
+    lowerBounds: [ -10.0,-5.0,-12.0,-1.0,-1.0,-1.0 ]
+    upperBounds: [ 26.0,5.0,14.0,1.0,1.0,1.0 ]
     positionTolerance: 0.005  # mm
     accelerationFraction: 0.025 # fraction
     hysteresisCorrection: [ 0.0, 0.0, -0.05, 0.0, 0.0, 0.0 ] # mm, 50 microns against gravity.
