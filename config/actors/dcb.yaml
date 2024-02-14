@@ -10,9 +10,10 @@ dcb: &DCB
     # the knows setName/nColl are defined as such dict(set1=5, set2=5, set3=5, set4=5, oneColl=1)
     setup1: [ set1 ]
     setup2: [ set2 ]
+    setup3: [ set3 ]
   
   illumination:
-    setup: setup1
+    setup: setup3
 
   lamps: &LAMPS
     host: pdu2-dcb
