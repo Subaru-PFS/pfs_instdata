@@ -86,7 +86,7 @@ agcc:
       - 10
       - 1032
     satVal: 65535
-    magFit: [-2.243,28.584]
+    magFit: [0.928,27.389]
 
   centroidParams:
     values:
