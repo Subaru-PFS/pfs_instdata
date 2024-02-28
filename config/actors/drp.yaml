@@ -43,7 +43,7 @@ drp: &DRP
     rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
-    nProcesses: 12
+    nProcesses: 16
 
     detrend:
       <<: *DETREND
@@ -89,7 +89,7 @@ drp2:
   tron:
     host: 133.40.164.64
   listen:
-    interface: 133.40.152.111
+    interface: pfsa-usr03
     port: 10000
   logging:
     logdir: /work/mhs/logs/actors/drp2
