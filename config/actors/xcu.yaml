@@ -128,26 +128,26 @@ r1:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [10.4, 12.6, -23.0]
-    focus: 166.8
+    tilts: [10.8, 12.9, -23.7]
+    focus: 166.0
 r2:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [-8.6, 21.3, -12.7]
-    focus: 170.5
+    tilts: [-6.2, 21.7, -15.5]
+    focus: 168.4
 r3:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [8.9, -3.7, -5.2]
-    focus: 201.9
+    tilts: [6.2, 0.2, -6.4]
+    focus: 187.9
 r4:
   <<: *RED_XCU
   fpa:
     <<: *FPA
-    tilts: [19.5, -20.7, 1.1]
-    focus: 88.0
+    tilts: [20.0, -8.3, -11.8]
+    focus: 72.7
 
 n1:
   <<: *NIR_XCU
