@@ -21,7 +21,7 @@ mcs:
     boxCent: 6
     boxFind: 10
     centSigma: 15
-    findSigma: 35
+    findSigma: 25
     fwhmx: 0
     fwhmy: 0
     matchRad: 20
