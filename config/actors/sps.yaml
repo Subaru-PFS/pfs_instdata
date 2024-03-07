@@ -12,7 +12,7 @@ sps:
     sm1:
       bcu: sci
       rcu: sci
-      ncu: sci
+      ncu: none
       rsh: ok
       bsh: ok
       fca: ok
@@ -32,7 +32,7 @@ sps:
       iis: ok
 
     sm3:
-      bcu: sci
+      bcu: eng
       rcu: sci
       ncu: sci
       rsh: ok
