@@ -11,6 +11,7 @@ drp: &DRP
 
     isr: &ISR
       doFlat: False
+      doWrite: False
     repair: &REPAIR
       doCosmicRay: False
 
