@@ -19,7 +19,7 @@ mcs:
   centroidParams:
     values:
     boxCent: 6
-    boxFind: 10
+    boxFind: 14
     centSigma: 15
     findSigma: 25
     fwhmx: 0
