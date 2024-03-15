@@ -28,14 +28,21 @@ drp: &DRP
         <<: *REPAIR
       extractSpectra:
         doCrosstalk: False
-      doAdjustDetectorMap: False
-      doMeasureLines: False
+      doAdjustDetectorMap: True
+      doMeasureLines: True
+
+    detectorMapQa: &DETECTORMAPQA
+      {}
+    extractionQa: &EXTRACTIONQA
+      {}
 
     settings: &SETTINGS
       doCopyDesignToPfsConfigDir: False
       doAutoIngest: True
       doAutoDetrend: True
       doAutoReduce: False
+      doDetectorMapQa: False
+      doExtractionQa: False
       ingestMode: 'link'
       ingestPgsql: False
 
@@ -44,17 +51,24 @@ drp: &DRP
     rerun: drpActor/CALIB
     CALIB: CALIB
     pfsConfigDir: /data/raw
-    nProcesses: 16
+    nProcesses: 24
 
     detrend:
       <<: *DETREND
     reduceExposure:
       <<: *REDUCEEXPOSURE
 
+    detectorMapQa:
+      <<: *DETECTORMAPQA
+    extractionQa:
+      <<: *EXTRACTIONQA
+
     settings:
       <<: *SETTINGS
       doAutoDetrend: False
       doAutoReduce: True
+      doDetectorMapQa: True
+      doExtractionQa: True
       ingestMode: 'copy'
       ingestPgsql: True
 
@@ -83,6 +97,11 @@ drp: &DRP
 
     settings:
       <<: *SETTINGS
+
+    detectorMapQa:
+      <<: *DETECTORMAPQA
+    extractionQa:
+      <<: *EXTRACTIONQA
 
 
 drp2:
