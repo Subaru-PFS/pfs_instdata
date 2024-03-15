@@ -17,9 +17,8 @@ mcs:
     consoleLevel : 20
 
   centroidParams:
-    values:
-    boxCent: 6
-    boxFind: 10
+    boxCent: 20
+    boxFind: 20
     centSigma: 15
     findSigma: 25
     fwhmx: 0
