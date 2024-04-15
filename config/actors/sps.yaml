@@ -32,7 +32,7 @@ sps:
       iis: ok
 
     sm3:
-      bcu: eng
+      bcu: sci
       rcu: sci
       ncu: sci
       rsh: ok
