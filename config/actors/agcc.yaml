@@ -91,7 +91,9 @@ agcc:
   centroidParams:
     values:
     thresh: 10
-    nmin: 12
-    deblend: 0.5
+    nmin: 15
+    minarea: 20
+    deblend: 0.01
+    ellip: 0.5
     
 
