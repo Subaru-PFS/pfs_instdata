@@ -17,12 +17,12 @@ mcs:
     consoleLevel : 20
 
   centroidParams:
-    boxCent: 20
-    boxFind: 20
+    boxCent: 14
+    boxFind: 14
     centSigma: 15
-    findSigma: 25
-    fwhmx: 0
-    fwhmy: 0
+    findSigma: 15
+    fwhmx: 4
+    fwhmy: 9
     matchRad: 20
     maxIt: 20
     nmax: 250
