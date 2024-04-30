@@ -1,7 +1,13 @@
 sps:
   listen:
     interface: sps-ics
-  # its probably wrong, I'll change later(probably).
+
+  exposure:
+    doSyncSpectrograph: True # synchronise spectrograph shutter opening.
+    expTimeOverHead: 0 # overhead to calculate the required number of h4 reads.
+    ramp:
+      nReadMin: 3
+      nExtraRead: 1 # EDIT APRIL24 : to be able to synchronise h4 safely, an extra-read was added.
 
   doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
   doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
