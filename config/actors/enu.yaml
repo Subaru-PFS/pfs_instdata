@@ -90,7 +90,7 @@ sm1:
 
   iis:
     <<: *IIS
-    lampNames: [ hgar, neon ]
+    lampNames: [ neon, krypton, halogen ]
   temps:
     <<: *TEMPS
 
