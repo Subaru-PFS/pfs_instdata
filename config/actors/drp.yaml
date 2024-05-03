@@ -68,7 +68,7 @@ drp: &DRP
       doAutoDetrend: False
       doAutoReduce: True
       doDetectorMapQa: True
-      doExtractionQa: True
+      doExtractionQa: False
       ingestMode: 'copy'
       ingestPgsql: True
 
