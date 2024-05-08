@@ -181,17 +181,12 @@ actors:
       coolerTemps[reject]:
         <<: *COOLER_REJECT
         limits: [ null, 35 ]
-      visTemps[detector1]: &CCD_TEMP
+      visTemps[detector2]: &CCD_TEMP
         <<: *LIMITS_ALERT
         alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
-        limits: [ 161, 165 ]
-      visTemps[detector2]:
-        <<: *CCD_TEMP
+        limits: [ 162.9, 163.1 ]
     bakeout:
       <<: *PUMPDOWN
-      visTemps[detector1]:
-        <<: *CCD_TEMP
-        limits: [ null, 330 ]
       visTemps[detector2]:
         <<: *CCD_TEMP
         limits: [ null, 330 ]
@@ -220,18 +215,13 @@ actors:
         limits: [ null, 45 ]
       cooler2Temps[reject]:
         <<: *N_OPERATION_REJECT
-      nirTemps[detector1]: &H4_TEMP
+      nirTemps[detector2]: &H4_TEMP
         <<: *LIMITS_ALERT
         alertFmt: 'is out of range: {value}K !! ({lowerLimit};{upperLimit})'
         limits: [ 99.99, 100.01 ]
-      nirTemps[detector2]:
-        <<: *H4_TEMP
 
     bakeout:
       <<: *PUMPDOWN
-      nirTemps[detector1]:
-        <<: *H4_TEMP
-        limits: [ null, 330 ]
       nirTemps[detector2]:
         <<: *H4_TEMP
         limits: [ null, 330 ]
@@ -274,11 +264,6 @@ actors:
     <<: *VISCU
   xcu_n1:
     <<: *NCU
-    operation:
-      <<: *N_OPERATION
-      nirTemps[detector1]:
-        <<: *H4_TEMP
-        limits: [ 101.45 , 101.6 ]
 
   enu_sm1:
 
@@ -299,11 +284,6 @@ actors:
     <<: *VISCU
   xcu_n3:
     <<: *NCU
-    operation:
-      <<: *N_OPERATION
-      nirTemps[detector1]:
-        <<: *H4_TEMP
-        limits: [ 100.75 , 100.95 ]
   enu_sm3:
     <<: *ENU
 
