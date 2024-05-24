@@ -8,11 +8,15 @@ peb:
 # Which interface/address we should _listen_ on. 'localhost' does not open security holes!
 # Which port do we listen for connections from tron on? This needs to match the one in tron's config/hub.py 
 
-  controllers : [temps,flow,led,power]
-  startingControllers : [temps,flow,led,power]
+  controllers : [temps,flow,led,power,pfi]
+  startingControllers : [temps,flow,led,power,pfi]
 
   eboxtype : oldebox
 
+  pfi:
+    host : 133.40.164.96
+    port : 80
+    
   power:
     host : 133.40.164.97
 
