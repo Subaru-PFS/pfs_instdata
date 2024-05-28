@@ -14,6 +14,8 @@ iic:
     stepSize: 90
     count: 30
     motor: phi
+  fps:
+    cableBLampOn: False
   mcs:
     exptime: 4.8
   ag:
