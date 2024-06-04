@@ -57,7 +57,7 @@ n2:
     sam: 59
     asic: 120
     h4: 18315
-      
+
 n3:
   <<: *H4CAM
   serialNumbers:
@@ -75,9 +75,10 @@ n4:
     cryostat: 4
     fpa: 3
     sam: 57
-    asic: 118
+    asic: 245
     h4: 18661
 
+# The main IDG test dewar
 n8:
   <<: *H4CAM
   serialNumbers:
@@ -95,7 +96,7 @@ n9:
   serialNumbers:
     <<: *SERIAL_NUMBERS
     sam: -1                      # None available, 2023-07
-    asic: -1                     # None available, 2023-07
+    asic: 247
     h4: ROIC
     
   listen:
@@ -104,4 +105,6 @@ n9:
 # We were originally shipped six SAMs: 54-59 and five ASICs: 117-120,124.
 #
 # sam 58 was totally destroyed in a flood
+# sam 54 ("damp SAM") was washed in a flood. Barely functional.
+#
 # asic 124 was also flooded, returned to Teledyne for rework, but declared dead and replaced with 229

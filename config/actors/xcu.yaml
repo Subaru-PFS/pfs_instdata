@@ -166,17 +166,17 @@ n2:
 n3:
   <<: *NIR_XCU
   fpa:
+    <<: *FPA
     range: [294.44, 288.12, 294.78]
     tilts: [10, 30, -50]
     focus: 170.0
-
 n4:
   <<: *NIR_XCU
   fpa:
     <<: *FPA
     range: [283.60, 271.46, 306.38]
-    tilts: [11, -11, -11]
-    focus: 180.0
+    tilts: [-29, 26, 32]
+    focus: 60.0
 
 # IDG dewars
 b9:
