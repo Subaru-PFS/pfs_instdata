@@ -11,5 +11,5 @@ pfsgui:
       sm1: [ enu, b, r, n ]
       sm2: [ enu, b, r, n ]
       sm3: [ enu, b, r, n ]
-      sm4: [ enu, b, r ]
+      sm4: [ enu, b, r, n ]
       pfi: [ peb, pfilamps ]
