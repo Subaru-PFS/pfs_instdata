@@ -45,7 +45,7 @@ n1:
     cryostat: 2
     fpa: 2
     sam: 56
-    asic: 229
+    asic: 247
     h4: 18660
 
 n2:
@@ -85,7 +85,7 @@ n8:
     <<: *SERIAL_NUMBERS
     fpa: 5
     sam: 54
-    asic: 117
+    asic: 248
     h4: 18734
 
 # The NIR part of the b9 bench piepan, CCD DAQ, and NIR DAQ.
@@ -95,8 +95,8 @@ n9:
   configName: warmIrp1
   serialNumbers:
     <<: *SERIAL_NUMBERS
-    sam: -1                      # None available, 2023-07
-    asic: 247
+    sam: 84
+    asic: 229
     h4: ROIC
     
   listen:
