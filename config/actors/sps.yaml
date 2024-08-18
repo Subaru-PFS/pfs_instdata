@@ -18,7 +18,7 @@ sps:
     sm1:
       bcu: sci
       rcu: sci
-      ncu: none
+      ncu: sci
       rsh: ok
       bsh: ok
       fca: ok
@@ -38,7 +38,7 @@ sps:
       iis: ok
 
     sm3:
-      bcu: eng
+      bcu: sci
       rcu: sci
       ncu: sci
       rsh: ok
