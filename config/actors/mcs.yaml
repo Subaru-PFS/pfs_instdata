@@ -19,8 +19,8 @@ mcs:
   centroidParams:
     boxCent: 14
     boxFind: 14
-    centSigma: 15
-    findSigma: 15
+    centSigma: 25
+    findSigma: 25
     fwhmx: 4
     fwhmy: 9
     matchRad: 20
@@ -30,3 +30,7 @@ mcs:
     threshFact: 4
     threshMode: full
     threshSigma: 4
+    aperture: 8
+    innerAnn: 20
+    outerAnn: 24
+    
