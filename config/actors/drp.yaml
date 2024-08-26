@@ -30,7 +30,6 @@ drp: &DRP
         doCrosstalk: False
       doAdjustDetectorMap: True
       doMeasureLines: True
-      doApplyFiberNorms: False
 
     detectorMapQa: &DETECTORMAPQA
       {}
