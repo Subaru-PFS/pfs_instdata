@@ -1,10 +1,10 @@
 tron:
-  host: mhs-ics
+  host: localhost
   cmdrPort: 6093
 
 listen:
   # Which interface/address we should _listen_ on. 'localhost' does not open security holes!
-  interface: actors-ics
+  interface: localhost
   # Which port do we listen for connections from tron on? This needs to match the one in tron's config/hub.py
   port: 0
 
@@ -18,3 +18,4 @@ logging:
 
 misc:
   runInReactorThread: False
+  
