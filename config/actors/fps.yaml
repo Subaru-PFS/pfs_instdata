@@ -3,3 +3,5 @@ fps:
     interface: actors-ics
   opdb:
     host: db-ics
+  pfsConfig:
+    notConvergedDistanceThreshold: 0.1  # Distance threshold above which cobras are set to FiberStatus.NOTCONVERGED
