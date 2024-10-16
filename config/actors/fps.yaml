@@ -3,3 +3,6 @@ fps:
     interface: actors-ics
   opdb:
     host: db-ics
+  pfsConfig:
+    notConvergedDistanceThreshold: 0.05  # Cobras with a position error above 50 microns are set to FiberStatus.NOTCONVERGED
+
