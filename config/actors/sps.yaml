@@ -13,7 +13,7 @@ sps:
   doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
 
   S:
-    spsModules: [ sm1, sm2, sm3, sm4 ]
+    spsModules: [ sm2, sm3, sm4 ]
 
     sm1:
       bcu: sci
