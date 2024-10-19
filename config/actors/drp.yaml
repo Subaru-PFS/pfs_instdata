@@ -2,107 +2,22 @@ drp: &DRP
   listen:
     interface: shell2-ics
 
+  H: &ENGINE
+    datastore: /work/datastore
+    rawRun: PFS/raw/all
+    pfsConfigRun: PFS/pfsConfig
+    ingestMode: 'copy'
+    inputCollection: 'PFS/default'
+    outputCollection: 'drpActor/reductions'
+    pipelineYaml: 'pipelines/hilo.yaml'
+    nCores: 16
+
   S:
-    target: /data/drp/repo
-    rerun: drpActor/CALIB
-    CALIB: CALIB
-    pfsConfigDir: /data/raw
-    nProcesses: 12
-
-    isr: &ISR
-      doFlat: False
-      doWrite: False
-    repair: &REPAIR
-      doCosmicRay: False
-
-    detrend: &DETREND
-      isr:
-        <<: *ISR
-      repair:
-        <<: *REPAIR
-
-    reduceExposure: &REDUCEEXPOSURE
-      isr:
-        <<: *ISR
-      repair:
-        <<: *REPAIR
-      extractSpectra:
-        doCrosstalk: False
-      doAdjustDetectorMap: True
-      doMeasureLines: True
-
-    detectorMapQa: &DETECTORMAPQA
-      {}
-    extractionQa: &EXTRACTIONQA
-      {}
-
-    settings: &SETTINGS
-      doCopyDesignToPfsConfigDir: False
-      doAutoIngest: True
-      doAutoDetrend: True
-      doAutoReduce: False
-      doDetectorMapQa: False
-      doExtractionQa: False
-      ingestMode: 'link'
-      ingestPgsql: False
-
-  H:
-    target: /work/drp
-    rerun: drpActor/CALIB
-    CALIB: CALIB
-    pfsConfigDir: /data/raw
-    nProcesses: 24
-
-    detrend:
-      <<: *DETREND
-    reduceExposure:
-      <<: *REDUCEEXPOSURE
-
-    detectorMapQa:
-      <<: *DETECTORMAPQA
-    extractionQa:
-      <<: *EXTRACTIONQA
-
-    settings:
-      <<: *SETTINGS
-      doAutoDetrend: False
-      doAutoReduce: True
-      doDetectorMapQa: True
-      doExtractionQa: False
-      ingestMode: 'copy'
-      ingestPgsql: True
-
-
-  L:
-    target: /data/drp/sps
-    rerun: ginga/detrend
-    CALIB: CALIB
-    pfsConfigDir: /data/raw
-    nProcesses: 4
-
-    isr: &ISRL
-      <<: *ISR
-      doBias: False
-      doDark: False
-
-    detrend:
-      <<: *DETREND
-      isr:
-        <<: *ISRL
-
-    reduceExposure:
-      <<: *REDUCEEXPOSURE
-      isr:
-        <<: *ISRL
-
-    settings:
-      <<: *SETTINGS
-
-    detectorMapQa:
-      <<: *DETECTORMAPQA
-    extractionQa:
-      <<: *EXTRACTIONQA
-
+     <<: *ENGINE
+     datastore: /data/drp/datastore
+     ingestMode: 'link'
+     pipelineYaml: 'pipelines/summit.yaml'
+     nCores: 12
 
 drp2:
   <<: *DRP
