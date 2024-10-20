@@ -10,7 +10,7 @@ iic:
     stepSize: -40
     count: 40
   dotRoach:
-    rootDir: /data/dotRoach
+    rootDir: /data/drp/dotRoach
     stepSize: 90
     count: 30
     motor: phi
