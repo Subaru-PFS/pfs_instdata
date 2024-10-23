@@ -9,9 +9,6 @@ sps:
       nReadMin: 3
       nExtraRead: 1 # EDIT APRIL24 : to be able to synchronise h4 safely, an extra-read was added.
 
-  doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
-  doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
-
   S:
     spsModules: [ sm2, sm3, sm4 ]
 

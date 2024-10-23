@@ -1,6 +1,9 @@
 iic:
   pfsDesign:
     rootDir: /data/pfsDesign
+  pfsConfig:
+    doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
+    doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
   maskFiles:
     rootDir: /data/fps/maskFiles
   nearDotConvergence:
