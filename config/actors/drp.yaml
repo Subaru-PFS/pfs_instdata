@@ -17,7 +17,7 @@ drp: &DRP
      datastore: /data/drp/datastore
      ingestMode: 'link'
      pipelineYaml: 'pipelines/summit.yaml'
-     nCores: 12
+     nCores: 10
 
 drp2:
   <<: *DRP
