@@ -1,6 +1,4 @@
 description: Reduce an exposure at the summit, just doing ISR.
 tasks:
   isr:
-    class: pfs.drp.stella.pipelines.IsrTask
-    config:
-      connections.ccdExposure: raw.exposure
+    class: lsst.obs.pfs.isrTask.PfsIsrTask
