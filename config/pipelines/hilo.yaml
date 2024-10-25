@@ -8,8 +8,6 @@ tasks:
     class: pfs.drp.stella.reduceExposure.ReduceExposureTask
   mergeArms:
     class: pfs.drp.stella.mergeArms.MergeArmsTask
-
-  # dmResiduals:
-  # class: pfs.drp.qa.dmResiduals.DetectorMapResidualsTask
-  # dmCombinedResiduals:
-  #   class: pfs.drp.qa.dmCombinedResiduals.DetectorMapCombinedResidualsTask
+  # adding QA
+  dmResiduals:
+    class: pfs.drp.qa.dmResiduals.DetectorMapResidualsTask
