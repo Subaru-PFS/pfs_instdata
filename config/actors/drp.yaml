@@ -23,7 +23,7 @@ drp: &DRP
   genDetrendKey:
     useSilentThread: True
     waitInterval: 1
-    timeout: 60
+    timeout: 90
 
 drp2:
   <<: *DRP
