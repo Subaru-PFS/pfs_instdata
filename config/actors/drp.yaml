@@ -13,11 +13,17 @@ drp: &DRP
     nCores: 16
 
   S:
-     <<: *ENGINE
-     datastore: /data/drp/datastore
-     ingestMode: 'link'
-     pipelineYaml: 'pipelines/summit.yaml'
-     nCores: 10
+    <<: *ENGINE
+    datastore: /data/drp/datastore
+    ingestMode: 'link'
+    pipelineYaml: 'pipelines/summit.yaml'
+    nCores: 10
+    doGenDetrendKey: True
+
+  genDetrendKey:
+    useSilentThread: True
+    waitInterval: 1
+    timeout: 60
 
 drp2:
   <<: *DRP
