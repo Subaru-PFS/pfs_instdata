@@ -9,6 +9,8 @@ sps:
       nReadMin: 3
       nExtraRead: 1 # EDIT APRIL24 : to be able to synchronise h4 safely, an extra-read was added.
 
+    raiseNoDesignId: False # raise an error with do pfsDesignId was found for the given visitId.
+
   S:
     spsModules: [ sm2, sm3, sm4 ]
 
