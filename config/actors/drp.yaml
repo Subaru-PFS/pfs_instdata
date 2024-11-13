@@ -4,8 +4,8 @@ drp: &DRP
 
   H: &ENGINE
     datastore: /work/datastore
-    rawRun: PFS/raw/all
-    pfsConfigRun: PFS/pfsConfig
+    rawRun: PFS/raw/sps
+    pfsConfigRun: PFS/raw/pfsConfig
     ingestMode: 'copy'
     inputCollection: 'PFS/default'
     outputCollection: 'drpActor/reductions'
