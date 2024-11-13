@@ -1,0 +1,14 @@
+# Just a placeholder from alerts
+_warning: &WARNING
+  alertType: trigger
+  call: True
+  alertFmt: '{value} is not OK !'
+
+actors:
+  drp: &DRPACTOR
+    ingestStatus[statusStr]:
+      <<: *WARNING
+      alertFmt: '{value}'
+
+  drp2:
+    <<: *DRPACTOR
