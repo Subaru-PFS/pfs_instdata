@@ -7,7 +7,7 @@ drp: &DRP
     rawRun: PFS/raw/sps
     pfsConfigRun: PFS/raw/pfsConfig
     ingestMode: 'copy'
-    inputCollection: 'PFS/default'
+    inputCollection: 'PFS/defaults'
     outputCollection: 'drpActor/reductions'
     pipelineYaml: 'pipelines/hilo.yaml'
     nCores: 16
