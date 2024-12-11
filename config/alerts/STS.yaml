@@ -334,6 +334,12 @@ actors:
       stsId: 1201
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_B1 Cooler1 tip temperature'
+      stsId: 1220
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_B1 Cooler1 power'
@@ -446,6 +452,12 @@ actors:
       stsId: 1401
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_B2 Cooler1 tip temperature'
+      stsId: 1420
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_B2 Cooler1 power'
@@ -558,6 +570,12 @@ actors:
       stsId: 1601
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_B3 Cooler1 tip temperature'
+      stsId: 1620
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_B3 Cooler1 power'
@@ -670,6 +688,12 @@ actors:
       stsId: 1801
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_B4 Cooler1 tip temperature'
+      stsId: 1820
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_B4 Cooler1 power'
@@ -782,6 +806,12 @@ actors:
       stsId: 1278
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N1 Cooler2 tip temperature'
+      stsId: 1281
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N1 Cooler2 power'
@@ -802,6 +832,12 @@ actors:
       stsId: 1261
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N1 Cooler1 tip temperature'
+      stsId: 1280
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N1 Cooler1 power'
@@ -920,6 +956,12 @@ actors:
       stsId: 1478
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N2 Cooler2 tip temperature'
+      stsId: 1481
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N2 Cooler2 power'
@@ -940,6 +982,12 @@ actors:
       stsId: 1461
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N2 Cooler1 tip temperature'
+      stsId: 1480
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N2 Cooler1 power'
@@ -1058,6 +1106,12 @@ actors:
       stsId: 1678
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N3 Cooler2 tip temperature'
+      stsId: 1681
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N3 Cooler2 power'
@@ -1078,6 +1132,12 @@ actors:
       stsId: 1661
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N3 Cooler1 tip temperature'
+      stsId: 1680
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N3 Cooler1 power'
@@ -1196,6 +1256,12 @@ actors:
       stsId: 1878
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N4 Cooler2 tip temperature'
+      stsId: 1881
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N4 Cooler2 power'
@@ -1216,6 +1282,12 @@ actors:
       stsId: 1861
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_N4 Cooler1 tip temperature'
+      stsId: 1880
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_N4 Cooler1 power'
@@ -1334,6 +1406,12 @@ actors:
       stsId: 1141
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_R1 Cooler1 tip temperature'
+      stsId: 1160
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_R1 Cooler1 power'
@@ -1446,6 +1524,12 @@ actors:
       stsId: 1341
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_R2 Cooler1 tip temperature'
+      stsId: 1360
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_R2 Cooler1 power'
@@ -1558,6 +1642,12 @@ actors:
       stsId: 1541
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_R3 Cooler1 tip temperature'
+      stsId: 1560
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_R3 Cooler1 power'
@@ -1670,6 +1760,12 @@ actors:
       stsId: 1741
       stsType: FLOAT+TEXT
       units: degC
+    - keyId: 2
+      keyName: tip
+      stsHelp: 'PFS: XCU_R4 Cooler1 tip temperature'
+      stsId: 1760
+      stsType: FLOAT+TEXT
+      units: K
     - keyId: 3
       keyName: power
       stsHelp: 'PFS: XCU_R4 Cooler1 power'
