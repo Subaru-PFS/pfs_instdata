@@ -10,7 +10,7 @@ sps:
       nExtraRead: 1 # EDIT APRIL24 : to be able to synchronise h4 safely, an extra-read was added.
 
   S:
-    spsModules: [ sm2, sm3, sm4 ]
+    spsModules: [ sm1, sm2, sm3, sm4 ]
 
     sm1:
       bcu: sci
@@ -26,7 +26,7 @@ sps:
     sm2:
       bcu: sci
       rcu: sci
-      ncu: sci
+      ncu: broken
       rsh: ok
       bsh: ok
       fca: ok
