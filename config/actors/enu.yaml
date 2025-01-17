@@ -82,7 +82,13 @@ sm1:
   slit:
     <<: *SLIT
     # home and slit position are defined in the slit coordinate system and then are automatically converted to world
-    home: [ -0.428, 0.19, 205.080025, 0.0, 0.031776, -120 ]
+    #home: [ -0.428, 0.19, 205.080025, 0.0, 0.031776, -120 ]
+    # 2025.01 leg #1 of the hexapod was removed and installed to replace its motor.
+    # After it home position was measured using the visible cameras.
+    # Shift-Y (spectral), Shift-Z (spatial) was measured as spot shift.
+    # Shift-X and tilt-Y was measured by slit throughFocus.
+    # Measured shift was added, and tilt was subtracted.
+    home: [ -0.2503, 0.097, 205.146025, 0.0, 0.059076, -120 ]
     slit_position: [ -108.0, 0, 262, 0.0, 0.0, -119.822 ]
     pix_to_mm: [ 0.03447873, 0.03327372 ]
   rexm:
