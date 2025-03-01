@@ -26,7 +26,7 @@ sps:
     sm2:
       bcu: sci
       rcu: sci
-      ncu: broken
+      ncu: eng
       rsh: ok
       bsh: ok
       fca: ok
