@@ -1,0 +1,10 @@
+ag:
+  listen:
+    interface: ag-ics
+
+  agc_guide_offset: true
+  agc_match: true
+  agcc_timestamp: yes
+  tel_status: gen2,mlp1
+
+  design_path: /data/pfsDesign
