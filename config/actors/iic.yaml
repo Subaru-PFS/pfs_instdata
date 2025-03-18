@@ -33,3 +33,5 @@ iic:
       exptime: 5.
       redWindow: 600,500
       blueWindow: 2500,500
+
+  maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
