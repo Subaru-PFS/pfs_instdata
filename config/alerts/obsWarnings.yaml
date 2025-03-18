@@ -12,3 +12,8 @@ actors:
 
   drp2:
     <<: *DRPACTOR
+
+  iic:
+    pfsConfig[instStatus]:
+      <<: *WARNING
+      alertFmt: 'pfsConfig.instStatus is not OK : {value}'
