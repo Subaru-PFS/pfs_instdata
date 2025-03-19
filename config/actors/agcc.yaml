@@ -87,7 +87,7 @@ agcc:
       - 1032
     satVal: 65535
     magFit: [0.928,27.389]
-
+    flatVal: 0.006
   centroidParams:
     values:
     thresh: 10
