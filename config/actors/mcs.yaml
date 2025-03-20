@@ -19,8 +19,8 @@ mcs:
   centroidParams:
     boxCent: 14
     boxFind: 14
-    centSigma: 30
-    findSigma: 30
+    centSigma: 25
+    findSigma: 25
     fwhmx: 4
     fwhmy: 9
     matchRad: 20
