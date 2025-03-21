@@ -1,0 +1,13 @@
+vgw:
+  listen:
+    interface: ag-ics
+
+  datadir: $ICS_MHS_DATA_ROOT/vgw
+
+  data_sink:
+    confpath: $ICS_VGWACTOR_DIR/etc/pfsag_sum.yml
+    hostname: 133.40.164.85
+    username: pfs-data
+    topic: pfs_ag
+    datadir: $ICS_MHS_DATA_ROOT/vgw
+  
