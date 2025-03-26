@@ -34,4 +34,8 @@ iic:
       redWindow: 600,500
       blueWindow: 2500,500
 
+  fiberProfiles:
+    nTraceBefore: 3
+    nTraceAfter: 1
+
   maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
