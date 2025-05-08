@@ -28,6 +28,10 @@ drp: &DRP
     waitInterval: 1
     timeout: 90
 
+  lsstLog:
+    level: 10 # logging.DEBUG=10   logging.INFO=20   logging=WARNING 30
+    long_log: True
+
 drp2:
   <<: *DRP
   tron:
