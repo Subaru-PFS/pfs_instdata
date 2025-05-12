@@ -9,6 +9,9 @@ h4cam: &H4CAM
     all: [ hxhal ]
     starting: [ hxhal ]
 
+  logging:
+    doRemote: true
+
   serialNumbers: &SERIAL_NUMBERS
     cryostat: -1
     fpa: -1
