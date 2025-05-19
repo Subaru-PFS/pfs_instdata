@@ -2,3 +2,5 @@ description: Reduce an exposure at the summit, just doing ISR.
 tasks:
   isr:
     class: lsst.obs.pfs.isrTask.PfsIsrTask
+    config:
+      h4.quickCDS: True
