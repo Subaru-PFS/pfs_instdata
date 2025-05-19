@@ -15,10 +15,7 @@ drp: &DRP
   S:
     <<: *ENGINE
     datastore: /data/drp/datastore
-    rawRun: PFS/raw/all
-    pfsConfigRun: PFS/pfsConfig
     ingestMode: 'link'
-    inputCollection: 'PFS/default'
     pipelineYaml: 'pipelines/summit.yaml'
     nCores: 10
     doGenDetrendKey: True
