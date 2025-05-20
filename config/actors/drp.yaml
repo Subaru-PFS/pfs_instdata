@@ -10,14 +10,14 @@ drp: &DRP
     inputCollection: 'PFS/defaults'
     outputCollection: 'drpActor/reductions'
     pipelineYaml: 'pipelines/hilo.yaml'
-    nCores: 16
+    maxWorkers: 16
 
   S:
     <<: *ENGINE
     datastore: /data/drp/datastore
     ingestMode: 'link'
     pipelineYaml: 'pipelines/summit.yaml'
-    nCores: 10
+    maxWorkers: 10
     doGenDetrendKey: False
 
   genDetrendKey:
