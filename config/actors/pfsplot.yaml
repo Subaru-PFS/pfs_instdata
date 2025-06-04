@@ -1,3 +1,5 @@
 pfsplot:
   listen:
     interface: localhost
+
+  ignorePlots: [ ConvergenceHist, ConvergenceMap, showAgcErrorsForVisits, ShowGuiderErrors ]
