@@ -129,7 +129,8 @@ sm2:
   slit:
     <<: *SLIT
     # home and slit position are defined in the slit coordinate system and then are automatically converted to world
-    home: [ 0.1134, 0.15, 204.955, -0.15, 0.1402, -120 ]
+    slit_position: [ 552, 0, 262, 0.0, 0.0, -120 ]
+    home: [ 660.1134, 0.15, 204.955, -0.15, 0.1402, -120 ]
     pix_to_mm: [0.03533, 0.036498 ]
 
   temps:
