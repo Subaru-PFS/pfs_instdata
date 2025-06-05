@@ -3,3 +3,5 @@ pfsplot:
     interface: localhost
 
   ignorePlots: [ ConvergenceHist, ConvergenceMap, showAgcErrorsForVisits, ShowGuiderErrors ]
+  setAutoTabFocus: False
+  setAutoTabDelay: 30
