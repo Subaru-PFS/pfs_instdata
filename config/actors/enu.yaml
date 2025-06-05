@@ -132,6 +132,7 @@ sm2:
     slit_position: [ 552, 0, 262, 0.0, 0.0, -120 ]
     home: [ 660.1134, 0.15, 204.955, -0.15, 0.1402, -120 ]
     pix_to_mm: [0.03533, 0.036498 ]
+    activateSoftwareLimits: False
 
   temps:
     <<: *TEMPS
