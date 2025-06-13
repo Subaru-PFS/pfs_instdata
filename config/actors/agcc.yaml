@@ -106,5 +106,13 @@ agcc:
     minarea: 15
     deblend: 0.01
     ellip: 0.5
+  flags:
+    0: 'right'
+    1: 'edge'
+    2: 'sat'
+    3: 'bad_shape'
+    4: 'ellip'
+    5: 'flat_top'
+    
     
 
