@@ -11,7 +11,7 @@ peb:
   controllers : [temps,flow,led,power,pfi]
   startingControllers : [temps,flow,led,power,pfi]
 
-  eboxtype : oldebox
+  eboxtype : newebox
 
   pfi:
     host : 133.40.164.96
@@ -30,7 +30,7 @@ peb:
     # 0.1ms period
     aperiod : 100
     # 10% duty cycle
-    adutycycle : 10
+    adutycycle : 2
     # 100ms period
     bperiod: 100000
     # 10% duty cycle
