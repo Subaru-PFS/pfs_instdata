@@ -45,8 +45,8 @@ agcc:
       - 10
       - 1032
     '3':
-      satVal1: 65535
-      satVal2: 55110
+      satVal1: 55110
+      satVal2: 65535
       badCols: []
       reg:
       - 25
