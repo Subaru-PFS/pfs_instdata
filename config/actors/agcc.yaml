@@ -19,6 +19,8 @@ agcc:
 
   cameraParams:
     '1':
+      satVal1: 65535
+      satVal2: 65535
       badCols: []
       reg:
       - 25
@@ -30,6 +32,8 @@ agcc:
       - 10
       - 1032
     '2':
+      satVal1: 65535
+      satVal2: 65535
       badCols: []
       reg:
       - 25
@@ -41,6 +45,8 @@ agcc:
       - 10
       - 1032
     '3':
+      satVal1: 65535
+      satVal2: 65535    
       badCols: []
       reg:
       - 25
@@ -52,6 +58,8 @@ agcc:
       - 10
       - 1032
     '4':
+      satVal1: 65535
+      satVal2: 65535    
       badCols:
       - 332
       reg:
@@ -64,6 +72,8 @@ agcc:
       - 10
       - 1032
     '5':
+      satVal1: 65535
+      satVal2: 65535    
       badCols: []
       reg:
       - 25
@@ -75,6 +85,8 @@ agcc:
       - 10
       - 1032
     '6':
+      satVal1: 65535
+      satVal2: 65535    
       badCols: []
       reg:
       - 25
@@ -85,7 +97,6 @@ agcc:
       - 1048
       - 10
       - 1032
-    satVal: 65535
     magFit: [0.928,27.389]
     flatVal: 0.006
   centroidParams:
