@@ -1,4 +1,4 @@
 mlp1:
   listen:
     interface: ag-ics
-  dbUri = 'file:/export/share/software/mhs/data/mlp1/mlp1.db'
+  dbUri: 'file:///export/share/software/mhs/data/mlp1/mlp1.db'
