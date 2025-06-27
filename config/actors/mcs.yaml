@@ -1,20 +1,20 @@
 mcs:
   listen:
-    interface: us-mcs    
+    interface: us-mcs
     #interface: mcs
 
   db:
-    hostname : db-ics
-    dbname : opdb
-    port : 5432
-    username : pfs
+    hostname: db-ics
+    dbname: opdb
+    port: 5432
+    username: pfs
 
   logging:
-    baseLevel : 20
-    cmdLevel : 20
-    ioLevel : 20
-    dispatchLevel : 30
-    consoleLevel : 20
+    baseLevel: 20
+    cmdLevel: 20
+    ioLevel: 20
+    dispatchLevel: 30
+    consoleLevel: 20
 
   centroidParams:
     boxCent: 14
@@ -33,4 +33,9 @@ mcs:
     aperture: 8
     innerAnn: 20
     outerAnn: 24
+
+  pfiTransform:
+    matchRadiusOuterRing: 8.0
+    nMatchMinOuterRing: 0.7
+    nMatchMinAll: 0.7
     
