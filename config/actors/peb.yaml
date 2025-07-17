@@ -11,7 +11,8 @@ peb:
   controllers : [temps,flow,led,power,pfi]
   startingControllers : [temps,flow,led,power,pfi]
 
-  eboxtype : newebox
+  eboxtype : oldebox
+  #eboxtype : newebox
 
   pfi:
     host : 133.40.164.96

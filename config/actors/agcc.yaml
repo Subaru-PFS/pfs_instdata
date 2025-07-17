@@ -1,8 +1,8 @@
 agcc:
 
   listen:
-    #interface: agcc2
-    interface: agcc
+    interface: agcc2
+    #interface: agcc
 
   cam1 : ML0424912
   cam2 : ML0374912
