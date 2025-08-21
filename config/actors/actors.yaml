@@ -18,15 +18,15 @@ logging:
 
 db:
   opdb:
-    hostname: db-ics
+    host: db-ics
     dbname: opdb
     port: 5432
-    username: pfs
+    user: pfs
   gaia:
-    hostname: g2db.sum.subaru.nao.ac.jp
+    host: g2db.sum.subaru.nao.ac.jp
     dbname: star_catalog
     port: 5438
-    username: obsuser
+    user: obsuser
 
 misc:
   runInReactorThread: False
