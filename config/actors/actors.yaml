@@ -16,5 +16,17 @@ logging:
   dispatchLevel: 30
   consoleLevel: 20
 
+db:
+  opdb:
+    hostname: db-ics
+    dbname: opdb
+    port: 5432
+    username: pfs
+  gaia:
+    hostname: g2db.sum.subaru.nao.ac.jp
+    dbname: star_catalog
+    port: 5438
+    username: obsuser
+
 misc:
   runInReactorThread: False
