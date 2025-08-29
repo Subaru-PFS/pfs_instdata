@@ -32,8 +32,8 @@ agcc:
       - 10
       - 1032
     '2':
-      satVal1: 65535
-      satVal2: 65535
+      satVal1: 63210
+      satVal2: 58300
       badCols: []
       reg:
       - 25
@@ -45,8 +45,8 @@ agcc:
       - 10
       - 1032
     '3':
-      satVal1: 65535
-      satVal2: 65535    
+      satVal1: 55110
+      satVal2: 65535
       badCols: []
       reg:
       - 25
@@ -73,7 +73,7 @@ agcc:
       - 1032
     '5':
       satVal1: 65535
-      satVal2: 65535    
+      satVal2: 65535
       badCols: []
       reg:
       - 25
@@ -86,7 +86,7 @@ agcc:
       - 1032
     '6':
       satVal1: 65535
-      satVal2: 65535    
+      satVal2: 65535
       badCols: []
       reg:
       - 25
@@ -106,5 +106,13 @@ agcc:
     minarea: 15
     deblend: 0.01
     ellip: 0.5
+  flags:
+    0: 'right'
+    1: 'edge'
+    2: 'sat'
+    3: 'bad_shape'
+    4: 'ellip'
+    5: 'flat_top'
+    
     
 
