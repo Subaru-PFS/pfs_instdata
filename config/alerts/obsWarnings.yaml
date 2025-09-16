@@ -1,8 +1,32 @@
-# Just a placeholder from alerts
+# Just a placeholder from warnings
 _warning: &WARNING
   alertType: trigger
   call: True
   alertFmt: '{value} is not OK !'
+
+
+_limits: &LIMITS
+  <<: *WARNING
+  alertType: limits
+  limits: [ null, null ]
+  lowerBoundInclusive: False
+  upperBoundInclusive: False
+
+# Template for regexp match warnings:
+#   re: a regular expression
+#   invert: bool, whether or not to invert the match sense
+_regexp: &REGEXP
+  <<: *WARNING
+  alertType: regexp
+  pattern: ^OK$
+  invert: False
+
+# Template for boolean warnings:
+#   nominalValue:False or True
+_boolean: &BOOLEAN
+  <<: *WARNING
+  alertType: boolean
+  nominalValue: False
 
 actors:
   drp: &DRPACTOR
@@ -16,4 +40,20 @@ actors:
   iic:
     pfsConfig[instStatus]:
       <<: *WARNING
-      alertFmt: 'pfsConfig.instStatus is not OK : {value}'
+      alertFmt: 'instStatus is not OK : {value}'
+
+#  tests:
+#    warn_limits[test2]:
+#      <<: *LIMITS
+#      limits: [ 12, 25 ]
+#      alertFmt: 'temperature is too high: {value}C !'
+#
+#    warn_boolean:
+#      <<: *BOOLEAN
+#      nominalValue: False
+#      alertFmt: 'Valve closed, go check !'
+#
+#    warn_regexp:
+#      <<: *REGEXP
+#      alertFmt: 'current {value} should be open !'
+#      pattern: '^Open$'
