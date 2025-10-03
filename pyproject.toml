@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "lsst-versions"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pfs_instdata"
+dynamic = ["version"]
+description = "Storage of instrument characteristics files for PFS (Prime Focus Spectrograph)"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Subaru-PFS/pfs_instdata"
+Repository = "https://github.com/Subaru-PFS/pfs_instdata"
+
+[tool.setuptools]
+package-dir = { "" = "python" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["python"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"pfs.instdata" = ["data/**/*", "config/**/*"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["*.pyc", "__pycache__", ".git*", ".DS_Store"]
+
+[tool.lsst_versions]
+write_to = "python/pfs/instdata/version.py"
