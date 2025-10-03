@@ -23,6 +23,8 @@ tasks:
     class: pfs.drp.stella.reduceExposure.ReduceExposureTask
     config:
       requireAdjustDetectorMap: True
+      doApplySkyNorms: False
+
   mergeArms:
     class: pfs.drp.stella.mergeArms.MergeArmsTask
 
