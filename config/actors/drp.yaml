@@ -2,35 +2,59 @@ drp: &DRP
   listen:
     interface: shell2-ics
 
-  H: &ENGINE
-    datastore: /work/datastore
-    rawRun: PFS/raw/sps
-    pfsConfigRun: PFS/raw/pfsConfig
-    ingestMode: 'copy'
-    inputCollection: 'PFS/defaults'
-    outputCollection: 'drpActor/reductions'
-    pipelineYaml: 'pipelines/hilo.yaml'
-    nCores: 16
+  engine: &ENGINE
+
+    butler: &BUTLER
+      datastore: /work/datastore
+      raw: PFS/raw/sps
+      pfsConfig: PFS/raw/pfsConfig
+      input: PFS/defaults
+      output: drpActor/reductions
+
+    pipeline: &PIPE
+      yaml: pipelines/hilo.yaml
+
+    ingest: &INGEST
+      mode: copy     # copy|link
+
+    execution: &EXEC
+      numProc: 16          # process-level parallelism (quanta in parallel)
+      taskThreads: 1       # threads per quantum (keep 1 if OMP/BLAS set to 1)
+      clobberOutput: true
+
+    lsstLog:
+      level: 10 # logging.DEBUG=10   logging.INFO=20   logging=WARNING 30
+      long_log: False
+
+    detrendCallback: &CB
+      activated: false
+      useSilentThread: true
+      waitInterval: 1
+      timeout: 90
+
+  H:
+    engine:
+      <<: *ENGINE
 
   S:
-    <<: *ENGINE
-    datastore: /data/drp/datastore
-    rawRun: PFS/raw/all
-    pfsConfigRun: PFS/pfsConfig
-    ingestMode: 'link'
-    inputCollection: 'PFS/default'
-    pipelineYaml: 'pipelines/summit.yaml'
-    nCores: 10
-    doGenDetrendKey: True
+    engine:
+      <<: *ENGINE
+      butler:
+        <<: *BUTLER
+        datastore: /data/drp/datastore
+      ingest:
+        <<: *INGEST
+        mode: link
+      pipeline:
+        <<: *PIPE
+        yaml: pipelines/summit.yaml
+      execution:
+        <<: *EXEC
+        numProc: 10
 
-  genDetrendKey:
-    useSilentThread: True
-    waitInterval: 1
-    timeout: 90
-
-  lsstLog:
-    level: 10 # logging.DEBUG=10   logging.INFO=20   logging=WARNING 30
-    long_log: True
+      detrendCallback:
+        <<: *CB
+        activated: true
 
 drp2:
   <<: *DRP
