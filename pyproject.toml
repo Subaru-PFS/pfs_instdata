@@ -3,19 +3,19 @@ requires = ["setuptools>=77.0.3", "lsst-versions"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pfs_instdata"
+name = "pfs-instdata"
 dynamic = ["version"]
 description = "Storage of instrument characteristics files for PFS (Prime Focus Spectrograph)"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Astronomy",
 ]
+# This package has no runtime dependencies; it only uses Python stdlib (os, pathlib).
 dependencies = []
 
 [project.urls]
@@ -38,3 +38,16 @@ namespaces = true
 
 [tool.lsst_versions]
 write_to = "python/pfs/instdata/version.py"
+
+# Ruff configuration
+[tool.ruff]
+# Target Python version and exclusions for large data/config trees
+target-version = "py312"
+extend-exclude = ["data", "config"]
+
+[tool.ruff.lint]
+# Modern Ruff (>=0.1) lint configuration
+ignore = ["N802", "N803", "N806", "N815", "N816", "EM101", "TRY003"]
+
+[tool.hatch.metadata]
+allow-direct-references = true

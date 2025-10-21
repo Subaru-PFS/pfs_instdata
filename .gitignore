@@ -249,6 +249,9 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,linux,windows
 
+### Editors ###
+.idea
+
 ### Project Specific ###
 # uv lock file (uncomment if you don't want to commit it)
 uv.lock
