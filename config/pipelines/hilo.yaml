@@ -2,10 +2,6 @@ description: Reduce an exposure in hilo
 imports:
   - $DRP_STELLA_DIR/pipelines/reduceExposure.yaml
 tasks:
-  cosmicray:
-    class: pfs.drp.stella.cosmicray.CosmicRayTask
-    config:
-      grouping: separate  # Reducing as exposures are observed
   dmResiduals:
     class: pfs.drp.qa.dmResiduals.DetectorMapResidualsTask
 
