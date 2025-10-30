@@ -29,8 +29,8 @@ drp: &DRP
     detrendCallback: &CB
       activated: false
       useSilentThread: true
-      waitInterval: 1
-      timeout: 90
+      waitInterval: 2
+      timeout: 180
 
   H:
     engine:

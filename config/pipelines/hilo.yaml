@@ -1,13 +1,9 @@
 description: Reduce an exposure in hilo
+imports:
+  - $DRP_STELLA_DIR/pipelines/reduceExposure.yaml
+  - $DRP_QA_DIR/pipelines/drpQA.yaml
 tasks:
-  isr:
-    class: lsst.obs.pfs.isrTask.PfsIsrTask
-  cosmicray:
-    class: pfs.drp.stella.cosmicray.CosmicRayTask
-  reduceExposure:
-    class: pfs.drp.stella.reduceExposure.ReduceExposureTask
-  mergeArms:
-    class: pfs.drp.stella.mergeArms.MergeArmsTask
-  # adding QA
   dmResiduals:
     class: pfs.drp.qa.dmResiduals.DetectorMapResidualsTask
+
+

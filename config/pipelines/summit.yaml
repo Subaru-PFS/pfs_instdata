@@ -1,4 +1,15 @@
 description: Reduce an exposure at the summit, just doing ISR.
+instrument: lsst.obs.pfs.PrimeFocusSpectrograph
+
+parameters:
+  h4_doCR: False                        # Pass to isr.h4.doCR, and pass negation to cosmicray
+  h4_crMinReads: 4                      # Minimum number of reads for up-the-ramp CR rejection
+  quickCDS: True
+
 tasks:
   isr:
     class: lsst.obs.pfs.isrTask.PfsIsrTask
+    config:
+      h4.doCR: parameters.h4_doCR
+      h4.crMinReads: 4
+      h4.quickCDS: parameters.quickCDS
