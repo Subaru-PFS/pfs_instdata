@@ -22,6 +22,10 @@ drp: &DRP
       taskThreads: 1       # threads per quantum (keep 1 if OMP/BLAS set to 1)
       clobberOutput: true
 
+    opdb: &OPDB
+      host:
+        pfsa-db
+
     lsstLog:
       level: 10 # logging.DEBUG=10   logging.INFO=20   logging=WARNING 30
       long_log: False
@@ -51,6 +55,9 @@ drp: &DRP
       execution:
         <<: *EXEC
         numProc: 10
+      opdb:
+        <<: *OPDB
+        host: db-ics
 
       detrendCallback:
         <<: *CB
