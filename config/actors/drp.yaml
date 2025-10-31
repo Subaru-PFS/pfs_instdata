@@ -53,7 +53,7 @@ drp: &DRP
       pipeline:
         <<: *PIPE
         yaml: pipelines/summit.yaml
-        groupVisit: false
+        groupVisit: true
       execution:
         <<: *EXEC
         numProc: 10
