@@ -13,6 +13,7 @@ drp: &DRP
 
     pipeline: &PIPE
       yaml: pipelines/hilo.yaml
+      groupVisit: true
 
     ingest: &INGEST
       mode: copy     # copy|link
@@ -52,6 +53,7 @@ drp: &DRP
       pipeline:
         <<: *PIPE
         yaml: pipelines/summit.yaml
+        groupVisit: false
       execution:
         <<: *EXEC
         numProc: 10
