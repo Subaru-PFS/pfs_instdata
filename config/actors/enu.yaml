@@ -88,7 +88,9 @@ sm1:
     # Shift-Y (spectral), Shift-Z (spatial) was measured as spot shift.
     # Shift-X and tilt-Y was measured by slit throughFocus.
     # Measured shift was added, and tilt was subtracted.
-    home: [ -0.2503, 0.097, 205.146025, 0.0, 0.059076, -120 ]
+    #home: [ -0.2503, 0.097, 205.146025, 0.0, 0.059076, -120 ]
+    # 2025.10 All SM1 got defocused in the same way.
+    home: [ -0.522, 0.097, 205.146025, 0.0, 0.059076, -120 ]
     slit_position: [ -108.0, 0, 262, 0.0, 0.0, -119.822 ]
     pix_to_mm: [ 0.03447873, 0.03327372 ]
   rexm:
