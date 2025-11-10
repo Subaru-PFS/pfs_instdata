@@ -1,3 +1,6 @@
+parameters:
+  mcs:
+    exptime: &mcsExptime 4.8
 iic:
   pfsDesign:
     rootDir: /data/pfsDesign
@@ -20,7 +23,7 @@ iic:
   fps:
     cableBLampOn: False
   mcs:
-    exptime: 4.8
+    exptime: *mcsExptime
   ag:
     fit_dScale: True
 
@@ -39,3 +42,10 @@ iic:
     nTraceAfter: 1
 
   maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
+
+  scienceExposure:
+    mcsExposureBefore:
+      enabled: true
+      exptime: *mcsExptime
+      doFibreId: true
+      skipWindowed: true # skip MCS exposure for windowed scienceExposure.
