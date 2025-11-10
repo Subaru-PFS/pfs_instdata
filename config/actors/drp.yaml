@@ -13,6 +13,7 @@ drp: &DRP
 
     pipeline: &PIPE
       yaml: pipelines/hilo.yaml
+      fail_fast: true
       groupVisit: true
 
     ingest: &INGEST
