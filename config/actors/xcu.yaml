@@ -104,59 +104,59 @@ b1:
   fpa:
     <<: *FPA
     range: [299.5, 337.2, 330.1]
-    tilts: [22.2, 1.6, -23.9]
+    tilts: [44.8, -7.3, -37.5]
     focus: 121.9
 b2:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
     range: [289.9, 304.1, 291.6]
-    tilts: [-3.7, 6.5, -2.8]
-    focus: 222.6
+    tilts: [-8.1, 9.9, -1.8]
+    focus: 249.5
 b3:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
     range: [284.7, 319.4, 292.8]
-    tilts: [5.8, -11.0, 5.2]
-    focus: 174.2
+    tilts: [3.3, -6.8, 3.5]
+    focus: 193.9
 b4:
   <<: *BLUE_XCU
   fpa:
     <<: *FPA
     range: [289.8, 317.3, 304.8]
-    tilts: [7.5, -29.5, 22.0]
-    focus: 102.7
+    tilts: [6.5, -31.1, 24.7]
+    focus: 125.2
 
 r1:
   <<: *RED_XCU
   fpa:
     <<: *FPA
     range: [330.3, 336.2, 343.1]
-    tilts: [17.5, 3.4, -21.0]
-    focus: 139.7
+    tilts: [36.3, -6.8, -29.5]
+    focus: 141.0
 r2:
   <<: *RED_XCU
   fpa:
     <<: *FPA
     # Actually did not reach C limit, so that is even further out.
     range: [343.6, 347.9, 357.6]
-    tilts: [-8.1, 14.7, -6.6]
-    focus: 163.0
+    tilts: [-11.9, 17.2, -5.3]
+    focus: 186.7
 r3:
   <<: *RED_XCU
   fpa:
     <<: *FPA
     range: [299.4, 314.9, 302.6]
-    tilts: [7.8, -3.7, -4.1]
-    focus: 187.3
+    tilts: [6.2, -2.8, -3.4]
+    focus: 207.0
 r4:
   <<: *RED_XCU
   fpa:
     <<: *FPA
     range: [296.9, 315.3, 302.3]
-    tilts: [19.9, -33.4, 13.5]
-    focus: 77.4
+    tilts: [17.2, -30.0, 12.7]
+    focus: 99.8
 
 n1:
   <<: *NIR_XCU
@@ -171,14 +171,14 @@ n2:
     <<: *FPA
     range: [292.23, 278.05, 309.12]
     tilts: [1, -9, 7]
-    focus: 150.0
+    focus: 160.0
 n3:
   <<: *NIR_XCU
   fpa:
     <<: *FPA
     range: [294.44, 288.12, 294.78]
     tilts: [10, 30, -50]
-    focus: 170.0
+    focus: 180.0
 n4:
   <<: *NIR_XCU
   fpa:
