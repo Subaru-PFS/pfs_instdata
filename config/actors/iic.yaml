@@ -1,17 +1,32 @@
-parameters:
-  mcs:
-    exptime: &mcsExptime 4.8
 iic:
+  # Book-keeping section
   pfsDesign:
     rootDir: /data/pfsDesign
   pfsConfig:
     doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
     doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
+    maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
   maskFiles:
     rootDir: /data/fps/maskFiles
+  # Command config section
+  ## Global parameters
+  illuminators: &illuminators
+    doTurnOnIlluminator: True
+    cableBLampOn: False
+  mcs:
+    exptime: &mcsExptime 4.8
+  ag:
+    fit_dScale: True
+  ## Per command parameters
   nearDotConvergence:
+    exptime: *mcsExptime
     nIteration: 8
     tolerance: 0.005
+    goHome: True
+    noTweak: True
+    twoStepsOff: False
+    shortExpOff: True
+
   dotCrossing:
     stepSize: -40
     count: 40
@@ -20,12 +35,6 @@ iic:
     stepSize: 90
     count: 30
     motor: phi
-  fps:
-    cableBLampOn: False
-  mcs:
-    exptime: *mcsExptime
-  ag:
-    fit_dScale: True
 
   windowedFlat:
     pfiLamps:
@@ -33,15 +42,13 @@ iic:
       redWindow: 600,800
       blueWindow: 2500,800
     hscLamps:
-      exptime: 5.
+      exptime: 5.0
       redWindow: 600,500
       blueWindow: 2500,500
 
   fiberProfiles:
     nTraceBefore: 1
     nTraceAfter: 1
-
-  maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
 
   scienceExposure:
     mcsExposureBefore:
