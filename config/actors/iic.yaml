@@ -18,18 +18,25 @@ iic:
   ag:
     fit_dScale: True
   ## Per command parameters
-  nearDotConvergence:
+  moveToPfsDesign: &moveToPfsDesign
     exptime: *mcsExptime
     nIteration: 8
     tolerance: 0.005
-    goHome: True
-    noTweak: True
+    noHome: False
     twoStepsOff: False
+    shortExpOff: False
+    noTweak: False
+
+  nearDotConvergence:
+    <<: *moveToPfsDesign
+    noTweak: True
     shortExpOff: True
 
   dotCrossing:
+    exptime: *mcsExptime
     stepSize: -40
     count: 40
+
   dotRoach:
     rootDir: /data/drp/dotRoach
     stepSize: 90
@@ -56,3 +63,21 @@ iic:
       exptime: *mcsExptime
       doFibreId: true
       skipWindowed: true # skip MCS exposure for windowed scienceExposure.
+
+  thetaPhiScan:
+    scienceTrace:
+      exptime: 20
+      idDict: # convenience to directly resolve cameras given inputs and default config.
+        arm: b,r
+
+    phiAngles: [25, 0, 55, 85, 115, 145, 175] # 0 is driving phi to home
+    thetaAngles: [ 20,  50,  80, 110, 140, 170, 200, 230, 260, 290, 320, 350]
+    moveToPfsDesign:
+      <<: *moveToPfsDesign
+      nIteration: 6
+      tolerance: 0.1
+      noTweak: True
+      noHome: True
+      shortExpOff: True
+      twoStepsOff: True
+
