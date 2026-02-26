@@ -1,31 +1,47 @@
-parameters:
-  mcs:
-    exptime: &mcsExptime 4.8
 iic:
+  # Book-keeping section
   pfsDesign:
     rootDir: /data/pfsDesign
   pfsConfig:
     doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
     doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
+    maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
   maskFiles:
     rootDir: /data/fps/maskFiles
-  nearDotConvergence:
+  # Command config section
+  ## Global parameters
+  illuminators: &illuminators
+    doTurnOnIlluminator: True
+    cableBLampOn: False
+  mcs:
+    exptime: &mcsExptime 4.8
+  ag:
+    fit_dScale: True
+  ## Per command parameters
+  moveToPfsDesign: &moveToPfsDesign
+    exptime: *mcsExptime
     nIteration: 8
     tolerance: 0.005
+    noHome: False
+    twoStepsOff: False
+    shortExpOff: False
+    noTweak: False
+
+  nearDotConvergence:
+    <<: *moveToPfsDesign
+    noTweak: True
+    shortExpOff: True
+
   dotCrossing:
+    exptime: *mcsExptime
     stepSize: -40
     count: 40
+
   dotRoach:
     rootDir: /data/drp/dotRoach
     stepSize: 90
     count: 30
     motor: phi
-  fps:
-    cableBLampOn: False
-  mcs:
-    exptime: *mcsExptime
-  ag:
-    fit_dScale: True
 
   windowedFlat:
     pfiLamps:
@@ -33,7 +49,7 @@ iic:
       redWindow: 600,800
       blueWindow: 2500,800
     hscLamps:
-      exptime: 5.
+      exptime: 5.0
       redWindow: 600,500
       blueWindow: 2500,500
 
@@ -41,11 +57,27 @@ iic:
     nTraceBefore: 1
     nTraceAfter: 1
 
-  maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
-
   scienceExposure:
     mcsExposureBefore:
       enabled: true
       exptime: *mcsExptime
       doFibreId: true
       skipWindowed: true # skip MCS exposure for windowed scienceExposure.
+
+  thetaPhiScan:
+    scienceTrace:
+      exptime: 20
+      idDict: # convenience to directly resolve cameras given inputs and default config.
+        arm: b,r
+
+    phiAngles: [25, 0, 55, 85, 115, 145, 175] # 0 is driving phi to home
+    thetaAngles: [ 20,  50,  80, 110, 140, 170, 200, 230, 260, 290, 320, 350]
+    moveToPfsDesign:
+      <<: *moveToPfsDesign
+      nIteration: 6
+      tolerance: 0.1
+      noTweak: True
+      noHome: True
+      shortExpOff: True
+      twoStepsOff: True
+
