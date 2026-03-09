@@ -26,16 +26,23 @@ iic:
     twoStepsOff: False
     shortExpOff: False
     noTweak: False
+    skipFiducialInterferenceCheck: False
 
   nearDotConvergence:
     <<: *moveToPfsDesign
     noTweak: True
     shortExpOff: True
+    skipFiducialInterferenceCheck: True
 
-  dotCrossing:
+  dotCrossing: &dotCrossing
     exptime: *mcsExptime
-    stepSize: -40
     count: 40
+  phiCrossing:
+    <<: *dotCrossing
+    stepSize: 40
+  thetaCrossing:
+    <<: *dotCrossing
+    stepSize: -40
 
   dotRoach:
     rootDir: /data/drp/dotRoach
