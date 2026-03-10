@@ -63,7 +63,7 @@ actors:
       alertFmt: 'coolant flow has stopped !'
     temps[Top_plate]:
       <<: *LIMITS_ALERT
-      limits: [ 0.0, 25.0 ]
+      limits: [ -10.0, 25.0 ]
       alertFmt: 'temperature out of range !'
 
   peb: # PFI E-Box
