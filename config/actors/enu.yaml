@@ -99,7 +99,9 @@ sm1:
     #home: [ -0.522, 0.097, 205.146025, 0.0, 0.059076, -120 ]
     # 2026.01 All SM1 got defocused in the same way again.
     # Shift-X and tilt-Y was measured by slit throughFocus and corrected.
-    home: [ -0.7053, 0.097, 205.146025, 0.0, 0.011976, -120 ]
+    #home: [ -0.7053, 0.097, 205.146025, 0.0, 0.011976, -120 ]
+    # 2026.01 All SM1 got defocused in the same way again....
+    home: [-0.2468, 0.097, 205.146025, 0.0, 0.122376, -120]
     slit_position: [ -108.0, 0, 262, 0.0, 0.0, -119.822 ]
     pix_to_mm: [ 0.03447873, 0.03327372 ]
   rexm:
