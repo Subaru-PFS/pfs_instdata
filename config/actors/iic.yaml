@@ -44,11 +44,13 @@ iic:
     <<: *dotCrossing
     stepSize: -40
 
-  dotRoach:
-    rootDir: /data/drp/dotRoach
-    stepSize: 90
-    count: 30
-    motor: phi
+  moveToDotByMcs:
+    dotTarget: dotCenter
+    iteration: 20
+    overshootFraction: 0.5
+
+  moveToDotByFlux:
+    nIteration: 12
 
   windowedFlat:
     pfiLamps:
