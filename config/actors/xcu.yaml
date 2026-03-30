@@ -169,9 +169,9 @@ n2:
   <<: *NIR_XCU
   fpa:
     <<: *FPA
-    range: [292.23, 278.05, 309.12]
-    tilts: [1, -9, 7]
-    focus: 160.0
+    range: [292.25, 278.74, 309.18]
+    tilts: [7, -1, -13]
+    focus: 142.0
 n3:
   <<: *NIR_XCU
   fpa:

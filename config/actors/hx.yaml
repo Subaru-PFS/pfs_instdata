@@ -56,10 +56,10 @@ n2:
   serialNumbers:
     <<: *SERIAL_NUMBERS
     cryostat: 1
-    fpa: 1
+    fpa: 5
     sam: 59
-    asic: 120
-    h4: 18315
+    asic: 248
+    h4: 18734
 
 n3:
   <<: *H4CAM
