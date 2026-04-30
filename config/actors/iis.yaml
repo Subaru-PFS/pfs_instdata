@@ -1,0 +1,10 @@
+iis:
+  controllers:
+    all: [lamps_pi]
+    starting: [lamps_pi]
+
+  pi:
+    host: iis-lamps
+    port: 7000
+
+  modules: "1234"  
