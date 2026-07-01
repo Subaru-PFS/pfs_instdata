@@ -77,9 +77,11 @@ iic:
       exptime: 20
       idDict: # convenience to directly resolve cameras given inputs and default config.
         arm: b,r
-
-    phiAngles: [25, 0, 55, 85, 115, 145, 175] # 0 is driving phi to home
+    phiAngles: [25, 55, 85, 115, 145, 175]
     thetaAngles: [ 20,  50,  80, 110, 140, 170, 200, 230, 260, 290, 320, 350]
+    scanPhiHome: True # driving phi to home after the first convergence
+    scanThetaHome: True  # driving theta to home after the first convergence
+
     moveToPfsDesign:
       <<: *moveToPfsDesign
       nIteration: 6
