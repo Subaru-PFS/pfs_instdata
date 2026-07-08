@@ -2,7 +2,7 @@ ag:
   listen:
     interface: ag-ics
 
-  enabled: [1, 2, 4, 5, 6]
+  enabled: [1, 2, 3, 4, 5, 6]
 
   agc_guide_offset: true
   agc_match: true
