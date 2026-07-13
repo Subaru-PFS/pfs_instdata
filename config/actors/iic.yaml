@@ -13,7 +13,7 @@ iic:
   illuminators: &illuminators
     doTurnOnIlluminator: True
     cableBLampOn: False
-    useBiaCallback: True  # False = legacy 'bia on/off'
+    useMcsBiaControl: True  # True = mcs drives the bia itself, False = legacy 'sps bia on/off'
   mcs:
     exptime: &mcsExptime 4.8
   ag:
