@@ -13,7 +13,7 @@ iic:
   illuminators: &illuminators
     doTurnOnIlluminator: True
     cableBLampOn: False
-    useBiaCallback: True  # False = legacy 'bia on/off'
+    useBiaCallback: False  # False = legacy 'bia on/off'
   mcs:
     exptime: &mcsExptime 4.8
   ag:
@@ -31,6 +31,7 @@ iic:
 
   nearDotConvergence:
     <<: *moveToPfsDesign
+    nIteration: 16
     noTweak: True
     shortExpOff: True
     skipFiducialInterferenceCheck: True
