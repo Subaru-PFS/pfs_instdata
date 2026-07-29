@@ -1,0 +1,17 @@
+qa:
+  tron:
+    host: 133.40.164.64
+  listen:
+    interface: pfsa-usr03
+    port: 10001
+  logging:
+    logdir: /work/mhs/logs/actors/qa
+  engine:
+    butler:
+      datastore: /work/datastore
+      input:
+        - "PFS/calib/pipe2d-1861/run29/calib.20260708b"
+        - "drpActor/reductions"
+        - "PFS/defaults"
+      output: qaActor/reductions
+    pipeline: "$DRP_QA_DIR/pipelines/drpQA.yaml"
