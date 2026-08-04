@@ -5,4 +5,8 @@ fps:
     host: db-ics
   pfsConfig:
     notConvergedDistanceThreshold: 0.05  # Cobras with a position error above 50 microns are set to FiberStatus.NOTCONVERGED
+  convergence:
+    # Refuse the design past this many science targets failing validation.
+    # ~1% of the fleet, above the worst of the 478 most recent designs (max 24).
+    maxInvalidScienceTargets: 25
 
