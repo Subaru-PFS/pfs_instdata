@@ -35,6 +35,7 @@ iic:
     noTweak: True
     shortExpOff: True
     skipFiducialInterferenceCheck: True
+    noBlindMove: True
 
   dotCrossing: &dotCrossing
     exptime: *mcsExptime
