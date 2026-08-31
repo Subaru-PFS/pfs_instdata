@@ -35,7 +35,27 @@ iic:
     noTweak: True
     shortExpOff: True
     skipFiducialInterferenceCheck: True
-    noBlindMove: True
+
+  # The two flux sequences across the black dots.  Both converge near the dots first and
+  # differ in where that convergence leaves the fleet, and in what the flats do next.
+  #
+  # dotRoach hides: the convergence blind-moves each cobra to its calibrated optimum, and
+  # each flat corrects only the cobras whose flux says they are still lit.  It lands at
+  # 0.2 so a blind move that falls short still leaves the cobra behind its dot.
+  #
+  # dotScan measures: it lands shallow with no blind move and walks the whole fleet across
+  # in uniform steps, so the obscuration curve is sampled past the optimum as well as up
+  # to it.  This is the calibration that produces cobra_dot_target.csv, and it leaves the
+  # fleet at no useful depth.
+  dotRoach:
+    nIteration: 8
+    nearDotConvergence:
+      dotLanding: 0.2
+  dotScan:
+    nIteration: 12
+    nearDotConvergence:
+      noBlindMove: True
+      dotLanding: 0.1
 
   dotCrossing: &dotCrossing
     exptime: *mcsExptime
