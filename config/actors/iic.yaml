@@ -43,7 +43,6 @@ iic:
     skipFiducialInterferenceCheck: True
     dotTarget: 0.3
     dotLanding: 0.1
-    nScanSteps: 0
 
   # The same ramp, left at its landing depth and walked across the dot a step at a time.
   dotScanFake:
