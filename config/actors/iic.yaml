@@ -35,6 +35,23 @@ iic:
     shortExpOff: True
     skipFiducialInterferenceCheck: True
 
+  # Ramp onto the dots and push to a fixed depth, homing first so each run stands alone.
+  blindTest: &blindTest
+    <<: *moveToPfsDesign
+    noTweak: True
+    shortExpOff: True
+    skipFiducialInterferenceCheck: True
+    dotTarget: 0.3
+    dotLanding: 0.1
+    nScanSteps: 0
+
+  # The same ramp, left at its landing depth and walked across the dot a step at a time.
+  dotScanFake:
+    <<: *blindTest
+    noBlindMove: True
+    dotTarget: null   # the fleet stays at the landing depth and is stepped from there
+    nScanSteps: 12
+
   dotCrossing: &dotCrossing
     exptime: *mcsExptime
     count: 40
