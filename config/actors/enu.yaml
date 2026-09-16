@@ -30,9 +30,6 @@ enu: &ENU
     bia_period: 2000
     bia_duty: 20
 
-  biaCallback:
-    offTrigger: done # mcs.exposureState value that turns bia off (reading|done).
-
   blueshutter:
     host: moxa-enu{specNum}
     port: 4002
