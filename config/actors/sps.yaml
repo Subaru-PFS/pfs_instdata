@@ -8,6 +8,9 @@ sps:
     ramp:
       nReadMin: 3
       nExtraRead: 1 # EDIT APRIL24 : to be able to synchronise h4 safely, an extra-read was added.
+      nExtraReadPerIrp: { 1: 1, 4: 3 } # by hx irpRatio, covering the spread in H4 start-up between modules; nExtraRead otherwise.
+      ccdReadTime: 40 # [s] full-frame ccd readout, which the H4 ramp is sized to read through when ccds are exposed.
+      finalReadAtCcdRows: { 1: 0.55, 4: 0.8 } # by hx irpRatio, fraction of ccd rows read out when the H4 is told its next read is the last.
 
   S:
     spsModules: [ sm1, sm2, sm3, sm4 ]
