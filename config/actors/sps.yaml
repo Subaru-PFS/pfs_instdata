@@ -7,10 +7,15 @@ sps:
     expTimeOverHead: 0 # overhead to calculate the required number of h4 reads.
     ramp:
       nReadMin: 3
-      nExtraRead: 1 # EDIT APRIL24 : to be able to synchronise h4 safely, an extra-read was added.
-      nExtraReadPerIrp: { 1: 1, 4: 3 } # by hx irpRatio, covering the spread in H4 start-up between modules; nExtraRead otherwise.
-      ccdReadTime: 40 # [s] full-frame ccd readout, which the H4 ramp is sized to read through when ccds are exposed.
+      irpRatio: 4 # assumed when the hx actor reports no irp, which it should not.
+      nExtraReadPerIrp: { 1: 1, 4: 3 } # by hx irpRatio, covering the spread in H4 start-up between modules.
       finalReadAtCcdRows: { 1: 0.55, 4: 0.8 } # by hx irpRatio, fraction of ccd rows read out when the H4 is told its next read is the last.
+    timing: # [s], the exposure timing model shared by sps and iic.
+      ccdWipeTime: 10 # ccd wipe.
+      ccdReadTime: 42 # shutters closed to the last full-frame ccd read done.
+      shutterTransientTime: 0.4 # one shutter trip, open or close; enu times exptime from the open command.
+      h4StartupTime: 8 # fixed part of the H4 start-up, expose command to the slowest H4 reporting its reset; the ASIC adds one to two reads.
+      exposureMargin: 5 # slack added to each exposure, covering the gap until the next one is commanded.
 
   S:
     spsModules: [ sm1, sm2, sm3, sm4 ]
