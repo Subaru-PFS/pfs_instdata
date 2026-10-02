@@ -57,6 +57,7 @@ enu: &ENU
     lowerBounds: [ -10.0,-5.0,-12.0,-1.0,-1.0,-1.0 ]
     upperBounds: [ 26.0,5.0,14.0,1.0,1.0,1.0 ]
     positionTolerance: 0.005  # mm
+    angleTolerance: 0.005  # deg, 18 arcsec
     hysteresisCorrection: [ 0.0, 0.0, -0.05, 0.0, 0.0, 0.0 ] # mm, 50 microns against gravity.
     activateSoftwareLimits: True # please ALWAYS activate those, unless you really know what you're doing.
 
