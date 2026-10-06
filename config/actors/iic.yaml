@@ -18,6 +18,11 @@ iic:
     exptime: &mcsExptime 4.8
   ag:
     fit_dScale: True
+
+  slit: &SLIT
+    keepHexapodOn: False # keep hexapod on after the sequence.
+    fullInit: True  # sps slit start homes the hexapod, rather than restoring the strut positions saved by slit stop.
+
   ## Per command parameters
   moveToPfsDesign: &moveToPfsDesign
     exptime: *mcsExptime
@@ -64,6 +69,9 @@ iic:
   fiberProfiles:
     nTraceBefore: 1
     nTraceAfter: 1
+    slit:
+      <<: *SLIT
+      keepHexapodOn: True
 
   scienceExposure:
     mcsExposureBefore:
