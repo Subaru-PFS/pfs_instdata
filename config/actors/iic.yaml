@@ -69,9 +69,6 @@ iic:
   fiberProfiles:
     nTraceBefore: 1
     nTraceAfter: 1
-    slit:
-      <<: *SLIT
-      keepHexapodOn: True
 
   scienceExposure:
     mcsExposureBefore:
