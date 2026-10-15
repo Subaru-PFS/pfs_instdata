@@ -70,6 +70,13 @@ iic:
     nTraceBefore: 1
     nTraceAfter: 1
 
+  quartzLadder:
+    # one block per exptime: bias, then reference, exptime x duplicate, reference under one quartz lamp-on period.
+    exptime: [1, 2, 5, 10, 20, 30]
+    reference: 10
+    duplicate: 3
+    settleTime: 60  # [s] wait between lamp on and the first exposure of the first block.
+
   scienceExposure:
     mcsExposureBefore:
       enabled: true
