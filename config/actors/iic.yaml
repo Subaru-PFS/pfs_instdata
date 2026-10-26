@@ -6,6 +6,7 @@ iic:
     doUpdateEngineeringFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for eng fibers
     doUpdateScienceFiberStatus: True # set fiberStatus to UNILLUMINATED for unilluminated fibers for science fibers
     maxDeltaINSROT: 40 # setting 40 deg the limit above you set INSROT_MISMATCH in pfsConfig
+    fallbackDir: /var/tmp/iic/pfsConfig # local disk of the iic host, used when /data/raw/$DATE/pfsConfig is not writable
   maskFiles:
     rootDir: /data/fps/maskFiles
   # Command config section
