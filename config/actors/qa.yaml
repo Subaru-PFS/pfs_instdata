@@ -14,3 +14,5 @@ qa:
         - "PFS/defaults"
       output: qaActor/reductions
     pipeline: "$DRP_QA_DIR/pipelines/drpQA.yaml"
+    qadb:
+      load: true   # copy each visit's verdicts into db.qadb (actors.yaml) after its pipetask

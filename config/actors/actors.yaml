@@ -22,6 +22,12 @@ db:
     dbname: opdb
     port: 5432
     user: pfs
+  qadb:
+    # No summit qadb yet: QA verdicts go to pfsa-db's (qaActor, INSTRM-3040).
+    host: pfsa-db
+    dbname: qadb
+    port: 5436
+    user: pfs
   gaia:
     host: g2db.sum.subaru.nao.ac.jp
     dbname: star_catalog
