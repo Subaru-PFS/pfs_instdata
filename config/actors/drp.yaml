@@ -2,6 +2,14 @@ drp: &DRP
   listen:
     interface: shell2-ics
 
+  hubLink:
+    keepAlive:
+      idle: 60          # seconds without traffic before the first probe
+      interval: 10      # seconds between probes
+      count: 6          # unanswered probes before the connection is failed
+      userTimeout: 120  # seconds data may stay unacknowledged before the connection is failed
+    pingPeriod: 120     # seconds between hub pings
+
   engine: &ENGINE
 
     butler: &BUTLER
