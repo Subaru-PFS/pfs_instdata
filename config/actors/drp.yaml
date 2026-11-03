@@ -35,6 +35,11 @@ drp: &DRP
         base: 600
         perVisit: 600
 
+    catchUp:
+      lookback: 24         # hours of visits compared between opdb and the butler at each (re)connect
+      delay: 120           # seconds between a (re)connect and the catch-up
+      replayWindow: 5      # seconds after a (re)connect during which keyword events are ignored as replayed
+
     opdb: &OPDB
       host:
         pfsa-db
