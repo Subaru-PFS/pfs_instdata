@@ -28,9 +28,12 @@ drp: &DRP
       mode: copy     # copy|link
 
     execution: &EXEC
-      numProc: 16          # process-level parallelism (quanta in parallel)
+      numProc: 32          # process-level parallelism (quanta in parallel)
       taskThreads: 1       # threads per quantum (keep 1 if OMP/BLAS set to 1)
       clobberOutput: true
+      timeout:             # a reduction is killed after base + perVisit * nVisits seconds
+        base: 600
+        perVisit: 600
 
     opdb: &OPDB
       host:
