@@ -41,6 +41,23 @@ iic:
     shortExpOff: True
     skipFiducialInterferenceCheck: True
 
+  # Blind-move calibration on black dots turned into view of MCS: dotTargets x nRuns
+  # convergences pushed unaimed, fps calibrateBlindMove, then nValidationRuns aimed
+  # through the new calibration and fps validateBlindMove.  The pass criteria are fps's.
+  # A run that does not complete is taken again up to nRetries times.
+  calibrateBlindMove:
+    <<: *moveToPfsDesign
+    noTweak: True
+    shortExpOff: True
+    skipFiducialInterferenceCheck: True
+    dotThetaOffset: 90
+    dotLanding: 0.1
+    dotTargets: [0.5, 0.3, 0.7]
+    nRuns: 3
+    validationTarget: 0.5
+    nValidationRuns: 2
+    nRetries: 1
+
   dotCrossing: &dotCrossing
     exptime: *mcsExptime
     count: 40
