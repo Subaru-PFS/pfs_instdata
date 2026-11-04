@@ -16,4 +16,7 @@ fps:
     targetFallback:
       invalid: BLACKSPOT
       unassigned: BLACKSPOT
+    # Aim the black-dot push through the default blind-move calibration, the newest one
+    # fps validateBlindMove passed; false pushes every dot cobra to its wanted depth.
+    dotCalibration: true
 
