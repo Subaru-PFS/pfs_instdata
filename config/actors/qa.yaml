@@ -11,7 +11,7 @@ qa:
       host: pfsa-db
       dbname: opdb
       port: 5432
-      user: pfs
+      user: public_user
   engine:
     butler:
       datastore: /work/datastore
