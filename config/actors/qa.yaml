@@ -6,6 +6,12 @@ qa:
     port: 10001
   logging:
     logdir: /work/mhs/logs/actors/qa
+  db:
+    opdb:
+      host: pfsa-db
+      dbname: opdb
+      port: 5432
+      user: pfs
   engine:
     butler:
       datastore: /work/datastore
