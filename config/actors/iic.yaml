@@ -51,7 +51,6 @@ iic:
     shortExpOff: True
     skipFiducialInterferenceCheck: True
     dotThetaOffset: 90
-    dotLanding: 0.1
     dotTargets: [0.5, 0.3, 0.7]
     nRuns: 3
     validationTarget: 0.5
