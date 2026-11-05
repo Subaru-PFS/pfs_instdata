@@ -19,4 +19,10 @@ fps:
     # Aim the black-dot push through the default blind-move calibration, the newest one
     # fps validateBlindMove passed; false pushes every dot cobra to its wanted depth.
     dotCalibration: true
+    # Depths of a dot convergence, in dot fraction (0 = entry edge, 0.5 = dot centre).
+    # Every dot cobra lands at dotLanding, the ramp's last row, which is where the
+    # blind-move calibration is measured, then is pushed to dotTarget, the dot centre the
+    # calibration aims at.  moveToPfsDesign dotLanding= and dotTarget= override them.
+    dotLanding: 0.1
+    dotTarget: 0.5
 
