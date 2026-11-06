@@ -98,7 +98,6 @@ agcc:
       - 10
       - 1032
     magFit: [0.928,27.389]
-    flatVal: 0.006
   centroidParams:
     values:
     thresh: 10
@@ -112,7 +111,6 @@ agcc:
     2: 'sat'
     3: 'bad_shape'
     4: 'ellip'
-    5: 'flat_top'
     
     
 
