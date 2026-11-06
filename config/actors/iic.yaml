@@ -42,19 +42,19 @@ iic:
     skipFiducialInterferenceCheck: True
 
   # Blind-move calibration on black dots turned into view of MCS, measured at fps' operating
-  # point and aimed through the default calibration (or priorCalib): see the ics_iicActor
-  # BlindMoveCalibration steps.  fps calibrateBlindMove operatingPoint measures, fps
-  # validateBlindMove judges with its own criteria.  A run that does not complete is taken
-  # again up to nRetries times.
+  # point: see ics_iicActor BlindMoveCalibration.  fps calibrateBlindMove
+  # operatingPoint measures, fps validateBlindMove judges with its own criteria.  A run that
+  # does not complete is taken again up to nRetries times.
   calibrateBlindMove:
     <<: *moveToPfsDesign
     noTweak: True
     shortExpOff: True
     skipFiducialInterferenceCheck: True
     dotThetaOffset: 90
-    # The runs land and push at fps' convergence.dotLanding and dotTarget, aimed through
-    # the prior calibration; the validation runs, through the new one.
-    nRuns: 5
+    # Runs of each iteration, landing and pushing at fps' convergence.dotLanding and
+    # dotTarget: the first at the motor map, each next aimed through the calibration of the
+    # one before; the validation runs through the last.
+    nRuns: [4, 5]
     nValidationRuns: 2
     nRetries: 1
 
