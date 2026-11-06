@@ -41,19 +41,20 @@ iic:
     shortExpOff: True
     skipFiducialInterferenceCheck: True
 
-  # Blind-move calibration on black dots turned into view of MCS: dotTargets x nRuns
-  # convergences pushed unaimed, fps calibrateBlindMove, then nValidationRuns aimed
-  # through the new calibration and fps validateBlindMove.  The pass criteria are fps's.
-  # A run that does not complete is taken again up to nRetries times.
+  # Blind-move calibration on black dots turned into view of MCS, measured at fps' operating
+  # point and aimed through the default calibration (or priorCalib): see the ics_iicActor
+  # BlindMoveCalibration steps.  fps calibrateBlindMove operatingPoint measures, fps
+  # validateBlindMove judges with its own criteria.  A run that does not complete is taken
+  # again up to nRetries times.
   calibrateBlindMove:
     <<: *moveToPfsDesign
     noTweak: True
     shortExpOff: True
     skipFiducialInterferenceCheck: True
     dotThetaOffset: 90
-    dotTargets: [0.5, 0.3, 0.7]
-    nRuns: 3
-    validationTarget: 0.5
+    # The runs land and push at fps' convergence.dotLanding and dotTarget, aimed through
+    # the prior calibration; the validation runs, through the new one.
+    nRuns: 5
     nValidationRuns: 2
     nRetries: 1
 
