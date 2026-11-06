@@ -22,7 +22,12 @@ fps:
     # Depths of a dot convergence, in dot fraction (0 = entry edge, 0.5 = dot centre).
     # Every dot cobra lands at dotLanding, the ramp's last row, which is where the
     # blind-move calibration is measured, then is pushed to dotTarget, the dot centre the
-    # calibration aims at.  moveToPfsDesign dotLanding= and dotTarget= override them.
+    # calibration aims at.  fps dotConfig overrides them until fps restarts, and
+    # moveToPfsDesign dotLanding= and dotTarget= for one convergence.
     dotLanding: 0.1
     dotTarget: 0.5
+    # Whether the landing of a calibrated cobra is aimed too, commanded so that its landing
+    # gain brings it to dotLanding.  fps dotConfig dotLandingAim= sets it until fps
+    # restarts, and moveToPfsDesign aimLanding for one convergence.
+    dotLandingAim: false
 
