@@ -48,11 +48,10 @@ drp: &DRP
       level: 10 # logging.DEBUG=10   logging.INFO=20   logging=WARNING 30
       long_log: False
 
-    detrendCallback: &CB
-      activated: false
-      useSilentThread: true
-      waitInterval: 2
-      timeout: 180
+    announce:
+      pollInterval: 10     # seconds between checks of a running reduction for new outputs
+      datasets:            # datasetType: keyword generated for each one written
+        pfsArm: pfsArmStatus
 
   H:
     engine:
@@ -78,9 +77,10 @@ drp: &DRP
         <<: *OPDB
         host: db-ics
 
-      detrendCallback:
-        <<: *CB
-        activated: true
+      announce:
+        pollInterval: 2
+        datasets:
+          postISRCCD: detrend
 
 drp2:
   <<: *DRP
