@@ -38,4 +38,9 @@ mcs:
     matchRadiusOuterRing: 8.0
     nMatchMinOuterRing: 0.7
     nMatchMinAll: 0.7
+
+  saturation:
+    clipLevel: 2815.0          # ADU above the bias, one read; measured 2026-11-13
+    thresholdFactor: 1.0       # threshold at the clip level; a lower value leaves a margin
+    maxFiducialFraction: 0.5   # warn when more of the matched fiducials are saturated
     
