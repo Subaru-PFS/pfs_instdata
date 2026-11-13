@@ -38,4 +38,16 @@ mcs:
     matchRadiusOuterRing: 8.0
     nMatchMinOuterRing: 0.7
     nMatchMinAll: 0.7
+
+  # saturated pixels, and the flags of the spots near them (pfs.utils.datamodel.mcs.MCSSpotFlags);
+  # ics_mcsActor docs/saturation.md gives the calibration of the thresholds.
+  saturation:
+    clipLevel: 2815.0          # ADU above the bias, one read; measured 2026-11-13
+    thresholdFactor: 1.0       # threshold at the clip level; a lower value leaves a margin
+    maxFiducialFraction: 0.5   # warn when more of the matched fiducials are SATURATED
+    spotRadius: 10             # pix: saturated pixels counted within this distance of a centroid
+    badPhotometryPixels: 2     # from this count, BAD_PHOTOMETRY: flux low by more than ~0.5%
+    badCentroidPixels: 5       # from this count, BAD_CENTROID: centroid biased by more than ~1 um
+    saturatedPixels: 10        # from this count, SATURATED: centroid scatter twice the unsaturated one
+    fluxErrorPerPixel: 0.008   # fraction of the flux added to fluxerr per saturated pixel
     
