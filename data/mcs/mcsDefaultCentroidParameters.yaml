@@ -30,7 +30,7 @@ values:
   threshSigma: 4
   activeX: 2665
   activeY: 2665
-  aperture: 8
+  aperture: 10
   innerAnn: 20
   outerAnn: 24
     

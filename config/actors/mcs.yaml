@@ -16,6 +16,12 @@ mcs:
     dispatchLevel: 30
     consoleLevel: 20
 
+  # method measuring the spots, one of:
+  #   win         windowed centroid (the default when cMethod is absent)
+  #   spotFinder  spotFinder library: column levels subtracted, threshold and flux on every frame
+  # mcs switchCMethod cMethod=<method> changes it until the actor restarts.
+  cMethod: spotFinder
+
   centroidParams:
     boxCent: 14
     boxFind: 14
@@ -30,7 +36,7 @@ mcs:
     threshFact: 4
     threshMode: full
     threshSigma: 4
-    aperture: 8
+    aperture: 10
     innerAnn: 20
     outerAnn: 24
 
