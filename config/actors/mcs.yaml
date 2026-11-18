@@ -22,6 +22,11 @@ mcs:
   # mcs switchCMethod cMethod=<method> changes it until the actor restarts.
   cMethod: spotFinder
 
+  # written to the header as DETECTOR and GAIN; the gain also sets the flux errors of spotFinder.
+  detector:
+    name: MCS cam#1
+    gain: 2.24                 # e-/ADU
+
   centroidParams:
     boxCent: 14
     boxFind: 14
