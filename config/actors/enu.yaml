@@ -29,6 +29,14 @@ enu: &ENU
     bia_power: 60
     bia_period: 2000
     bia_duty: 20
+    # photoresistances sum above which the bia LED is considered lit, and how long to wait for it after bia on (s).
+    biaLightThreshold: 100
+    biaLightTimeout: 5
+    # photoresistances sum at or below which the bia LED is considered off, how long to watch for it after bia off
+    # and how often to read the photoresistances meanwhile (s).
+    biaDarkThreshold: 10
+    biaDarkTimeout: 30
+    biaDarkPollPeriod: 0.5
 
   blueshutter:
     host: moxa-enu{specNum}
