@@ -41,12 +41,22 @@ iic:
     shortExpOff: True
     skipFiducialInterferenceCheck: True
 
+  # Every working cobra, or those of a maskFile, converged onto its black dot: see ics_iicActor
+  # iic fastRoach.
+  fastRoach:
+    <<: *moveToPfsDesign
+    nIteration: 10
+    noTweak: True
+    shortExpOff: True
+    skipFiducialInterferenceCheck: True
+
   # Blind-move calibration on black dots turned into view of MCS, measured at fps' operating
   # point: see ics_iicActor BlindMoveCalibration.  fps calibrateBlindMove
   # operatingPoint measures, fps validateBlindMove judges with its own criteria.  A run that
   # does not complete is taken again up to nRetries times.
   calibrateBlindMove:
     <<: *moveToPfsDesign
+    nIteration: 10
     noTweak: True
     shortExpOff: True
     skipFiducialInterferenceCheck: True
