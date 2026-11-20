@@ -98,6 +98,13 @@ agcc:
       - 10
       - 1032
     magFit: [0.928,27.389]
+    # estimated_magnitude is -2.5 log10(flux in the aperture / exposure time) + zeroPoint.
+    # radius is in pixels. zeroPoint is nominal and fixed: calibration is applied by readers
+    # of the opdb, so changing it here changes the scale of every later exposure.
+    # magFit is only used if the aperture photometry fails.
+    aperturePhotometry:
+      radius: 12.0
+      zeroPoint: 28.26
   centroidParams:
     values:
     thresh: 10
