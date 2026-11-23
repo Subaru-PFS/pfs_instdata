@@ -40,6 +40,6 @@ fps:
     # cobra_plate_transformation; when on, the centres move with the fit on the anchors'
     # median positions over the visit's frames, once plateFrames (3 at least) are in.
     # Read when fps connects to the cobras.
-    anchorCentres: false
+    anchorCentres: true
     plateFrames: 3
 
