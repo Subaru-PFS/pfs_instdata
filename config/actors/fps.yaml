@@ -35,4 +35,11 @@ fps:
     # gain brings it to dotLanding.  fps dotConfig dotLandingAim= sets it until fps
     # restarts, and moveToPfsDesign aimLanding for one convergence.
     dotLandingAim: true
+    # Whether the cobra centres follow the cobra plate.  On every MCS frame the anchor cobras
+    # (FIBER_REFERENCE in the XML) are fitted, and the fit recorded in opdb
+    # cobra_plate_transformation; when on, the centres move with the fit on the anchors'
+    # median positions over the visit's frames, once plateFrames (3 at least) are in.
+    # Read when fps connects to the cobras.
+    anchorCentres: false
+    plateFrames: 3
 
