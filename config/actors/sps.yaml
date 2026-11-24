@@ -8,7 +8,7 @@ sps:
     ramp:
       nReadMin: 3
       irpRatio: 4 # assumed when the hx actor reports no irp, which it should not.
-      nExtraReadPerIrp: { 1: 1, 4: 3 } # by hx irpRatio, covering the spread in H4 start-up between modules.
+      nExtraReadPerIrp: { 1: 3, 4: 4 } # by hx irpRatio, covering the spread in H4 start-up between modules with a margin.
       finalReadAtCcdRows: { 1: 0.55, 4: 0.8 } # by hx irpRatio, fraction of ccd rows read out when the H4 is told its next read is the last.
     timing: # [s], the exposure timing model shared by sps and iic.
       ccdWipeTime: 10 # ccd wipe.
