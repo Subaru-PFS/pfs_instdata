@@ -145237,7 +145237,7 @@
    </ARM_DATA_CONTAINER>
    <ARM_DATA_CONTAINER>
       <DATA_HEADER>
-         <Status>8</Status>
+         <Status>1</Status>
          <Module_Id>31</Module_Id>
          <Positioner_Id>20</Positioner_Id>
          <Serial_Number>3086</Serial_Number>
