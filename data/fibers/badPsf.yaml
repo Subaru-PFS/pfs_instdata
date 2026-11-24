@@ -1,2 +1,3 @@
-fiberId: []
-
+# Fibres with a known bad PSF; pfs.utils.pfsDesignUtils sets FiberStatus.BAD_PSF for these
+# (unless already broken, blocked or a broken cobra).
+fiberId: [940, 941]  # SM2, dust/bubble on the slit
